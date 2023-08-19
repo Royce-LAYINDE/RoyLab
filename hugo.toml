@@ -1,7 +1,0 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'RoyLab: Code & Web'
-theme = 'ananke'
-
-DefaultContentLanguage = "fr"
-SectionPagesMenu = "main"

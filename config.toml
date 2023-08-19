@@ -1,0 +1,15 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'RoyLab: Code & Web'
+theme = 'ananke'
+
+DefaultContentLanguage = "fr"
+SectionPagesMenu = "main"
+
+[author]
+  name = "Malick Royce LAYINDE"
+  email = "layinderoyce@gmail.com"
+  
+[params]
+  copyright = "Copyright © 2023 Malick Royce LAYINDE"
+
