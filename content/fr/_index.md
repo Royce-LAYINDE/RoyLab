@@ -1,7 +1,7 @@
 ---
 title: "Articles"
 
-description: "Le dernier thème dont vous aurez besoin. Peut-être"
+description: ""
 cascade:
   featured_image: '/images/image2.jpg'
 ---
