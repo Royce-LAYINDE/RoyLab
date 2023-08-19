@@ -3,22 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/fr/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-  </url><url>
-    <loc>/tags/hello/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-  </url><url>
-    <loc>/fr/post/chapter-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <lastmod>2023-08-18T12:00:00-05:00</lastmod>
   </url><url>
     <loc>/fr/post/</loc>
-    <lastmod>2017-03-02T12:00:00-05:00</lastmod>
+    <lastmod>2023-08-18T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-08-18T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/tags/html/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>/fr/post/chapter-1/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>/tags/sql/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+  </url><url>
+    <loc>/fr/apropos/</loc>
   </url><url>
     <loc>/categories/</loc>
   </url><url>
