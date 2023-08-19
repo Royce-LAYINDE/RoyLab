@@ -5,6 +5,8 @@ theme = 'ananke'
 
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
+pagination = 9 
+
 
 [author]
   name = "Malick Royce LAYINDE"
