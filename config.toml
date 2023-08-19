@@ -12,4 +12,9 @@ SectionPagesMenu = "main"
   
 [params]
   copyright = "Copyright © 2023 Malick Royce LAYINDE"
+  recent_posts_number = 4
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"

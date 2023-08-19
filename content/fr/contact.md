@@ -35,12 +35,12 @@ Si tu es intéressé à contribuer au blog ou à collaborer sur des projets lié
 
 Restons Connectés
 
-Je tiens à remercier chacun d'entre vous pour votre intérêt et votre soutien envers RoyLab: Code & Web. Ensemble, nous pouvons créer une communauté dynamique et enrichissante. N'oublie pas de t'abonner à ma newsletter pour rester informé des nouvelles publications et des événements à venir.
+Je tiens à remercier chacun d'entre vous pour votre intérêt et votre soutien envers RoyLab: Code & Web. Ensemble, nous pouvons créer une communauté dynamique et enrichissante.
 
 Que tu aies des questions, des commentaires ou que tu veuilles simplement discuter, n'hésite pas à me contacter. J'ai hâte de discuter avec toi !
 
 Amicalement,
 
-Malick Royce LAYINDE
+M. Royce LAYINDE
 
 

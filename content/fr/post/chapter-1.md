@@ -1,9 +1,10 @@
 ---
+title: "My first article"
 date: 2023-08-18T10:58:08-04:00
 description: "test"
 featured_image: "/images/ecran-de-code.jpg"
 tags: ["python","sql","html"]
-title: "My first article"
+type: page
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dictum enim, vitae bibendum massa. Nunc odio lacus, vehicula in efficitur nec, commodo ac nisl. Aliquam at dolor eget enim venenatis rutrum. Donec ultrices lectus sit amet accumsan porttitor. Duis ornare tellus ligula, aliquam vehicula ante pretium tempus. Donec vestibulum libero ac augue luctus, sed suscipit sem commodo. Sed magna diam, ultrices in magna at, placerat varius elit. Phasellus venenatis rutrum suscipit.

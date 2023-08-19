@@ -29,7 +29,7 @@ Mon ambition ne se limite pas seulement à partager des connaissances, mais auss
 
 Restons Connectés
 
-Je suis ravi que tu aies pris le temps de visiter RoyLab. Si tu es aussi passionné par le Big Data, le Python et le développement web, tu es au bon endroit. N'oublie pas de t'abonner à ma newsletter pour rester à jour avec les dernières publications et actualités. Si tu as des questions, des suggestions ou simplement envie de discuter, n'hésite pas à me contacter par e-mail ou à me suivre sur les réseaux sociaux.
+Je suis ravi que tu aies pris le temps de visiter RoyLab. Si tu es aussi passionné par le Big Data, le Python et le développement web, tu es au bon endroit. Si tu as des questions, des suggestions ou simplement envie de discuter, n'hésite pas à me contacter par e-mail ou à me suivre sur les réseaux sociaux.
 
 Restons connectés et continuons à explorer ensemble les horizons fascinants du code et du web !
 
