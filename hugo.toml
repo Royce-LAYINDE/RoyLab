@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'RoyLab: Code & Web'
+theme = 'ananke'
+
+DefaultContentLanguage = "fr"
+SectionPagesMenu = "main"
