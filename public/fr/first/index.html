@@ -38,8 +38,8 @@
 <meta itemprop="name" content="Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle">
 <meta itemprop="description" content="Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu&#39;elle trace son chemin sur le sable? Le module Turtle en Python vous permet d&#39;explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d&#39;avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."><meta itemprop="datePublished" content="2023-08-18T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2023-08-18T10:58:08-04:00" />
-<meta itemprop="wordCount" content="644">
-<meta itemprop="keywords" content="python,sql,html," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="wordCount" content="1072">
+<meta itemprop="keywords" content="python,turtle,pour appliquer," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle"/>
 <meta name="twitter:description" content="Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu&#39;elle trace son chemin sur le sable? Le module Turtle en Python vous permet d&#39;explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d&#39;avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."/>
 
@@ -158,6 +158,70 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t<span style="color:#f92672">.</span>rt(<span style="color:#ae81ff">45</span>)
 </span></span></code></pre></div><p>Ainsi donc, pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument la mesure de l&rsquo;angle(en degré) dont-on veut qu&rsquo;elle dévie.</p>
 <p>En somme, en utilisant ces commandes simples pour faire avancer, reculer, tourner à gauche ou à droite, notre tortue répond à nos instructions pour créer des mouvements enchanteurs.</p>
+<p><strong>Exploration Créative : Dessiner des Figures Géométriques</strong></p>
+<p>Maintenant que nous maîtrisons les bases, plongeons dans l&rsquo;art de la création géométrique ! Notre tortue peut dessiner bien plus que des lignes droites. En combinant les mouvements que nous avons appris, nous pouvons créer des figures géométriques fascinantes. Voici quelques exemples pour te donner un aperçu de ce que tu peux accomplir :</p>
+<p><strong>$Dessiner un Carré Magique</strong> : Utilisons notre tortue pour dessiner un carré. Cela peut sembler simple, mais c&rsquo;est un premier pas vers des créations plus complexes. Voici comment tu peux faire en tant qu&rsquo;apprenti mage :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> turtle
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Screen()
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Tracé de carré avec turtle&#34;</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#--------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Méthode1</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#---------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Ferme la fenetre graphique quand je clique dessus</span>
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>exitonclick()
+</span></span></code></pre></div><p>Avec ce code, tu auras assurément un carré à la sortie. En effet, on demande à notre tortue d&rsquo;avancer de 50px puis de tourner à gauche d&rsquo;un angle de 90°. On répète le geste trois autres fois en plus.
+Par contre, il existe une autre manière de réecrire ce code. <em>Attention, voici le moment d&rsquo;invoquer les boucles temporels grâce à nos pouvoirs de mage !</em></p>
+<p>En effet, grâce aux boucles en Python, il nous est possible de répéter une action un certain nombre de fois <em>(Quel sorcellerie&hellip;)</em></p>
+<p>On pourrait donc écrire en lieu et place du précédent code;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#--------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Méthode2</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range (<span style="color:#ae81ff">4</span>):
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#---------------------</span>
+</span></span></code></pre></div><p>Ou bien;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#--------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Méthode3</span>
+</span></span><span style="display:flex;"><span>a<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> a<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">4</span>:
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span>    a<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#---------------------</span>
+</span></span></code></pre></div><p>Si tu es un jeune <em>apprenti mage</em> et que tu n&rsquo;as pas encore appris le sort d&rsquo;invocation des boucles , pas de panique, clique <a href="https://courspython.com/boucles.html">ici</a>, pour en apprendre un peu plus en attendant que je publie mon  <em>grimoire sur la magie des boucles</em>.</p>
+<p><strong>$Créer un Triangle Enchanté</strong> : Passons au niveau supérieur en dessinant un triangle. En combinant les mouvements de notre tortue, nous pouvons créer une figure à trois côtés. Voici comment procéder :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> turtle
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Screen()
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Tracé d&#39;un triangle avec turtle&#34;</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#--------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Méthode1</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">80</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">120</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">80</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">120</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">80</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">120</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#---------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Ferme la fenetre graphique quand je clique dessus</span>
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>exitonclick()
+</span></span></code></pre></div><p>Ou mieux encore;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">3</span>):
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">80</span>)
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">120</span>) 
+</span></span></code></pre></div><p>NB: Remarque ici qu&rsquo;on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l&rsquo;on tourne notre curseur de 120°(180°-60°), c&rsquo;est-à-dire de l&rsquo;angle suplémentaire à notre angle de 60°</p>
+<!-- raw HTML omitted -->
+<p><img src="/images/angle.jpg" alt="Image d&rsquo;exemple"></p>
+<p>Bravo <em>jeune apprenti(e)</em> te voilà maintenant capable de Créer des Triangles enchantés à l&rsquo;infini</p>
 
       </div>
     </article>

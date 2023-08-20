@@ -4,7 +4,7 @@ date: 2023-08-18T10:58:08-04:00
 description: "Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu'elle trace son chemin sur le sable? Le module Turtle en Python vous permet d'explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d'avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."
 featured_image: "/images/tortue.png"
 omit_header_text: true
-tags: ["python","sql","html"]
+tags: ["python","turtle","pour appliquer"]
 type: page
 ---
 L'univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j'ai eu le privilège d'être l'un des intervenants lors d'une séance d'initiation à la programmation organisée par le [Dakar Institute of Technology](https://dit.sn/). Parmi toutes les notions abordées au cours de cette semaine passionnante, l'expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t'invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d'art.   
@@ -97,3 +97,87 @@ t.rt(45)
 Ainsi donc, pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument la mesure de l'angle(en degré) dont-on veut qu'elle dévie.
 
 En somme, en utilisant ces commandes simples pour faire avancer, reculer, tourner à gauche ou à droite, notre tortue répond à nos instructions pour créer des mouvements enchanteurs.
+
+**Exploration Créative : Dessiner des Figures Géométriques**
+
+Maintenant que nous maîtrisons les bases, plongeons dans l'art de la création géométrique ! Notre tortue peut dessiner bien plus que des lignes droites. En combinant les mouvements que nous avons appris, nous pouvons créer des figures géométriques fascinantes. Voici quelques exemples pour te donner un aperçu de ce que tu peux accomplir :
+
+**$Dessiner un Carré Magique** : Utilisons notre tortue pour dessiner un carré. Cela peut sembler simple, mais c'est un premier pas vers des créations plus complexes. Voici comment tu peux faire en tant qu'apprenti mage :
+```python
+import turtle
+window= turtle.Screen()
+window.title("Tracé de carré avec turtle")
+t= turtle.Turtle()
+#--------------------
+#Méthode1
+t.fd(50)
+t.lt(90)
+t.fd(50)
+t.lt(90)
+t.fd(50)
+t.lt(90)
+t.fd(50)
+t.lt(90)
+#---------------------
+#Ferme la fenetre graphique quand je clique dessus
+window.exitonclick()
+```
+Avec ce code, tu auras assurément un carré à la sortie. En effet, on demande à notre tortue d'avancer de 50px puis de tourner à gauche d'un angle de 90°. On répète le geste trois autres fois en plus.
+Par contre, il existe une autre manière de réecrire ce code. *Attention, voici le moment d'invoquer les boucles temporels grâce à nos pouvoirs de mage !*
+
+En effet, grâce aux boucles en Python, il nous est possible de répéter une action un certain nombre de fois *(Quel sorcellerie...)*
+
+On pourrait donc écrire en lieu et place du précédent code;
+```python
+#--------------------
+#Méthode2
+for i in range (4):
+    t.fd(50)
+    t.lt(90)
+#---------------------
+```
+Ou bien;
+```python
+#--------------------
+#Méthode3
+a=0
+while a<4:
+    t.fd(50)
+    t.lt(90)
+    a+=1
+#---------------------
+```
+Si tu es un jeune *apprenti mage* et que tu n'as pas encore appris le sort d'invocation des boucles , pas de panique, clique [ici](https://courspython.com/boucles.html), pour en apprendre un peu plus en attendant que je publie mon  *grimoire sur la magie des boucles*.
+
+**$Créer un Triangle Enchanté** : Passons au niveau supérieur en dessinant un triangle. En combinant les mouvements de notre tortue, nous pouvons créer une figure à trois côtés. Voici comment procéder :
+```python
+import turtle
+window= turtle.Screen()
+window.title("Tracé d'un triangle avec turtle")
+t= turtle.Turtle()
+#--------------------
+#Méthode1
+t.fd(80)
+t.left(120)
+t.fd(80)
+t.left(120)
+t.fd(80)
+t.left(120)
+#---------------------
+#Ferme la fenetre graphique quand je clique dessus
+window.exitonclick()
+```
+Ou mieux encore;
+```python
+for i in range(3):
+    t.fd(80)
+    t.left(120) 
+```
+NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l'on tourne notre curseur de 120°(180°-60°), c'est-à-dire de l'angle suplémentaire à notre angle de 60°
+<p align="center">
+    <img src="/images/angle.jpg" alt="Image centrée">
+</p>
+
+![Image d'exemple](/images/angle.jpg)
+
+Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini

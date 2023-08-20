@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>turtle on RoyLab: Code &amp; Web</title>
+    <link>/tags/turtle/</link>
+    <description>Recent content in turtle on RoyLab: Code &amp; Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>layinderoyce@gmail.com (Malick Royce LAYINDE)</managingEditor>
+    <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
+    <lastBuildDate>Fri, 18 Aug 2023 10:58:08 -0400</lastBuildDate><atom:link href="/tags/turtle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle</title>
+      <link>/fr/first/</link>
+      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/fr/first/</guid>
+      <description>L&amp;rsquo;univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j&amp;rsquo;ai eu le privilège d&amp;rsquo;être l&amp;rsquo;un des intervenants lors d&amp;rsquo;une séance d&amp;rsquo;initiation à la programmation organisée par le Dakar Institute of Technology. Parmi toutes les notions abordées au cours de cette semaine passionnante, l&amp;rsquo;expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t&amp;rsquo;invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python.</description>
+    </item>
+    
+  </channel>
+</rss>
