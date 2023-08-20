@@ -9,4 +9,4 @@ Bienvenue dans l'Antre de la Connaissance, un espace où les lignes de code devi
 
 Chaque article est une invitation à une quête de découverte, une porte ouverte vers des concepts complexes et des créations ensorcelantes. Que tu sois un apprenti intrépide ou un mage chevronné du code, tu trouveras ici une collection variée d'articles qui démystifient les mystères du numérique.
 
-L'aventure commence ici... À vos baguettes, prêts ? Incantations !
+*L'aventure commence ici... À vos baguettes, prêts ? Incantations !*
