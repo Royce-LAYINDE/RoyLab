@@ -22,3 +22,12 @@ SectionPagesMenu = "main"
   [markup.goldmark]
     [markup.goldmark.extensions]
       toc = true
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/malick-layinde-825a78257/"
+
+[[params.ananke_socials]]
+name = "GitHub"
+url = "https://github.com/Royce-LAYINDE"
+
