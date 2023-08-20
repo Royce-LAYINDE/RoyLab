@@ -38,7 +38,7 @@
 <meta itemprop="name" content="Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle">
 <meta itemprop="description" content="Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu&#39;elle trace son chemin sur le sable? Le module Turtle en Python vous permet d&#39;explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d&#39;avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."><meta itemprop="datePublished" content="2023-08-18T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2023-08-18T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1072">
+<meta itemprop="wordCount" content="1743">
 <meta itemprop="keywords" content="python,turtle,pour appliquer," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle"/>
 <meta name="twitter:description" content="Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu&#39;elle trace son chemin sur le sable? Le module Turtle en Python vous permet d&#39;explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d&#39;avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."/>
@@ -112,7 +112,8 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        <p>L&rsquo;univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j&rsquo;ai eu le privilège d&rsquo;être l&rsquo;un des intervenants lors d&rsquo;une séance d&rsquo;initiation à la programmation organisée par le <a href="https://dit.sn/">Dakar Institute of Technology</a>. Parmi toutes les notions abordées au cours de cette semaine passionnante, l&rsquo;expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t&rsquo;invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d&rsquo;art.<br>
+        <!-- raw HTML omitted -->
+<p>L&rsquo;univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j&rsquo;ai eu le privilège d&rsquo;être l&rsquo;un des intervenants lors d&rsquo;une séance d&rsquo;initiation à la programmation organisée par le <a href="https://dit.sn/">Dakar Institute of Technology</a>. Parmi toutes les notions abordées au cours de cette semaine passionnante, l&rsquo;expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t&rsquo;invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d&rsquo;art.<br>
 <!-- raw HTML omitted --><em>A vos baguettes, prêts ? Incantations !</em><!-- raw HTML omitted --></p>
 <p><strong>Le Module Turtle en Python : Une Aventure Graphique</strong></p>
 <p>Imaginez une feuille de papier virtuelle où une tortue numérique peut se déplacer et dessiner en suivant vos commandes. Voilà en quoi consiste le module Turtle en Python. Cette approche graphique permet aux débutants de visualiser en temps réel comment les instructions de programmation se traduisent en mouvements et en dessins.</p>
@@ -219,9 +220,59 @@ Par contre, il existe une autre manière de réecrire ce code. <em>Attention, vo
 </span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">80</span>)
 </span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">120</span>) 
 </span></span></code></pre></div><p>NB: Remarque ici qu&rsquo;on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l&rsquo;on tourne notre curseur de 120°(180°-60°), c&rsquo;est-à-dire de l&rsquo;angle suplémentaire à notre angle de 60°</p>
-<!-- raw HTML omitted -->
-<p><img src="/images/angle.jpg" alt="Image d&rsquo;exemple"></p>
-<p>Bravo <em>jeune apprenti(e)</em> te voilà maintenant capable de Créer des Triangles enchantés à l&rsquo;infini</p>
+<p><img src="/images/angle.jpg" alt="Image d&rsquo;exemple">
+Ici donc, il nous faut faire parcourir l&rsquo;angle en bleu afin de pouvoir obtenir l&rsquo;angle en jaune dans notre triangle</p>
+<p>Bravo <em>jeune apprenti(e)</em> te voilà maintenant capable de Créer des Triangles enchantés à l&rsquo;infini. Découvrons ensemble d&rsquo;autre sorts que tu peux apprendre sur Turtle</p>
+<p><strong>Changer d&rsquo;Encre : Personnaliser les Couleurs et l&rsquo;Épaisseur</strong></p>
+<p>La magie opère non seulement dans les formes que nous dessinons, mais aussi dans les couleurs que nous utilisons. Avec Turtle, nous pouvons changer la couleur du tracé en utilisant des noms de couleurs prédéfinis ou des codes hexadécimaux. Voici comment tu peux le faire :</p>
+<p><strong>$ Invoquer une Couleur Magique</strong> : Utilisons des couleurs pour donner vie à nos dessins. Voici comment changer la couleur du tracé :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Changer la couleur du tracé en rouge</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>pencolor(<span style="color:#e6db74">&#34;red&#34;</span>)
+</span></span></code></pre></div><p>Grâce à la méthode .pencolor(), tu pourras donner une couleur à ton tracé
+NB: En Python, les incantations sont à prononcer en anglais alors le nom de ta couleur doit être en anglais(&ldquo;blue&rdquo;,&ldquo;red&rdquo;,&ldquo;yellow&rdquo;&hellip;)</p>
+<p><strong>$ Épaissir le Tracé Enchanté</strong> : Modifions l&rsquo;épaisseur du tracé pour donner une nouvelle dimension à nos créations. Voici comment le faire :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Épaissir le tracé</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>pensize(<span style="color:#ae81ff">3</span>)  <span style="color:#75715e"># Épaisseur de 3 pixels</span>
+</span></span></code></pre></div><p><strong>Exploration de l&rsquo;Apparence : Personnaliser la Tortue</strong></p>
+<p>Notre tortue numérique peut également subir une métamorphose visuelle. Nous pouvons changer son apparence en modifiant sa forme, sa couleur et bien plus encore. Voici comment rendre notre tortue encore plus captivante :</p>
+<p>Changer la Forme Enchantée : Transformons notre tortue en une créature encore plus magique. Utilisons une forme prédéfinie ou même une image personnalisée comme sa nouvelle apparence :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Changer la forme du curseur en &#34;tortue&#34; </span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>shape(<span style="color:#e6db74">&#34;turtle&#34;</span>)
+</span></span></code></pre></div><p>Avec cette ligne de code tu pourras voir une vraie <em>petite tortue magique</em> comme curseur</p>
+<p><strong>$ Un Peu de Remplissage : L&rsquo;Art du Coloriage</strong> :Parfois, un simple contour ne suffit pas. Notre tortue peut également remplir les formes qu&rsquo;elle crée.Apportons de la couleur à notre tortue pour qu&rsquo;elle se distingue dans son voyage créatif. Pour définir la couleur de remplissage, utilisez la commande fillcolor suivie du nom de la couleur en anglais</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Définir la couleur de remplissage en bleu</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fillcolor(<span style="color:#e6db74">&#34;blue&#34;</span>)
+</span></span></code></pre></div><p>Ensuite, pour commencer à remplir une forme, utilisez la commande begin_fill, et pour arrêter le remplissage, utilisez la commande end_fill :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t<span style="color:#f92672">.</span>begin_fill()   <span style="color:#75715e">#Commencer à remplir la forme</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Notre code de tracé ici</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#...</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>end_fill()     <span style="color:#75715e">#Arrêter le remplissage</span>
+</span></span></code></pre></div><p>A titre illustratif, l&rsquo;invocation d&rsquo;un carré magique coloré devrait ressembler à celui-ci:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> turtle
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Screen()
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Tracé d&#39;un triangle avec turtle&#34;</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#-------------------- </span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>shape(<span style="color:#e6db74">&#34;turtle&#34;</span>)    <span style="color:#75715e"># Changer la forme du curseur en &#34;tortue&#34;</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fillcolor(<span style="color:#e6db74">&#34;blue&#34;</span>)   <span style="color:#75715e">#Définir la couleur de remplissage en bleu</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>begin_fill()  <span style="color:#75715e">#Commencer à remplir la forme</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range (<span style="color:#ae81ff">4</span>):
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span><span style="display:flex;"><span>    t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>end_fill()     <span style="color:#75715e">#Arrêter le remplissage</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#---------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Ferme la fenetre graphique quand je clique dessus</span>
+</span></span><span style="display:flex;"><span>window<span style="color:#f92672">.</span>exitonclick()
+</span></span></code></pre></div><p><strong>Retour sur Mon Expérience à la Séance d&rsquo;Initiation</strong></p>
+<p>Lors de la séance d&rsquo;initiation au DIT, j&rsquo;ai utilisé le module Turtle pour captiver l&rsquo;attention des jeunes bacheliers. Les sourires d&rsquo;émerveillement se dessinaient sur leurs visages lorsqu&rsquo;ils ont vu la tortue numérique tracer des motifs sous leur contrôle. Nous avons créé des lignes, des triangles et même des étoiles en utilisant des boucles et des commandes Turtle simples.</p>
+<p>Parmi les moments mémorables, certains étudiants ont décidé de laisser libre cours à leur créativité en créant des dessins personnalisés avec le module Turtle. Cette expérience a montré que la programmation ne se limite pas à des lignes de code, mais peut être une forme d&rsquo;expression artistique.</p>
+<p><strong>Conclusion Enchanteur : La Création sans Limites</strong></p>
+<p>Avec ces connaissances, vous avez tout ce dont vous avez besoin pour plonger dans le monde magique du tracé avec Turtle en Python. Chaque ligne de code devient une baguette magique pour votre tortue numérique, donnant vie à des formes et à des couleurs. Que vous créiez des motifs abstraits ou des dessins géométriques, l&rsquo;art du tracé Turtle n&rsquo;a pas de limites. Incantez vos idées, laissez votre tortue danser et explorez les infinies possibilités de création artistique offertes par Python et Turtle.</p>
+<p><strong>La Magie Continue</strong>
+<em>Ne laisse pas ta baguette magique rouillée</em>
+<a href="https://docs.python.org/3/library/turtle.html">Renforce ton savoir</a>
+<a href="https://www.frederic-junier.org/PythonSeconde/Python_Seconde_Parc/tortue/tortue2.html">Découvre</a>
+Consulte les tutoriels en ligne pour des idées de projets amusants.</p>
 
       </div>
     </article>

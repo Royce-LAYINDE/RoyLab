@@ -6,7 +6,11 @@ featured_image: "/images/tortue.png"
 omit_header_text: true
 tags: ["python","turtle","pour appliquer"]
 type: page
+toc: true
 ---
+<!-- toc -->
+
+
 L'univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j'ai eu le privilège d'être l'un des intervenants lors d'une séance d'initiation à la programmation organisée par le [Dakar Institute of Technology](https://dit.sn/). Parmi toutes les notions abordées au cours de cette semaine passionnante, l'expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t'invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d'art.   
                         <p align="center">*A vos baguettes, prêts ? Incantations !*</p>
 
@@ -174,10 +178,87 @@ for i in range(3):
     t.left(120) 
 ```
 NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l'on tourne notre curseur de 120°(180°-60°), c'est-à-dire de l'angle suplémentaire à notre angle de 60°
-<p align="center">
-    <img src="/images/angle.jpg" alt="Image centrée">
-</p>
 
 ![Image d'exemple](/images/angle.jpg)
+Ici donc, il nous faut faire parcourir l'angle en bleu afin de pouvoir obtenir l'angle en jaune dans notre triangle
 
-Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini
+Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini. Découvrons ensemble d'autre sorts que tu peux apprendre sur Turtle
+
+**Changer d'Encre : Personnaliser les Couleurs et l'Épaisseur**
+
+La magie opère non seulement dans les formes que nous dessinons, mais aussi dans les couleurs que nous utilisons. Avec Turtle, nous pouvons changer la couleur du tracé en utilisant des noms de couleurs prédéfinis ou des codes hexadécimaux. Voici comment tu peux le faire :
+
+**$ Invoquer une Couleur Magique** : Utilisons des couleurs pour donner vie à nos dessins. Voici comment changer la couleur du tracé :
+```python
+# Changer la couleur du tracé en rouge
+t.pencolor("red")
+```
+Grâce à la méthode .pencolor(), tu pourras donner une couleur à ton tracé
+NB: En Python, les incantations sont à prononcer en anglais alors le nom de ta couleur doit être en anglais("blue","red","yellow"...)
+
+**$ Épaissir le Tracé Enchanté** : Modifions l'épaisseur du tracé pour donner une nouvelle dimension à nos créations. Voici comment le faire :
+```python
+# Épaissir le tracé
+t.pensize(3)  # Épaisseur de 3 pixels
+```
+
+**Exploration de l'Apparence : Personnaliser la Tortue**
+
+Notre tortue numérique peut également subir une métamorphose visuelle. Nous pouvons changer son apparence en modifiant sa forme, sa couleur et bien plus encore. Voici comment rendre notre tortue encore plus captivante :
+
+Changer la Forme Enchantée : Transformons notre tortue en une créature encore plus magique. Utilisons une forme prédéfinie ou même une image personnalisée comme sa nouvelle apparence :
+```python
+# Changer la forme du curseur en "tortue" 
+t.shape("turtle")
+```
+Avec cette ligne de code tu pourras voir une vraie *petite tortue magique* comme curseur
+
+**$ Un Peu de Remplissage : L'Art du Coloriage** :Parfois, un simple contour ne suffit pas. Notre tortue peut également remplir les formes qu'elle crée.Apportons de la couleur à notre tortue pour qu'elle se distingue dans son voyage créatif. Pour définir la couleur de remplissage, utilisez la commande fillcolor suivie du nom de la couleur en anglais 
+```python
+#Définir la couleur de remplissage en bleu
+t.fillcolor("blue")
+```
+Ensuite, pour commencer à remplir une forme, utilisez la commande begin_fill, et pour arrêter le remplissage, utilisez la commande end_fill :
+```python
+t.begin_fill()   #Commencer à remplir la forme
+#Notre code de tracé ici
+#...
+t.end_fill()     #Arrêter le remplissage
+```
+
+A titre illustratif, l'invocation d'un carré magique coloré devrait ressembler à celui-ci:
+
+```python
+import turtle
+window= turtle.Screen()
+window.title("Tracé d'un triangle avec turtle")
+t= turtle.Turtle()
+#-------------------- 
+t.shape("turtle")    # Changer la forme du curseur en "tortue"
+t.fillcolor("blue")   #Définir la couleur de remplissage en bleu
+t.begin_fill()  #Commencer à remplir la forme
+for i in range (4):
+    t.fd(50)
+    t.lt(90)
+t.end_fill()     #Arrêter le remplissage
+#---------------------
+#Ferme la fenetre graphique quand je clique dessus
+window.exitonclick()
+```
+**Retour sur Mon Expérience à la Séance d'Initiation**
+
+Lors de la séance d'initiation au DIT, j'ai utilisé le module Turtle pour captiver l'attention des jeunes bacheliers. Les sourires d'émerveillement se dessinaient sur leurs visages lorsqu'ils ont vu la tortue numérique tracer des motifs sous leur contrôle. Nous avons créé des lignes, des triangles et même des étoiles en utilisant des boucles et des commandes Turtle simples.
+
+Parmi les moments mémorables, certains étudiants ont décidé de laisser libre cours à leur créativité en créant des dessins personnalisés avec le module Turtle. Cette expérience a montré que la programmation ne se limite pas à des lignes de code, mais peut être une forme d'expression artistique.
+
+
+**Conclusion Enchanteur : La Création sans Limites**
+
+Avec ces connaissances, vous avez tout ce dont vous avez besoin pour plonger dans le monde magique du tracé avec Turtle en Python. Chaque ligne de code devient une baguette magique pour votre tortue numérique, donnant vie à des formes et à des couleurs. Que vous créiez des motifs abstraits ou des dessins géométriques, l'art du tracé Turtle n'a pas de limites. Incantez vos idées, laissez votre tortue danser et explorez les infinies possibilités de création artistique offertes par Python et Turtle.
+
+**La Magie Continue**
+*Ne laisse pas ta baguette magique rouillée*
+[Renforce ton savoir](https://docs.python.org/3/library/turtle.html)
+[Découvre](https://www.frederic-junier.org/PythonSeconde/Python_Seconde_Parc/tortue/tortue2.html)
+Consulte les tutoriels en ligne pour des idées de projets amusants.
+
