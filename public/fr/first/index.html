@@ -38,7 +38,7 @@
 <meta itemprop="name" content="Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle">
 <meta itemprop="description" content="Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu&#39;elle trace son chemin sur le sable? Le module Turtle en Python vous permet d&#39;explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d&#39;avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."><meta itemprop="datePublished" content="2023-08-18T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2023-08-18T10:58:08-04:00" />
-<meta itemprop="wordCount" content="354">
+<meta itemprop="wordCount" content="644">
 <meta itemprop="keywords" content="python,sql,html," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle"/>
 <meta name="twitter:description" content="Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu&#39;elle trace son chemin sur le sable? Le module Turtle en Python vous permet d&#39;explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d&#39;avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."/>
@@ -51,7 +51,7 @@
     
 
   
-  <header class="cover bg-top" style="background-color: #272822;">
+  <header class="cover bg-top" style="background-image: url('/images/python.jpg');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -132,7 +132,33 @@
 <p>Avant de faire apparaître notre tortue, nous devons la créer. C&rsquo;est comme invoquer un familier dans le monde magique. Voici comment créer une instance de tortue avec laquelle nous allons interagir :</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#75715e">#Creation d&#39;une instance de turtle</span>
 </span></span><span style="display:flex;"><span>t<span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
-</span></span></code></pre></div>
+</span></span></code></pre></div><p><strong>Chaque Pas est une Étape : Les Commandes de Base</strong></p>
+<p>Chaque pas de notre tortue est une étape vers la création. Tout comme <a href="https://padlet-uploads.storage.googleapis.com/293762411/99453da9e54e6ce8ea76d6dd46671e11/Harry_Potter_et_la_Coupe_de_Feu___J_K_ROWLING.pdf">Viktor Krum, a utilisé sa baguette pour faire danser Hermione</a> , nous faisons danser notre tortue avec des commandes simples. Voici quelques-unes des commandes de base pour faire bouger notre tortue :</p>
+<p>-Pour faire avancer la tortue sur une certaine distance, on utilise la commande suivante:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Faire avancer le curseur de 50px</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>forward(<span style="color:#ae81ff">50</span>)
+</span></span></code></pre></div><p>Une alternative à cette commande est tout simplement:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">50</span>)
+</span></span></code></pre></div><p>-Pour faire reculer la tortue sur une certaine distance, on utilise la commande suivante:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Faire avancer le curseur de 50px</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>backward(<span style="color:#ae81ff">50</span>)
+</span></span></code></pre></div><p>De même, on peut aussi ecrire:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t<span style="color:#f92672">.</span>bk(<span style="color:#ae81ff">50</span>)
+</span></span></code></pre></div><p>Ainsi donc, pour faire avancer ou reculer notre tortue, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument, la distance qu&rsquo;on veut qu&rsquo;elle parcourt.</p>
+<p><em>NB: Remarque que la distance sur laquelle on fait bouger le curseur s&rsquo;exprime en <a href="https://fr.wikipedia.org/wiki/Pixel">pixel(px)</a></em></p>
+<p>-Pour faire tourner la tortue vers la gauche d&rsquo;un certain angle, on utilise la commande suivante:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Faire dévier  le curseur à gauche de 60°</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">60</span>)
+</span></span></code></pre></div><p>Une alternative à cette commande est tout simplement:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">60</span>)
+</span></span></code></pre></div><p>-Pour faire tourner la tortue vers la droite d&rsquo;un certain angle, on utilise la commande suivante:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Faire dévier  le curseur à droite de 45°</span>
+</span></span><span style="display:flex;"><span>t<span style="color:#f92672">.</span>right(<span style="color:#ae81ff">45</span>)
+</span></span></code></pre></div><p>De même, on peut aussi ecrire:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t<span style="color:#f92672">.</span>rt(<span style="color:#ae81ff">45</span>)
+</span></span></code></pre></div><p>Ainsi donc, pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument la mesure de l&rsquo;angle(en degré) dont-on veut qu&rsquo;elle dévie.</p>
+<p>En somme, en utilisant ces commandes simples pour faire avancer, reculer, tourner à gauche ou à droite, notre tortue répond à nos instructions pour créer des mouvements enchanteurs.</p>
+
       </div>
     </article>
   </div>

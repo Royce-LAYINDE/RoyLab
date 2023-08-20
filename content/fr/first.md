@@ -48,3 +48,52 @@ Avant de faire apparaître notre tortue, nous devons la créer. C'est comme invo
 #Creation d'une instance de turtle
 t= turtle.Turtle()
 ```
+
+**Chaque Pas est une Étape : Les Commandes de Base**
+
+Chaque pas de notre tortue est une étape vers la création. Tout comme [Viktor Krum, a utilisé sa baguette pour faire danser Hermione](https://padlet-uploads.storage.googleapis.com/293762411/99453da9e54e6ce8ea76d6dd46671e11/Harry_Potter_et_la_Coupe_de_Feu___J_K_ROWLING.pdf) , nous faisons danser notre tortue avec des commandes simples. Voici quelques-unes des commandes de base pour faire bouger notre tortue :
+
+-Pour faire avancer la tortue sur une certaine distance, on utilise la commande suivante:
+```python
+#Faire avancer le curseur de 50px
+t.forward(50)
+```
+Une alternative à cette commande est tout simplement:
+```python
+t.fd(50)
+```
+-Pour faire reculer la tortue sur une certaine distance, on utilise la commande suivante:
+```python
+#Faire avancer le curseur de 50px
+t.backward(50)
+```
+De même, on peut aussi ecrire:
+```python
+t.bk(50)
+```
+
+Ainsi donc, pour faire avancer ou reculer notre tortue, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument, la distance qu'on veut qu'elle parcourt.
+
+*NB: Remarque que la distance sur laquelle on fait bouger le curseur s'exprime en [pixel(px)](https://fr.wikipedia.org/wiki/Pixel)*
+
+-Pour faire tourner la tortue vers la gauche d'un certain angle, on utilise la commande suivante:
+```python
+#Faire dévier  le curseur à gauche de 60°
+t.left(60)
+```
+Une alternative à cette commande est tout simplement:
+```python
+t.lt(60)
+```
+-Pour faire tourner la tortue vers la droite d'un certain angle, on utilise la commande suivante:
+```python
+#Faire dévier  le curseur à droite de 45°
+t.right(45)
+```
+De même, on peut aussi ecrire:
+```python
+t.rt(45)
+```
+Ainsi donc, pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument la mesure de l'angle(en degré) dont-on veut qu'elle dévie.
+
+En somme, en utilisant ces commandes simples pour faire avancer, reculer, tourner à gauche ou à droite, notre tortue répond à nos instructions pour créer des mouvements enchanteurs.
