@@ -3,7 +3,7 @@ title: "Articles"
 
 description: ""
 cascade:
-  featured_image: '/images/image2.jpg'
+  featured_image: '/images/fairy1.jpg'
 ---
 Bienvenue dans l'Antre de la Connaissance, un espace où les lignes de code deviennent des contes captivants et les pixels des aventures inexplorées. Plonge dans la section des articles de RoyLab: Code & Web et laisse-toi emporter dans un monde où le Big Data, la programmation Python et le développement web tissent ensemble des récits passionnants.
 
