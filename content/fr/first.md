@@ -292,7 +292,7 @@ Avec ces connaissances, vous avez tout ce dont vous avez besoin pour plonger dan
 [Découvre](https://www.frederic-junier.org/PythonSeconde/Python_Seconde_Parc/tortue/tortue2.html)
 
 Consulte les tutoriels en ligne pour des idées de projets amusants.
-A bientôt pour un nouveau chaoitre
+
 
 ###### *Que chaque ligne de code devienne une baguette magique, et que chaque projet soit une œuvre enchanteresse.*
 ###### À bientôt pour plus de découvertes et de créations magiques !
