@@ -10,11 +10,11 @@
     <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
     <lastBuildDate>Fri, 18 Aug 2023 10:58:08 -0400</lastBuildDate><atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My first article</title>
-      <link>/fr/post/chapter-1/</link>
+      <title>1-My first article</title>
+      <link>/fr/first/</link>
       <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
       <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
-      <guid>/fr/post/chapter-1/</guid>
+      <guid>/fr/first/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dictum enim, vitae bibendum massa. Nunc odio lacus, vehicula in efficitur nec, commodo ac nisl. Aliquam at dolor eget enim venenatis rutrum. Donec ultrices lectus sit amet accumsan porttitor. Duis ornare tellus ligula, aliquam vehicula ante pretium tempus. Donec vestibulum libero ac augue luctus, sed suscipit sem commodo. Sed magna diam, ultrices in magna at, placerat varius elit. Phasellus venenatis rutrum suscipit.</description>
     </item>
     

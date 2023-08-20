@@ -10,49 +10,31 @@
     <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
     <lastBuildDate>Fri, 18 Aug 2023 12:00:00 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My first article</title>
-      <link>/fr/post/chapter-1/</link>
+      <title>1-My first article</title>
+      <link>/fr/first/</link>
       <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
       <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
-      <guid>/fr/post/chapter-1/</guid>
+      <guid>/fr/first/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dictum enim, vitae bibendum massa. Nunc odio lacus, vehicula in efficitur nec, commodo ac nisl. Aliquam at dolor eget enim venenatis rutrum. Donec ultrices lectus sit amet accumsan porttitor. Duis ornare tellus ligula, aliquam vehicula ante pretium tempus. Donec vestibulum libero ac augue luctus, sed suscipit sem commodo. Sed magna diam, ultrices in magna at, placerat varius elit. Phasellus venenatis rutrum suscipit.</description>
     </item>
     
     <item>
       <title>A propos</title>
-      <link>/fr/apropos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/fr/post/apropos/</link>
+      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
       <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
-      <guid>/fr/apropos/</guid>
+      <guid>/fr/post/apropos/</guid>
       <description>Salut ! Je suis Malick Royce LAYINDE, et je te souhaite la bienvenue sur RoyLab: Code &amp;amp; Web. Permets-moi de te raconter un peu qui je suis et pourquoi j&amp;rsquo;ai créé ce blog.
 Qui Suis-Je ?
 Actuellement en cours de poursuite de ma licence en Big Data, je suis passionné par l&amp;rsquo;univers en constante évolution des données massives et de leurs applications. Mon enthousiasme pour les possibilités que le Big Data offre m&amp;rsquo;a conduit à explorer de près ce domaine en plein essor.</description>
     </item>
     
     <item>
-      <title>Arti</title>
-      <link>/fr/post/arti/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
-      <guid>/fr/post/arti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>belo</title>
-      <link>/fr/post/belo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
-      <guid>/fr/post/belo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Contact</title>
-      <link>/fr/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>/fr/post/contact/</link>
+      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
       <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
-      <guid>/fr/contact/</guid>
+      <guid>/fr/post/contact/</guid>
       <description>Salut ! Je suis ravi que tu souhaites entrer en contact. Que ce soit pour poser une question, partager une idée, ou simplement dire bonjour, je serais ravi de discuter avec toi. Voici comment tu peux me joindre :
 Adresse E-mail
 Si tu préfères la communication par e-mail, n&amp;rsquo;hésite pas à m&amp;rsquo;envoyer un message à l&amp;rsquo;adresse suivante : layinderoyce@gmail.com. Je m&amp;rsquo;efforce de répondre rapidement à tous les e-mails, alors attends-toi à une réponse dans les plus brefs délais.</description>

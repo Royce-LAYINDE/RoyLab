@@ -1,5 +1,6 @@
 ---
 title: Contact
+date: 2023-08-18T10:58:08-04:00
 featured_image: '/images/image-tel.jpg'
 omit_header_text: true
 description: Laissez-moi un message!

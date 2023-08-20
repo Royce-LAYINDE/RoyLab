@@ -17,12 +17,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/html/</loc>
+    <loc>/fr/first/</loc>
     <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/fr/post/chapter-1/</loc>
+    <loc>/fr/post/apropos/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/fr/post/contact/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/html/</loc>
     <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -42,23 +52,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/fr/apropos/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/fr/post/arti/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/fr/post/belo/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/fr/contact/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

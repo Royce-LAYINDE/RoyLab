@@ -1,5 +1,6 @@
 ---
 title: "A propos"
+date: 2023-08-18T10:58:08-04:00
 featured_image: '/images/image1.jpg'  
 omit_header_text: true
 type: page
