@@ -10,23 +10,23 @@
     <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
     <lastBuildDate>Fri, 18 Aug 2023 12:00:00 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1-My first article</title>
-      <link>/fr/first/</link>
-      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
-      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
-      <guid>/fr/first/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dictum enim, vitae bibendum massa. Nunc odio lacus, vehicula in efficitur nec, commodo ac nisl. Aliquam at dolor eget enim venenatis rutrum. Donec ultrices lectus sit amet accumsan porttitor. Duis ornare tellus ligula, aliquam vehicula ante pretium tempus. Donec vestibulum libero ac augue luctus, sed suscipit sem commodo. Sed magna diam, ultrices in magna at, placerat varius elit. Phasellus venenatis rutrum suscipit.</description>
-    </item>
-    
-    <item>
       <title>A propos</title>
       <link>/fr/post/apropos/</link>
       <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
       <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
       <guid>/fr/post/apropos/</guid>
       <description>Salut ! Je suis Malick Royce LAYINDE, et je te souhaite la bienvenue sur RoyLab: Code &amp;amp; Web. Permets-moi de te raconter un peu qui je suis et pourquoi j&amp;rsquo;ai créé ce blog.
-Qui Suis-Je ?
+#Qui Suis-Je ?
 Actuellement en cours de poursuite de ma licence en Big Data, je suis passionné par l&amp;rsquo;univers en constante évolution des données massives et de leurs applications. Mon enthousiasme pour les possibilités que le Big Data offre m&amp;rsquo;a conduit à explorer de près ce domaine en plein essor.</description>
+    </item>
+    
+    <item>
+      <title>Chapitre 1: Enchantement Numérique: Le Module Turtle</title>
+      <link>/fr/first/</link>
+      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/fr/first/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec dictum enim, vitae bibendum massa. Nunc odio lacus, vehicula in efficitur nec, commodo ac nisl. Aliquam at dolor eget enim venenatis rutrum. Donec ultrices lectus sit amet accumsan porttitor. Duis ornare tellus ligula, aliquam vehicula ante pretium tempus. Donec vestibulum libero ac augue luctus, sed suscipit sem commodo. Sed magna diam, ultrices in magna at, placerat varius elit. Phasellus venenatis rutrum suscipit.</description>
     </item>
     
     <item>

@@ -5,10 +5,12 @@ featured_image: '/images/image1.jpg'
 omit_header_text: true
 type: page
 menu: main
+toc: true
 ---
+
 Salut ! Je suis <em>Malick Royce LAYINDE</em>, et je te souhaite la bienvenue sur RoyLab: Code & Web. Permets-moi de te raconter un peu qui je suis et pourquoi j'ai créé ce blog.
 
-Qui Suis-Je ?
+#Qui Suis-Je ?
 
 Actuellement en cours de poursuite de ma licence en Big Data, je suis passionné par l'univers en constante évolution des données massives et de leurs applications. Mon enthousiasme pour les possibilités que le Big Data offre m'a conduit à explorer de près ce domaine en plein essor.
 
