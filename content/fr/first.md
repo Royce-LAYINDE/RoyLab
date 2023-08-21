@@ -19,7 +19,7 @@ tags:
 type: page
 
 ---
-*Temps de Lecture Estimé: Environ 9 à 11 minutes*
+*Temps de Lecture Estimé: Environ 7 à 10 minutes*
 ## Table des matières
 - [La Magie du Démarrage : Importer Turtle](#1)
 - [Création de l'Environnement : Initialisation de la Fenêtre](#2)
@@ -204,6 +204,7 @@ for i in range(3):
 NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l'on tourne notre curseur de 120°(180°-60°), c'est-à-dire de l'angle suplémentaire à notre angle de 60°
 
 ![Image d'exemple](/images/angle.jpg)
+
 Ici donc, il nous faut faire parcourir l'angle en bleu afin de pouvoir obtenir l'angle en jaune dans notre triangle
 
 Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini. Découvrons ensemble d'autre sorts que tu peux apprendre sur Turtle
