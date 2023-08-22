@@ -5,6 +5,8 @@ theme = 'ananke'
 
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
+tags = ["python", "turtle"]
+
 
 [author]
   name = "Malick Royce LAYINDE"
@@ -18,16 +20,13 @@ SectionPagesMenu = "main"
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      toc = true
+
 
 [[params.ananke_socials]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/malick-layinde-825a78257/"
 
 [[params.ananke_socials]]
-name = "GitHub"
+name = "gitHub"
 url = "https://github.com/Royce-LAYINDE"
 
