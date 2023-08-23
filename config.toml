@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'RoyLab: Code & Web'
 theme = 'ananke'
-
+tags = ["python"]
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
 

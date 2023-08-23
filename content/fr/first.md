@@ -4,7 +4,7 @@ date: 2023-08-18T10:58:08-04:00
 description: "Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu'elle trace son chemin sur le sable? Le module Turtle en Python vous permet d'explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d'avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."
 featured_image: "/images/tortue.png"
 omit_header_text: true
-tags: ["python","sql","html"]
+tags: ["python"]
 type: page
 ---
 
@@ -190,13 +190,13 @@ for i in range(3):
     t.fd(80)
     t.left(120) 
 ```
-NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l'on tourne notre curseur de 120°(180°-60°), c'est-à-dire de l'angle suplémentaire à notre angle de 60°
+NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l'on tourne notre curseur de 120°(180°-60°), c'est-à-dire de l'angle suplémentaire à notre angle de 60°.
 
 ![Image d'exemple](/images/angle.jpg)
 
-Ici donc, il nous faut faire parcourir l'angle en bleu afin de pouvoir obtenir l'angle en jaune dans notre triangle
+Ici donc, il nous faut faire parcourir l'angle en bleu afin de pouvoir obtenir l'angle en jaune dans notre triangle.
 
-Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini. Découvrons ensemble d'autre sorts que tu peux apprendre sur Turtle
+Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini. Découvrons ensemble d'autre sorts que tu peux apprendre sur Turtle.
 
 # Changer d'Encre : Personnaliser les Couleurs et l'Épaisseur {#7}
 
@@ -227,10 +227,10 @@ Changer la Forme Enchantée : Transformons notre tortue en une créature encore 
 # Changer la forme du curseur en "tortue" 
 t.shape("turtle")
 ```
-Avec cette ligne de code tu pourras voir une vraie *petite tortue magique* comme curseur
+Avec cette ligne de code tu pourras voir une vraie *petite tortue magique* comme curseur.
 
 ## Un Peu de Remplissage : L'Art du Coloriage
-Parfois, un simple contour ne suffit pas. Notre tortue peut également remplir les formes qu'elle crée.Apportons de la couleur à notre tortue pour qu'elle se distingue dans son voyage créatif. Pour définir la couleur de remplissage, utilisez la commande fillcolor suivie du nom de la couleur en anglais 
+Parfois, un simple contour ne suffit pas. Notre tortue peut également remplir les formes qu'elle crée.Apportons de la couleur à notre tortue pour qu'elle se distingue dans son voyage créatif. Pour définir la couleur de remplissage, utilisez la commande fillcolor suivie du nom de la couleur en anglais.
 ```python
 #Définir la couleur de remplissage en bleu
 t.fillcolor("blue")
