@@ -283,6 +283,7 @@ Avec ces connaissances, vous avez tout ce dont vous avez besoin pour plonger dan
 
 Consulte les tutoriels en ligne pour des idées de projets amusants.
 
+🧙‍♂️🔮🌐
 
 ###### *Que chaque ligne de code devienne une baguette magique, et que chaque projet soit une œuvre enchanteresse.*
 ###### À bientôt pour plus de découvertes et de créations magiques !
