@@ -3,14 +3,14 @@ title: "Chapitre 2: Exploration Enchantée du Web Scraping : L'Art Mystique de C
 date: 2023-08-24T10:58:08-04:00
 description: "
 Explorez les mystères du Web Scraping et apprenez à collecter des données précieuses en ligne. Plongez dans l'art de l'exploration web automatisée et découvrez comment transformer votre navigateur en une baguette magique pour extraire des informations cachées. Découvrez les rituels du Web Scraping avec Python, et devenez un apprenti mage capable d'explorer les profondeurs du cyberespace pour des trésors d'informations. "
-featured_image: "/images/tortue.png"
+featured_image: "/images/web.jpg"
 omit_header_text: true
 tags: ["python"]
 type: page
-draft: true
+
 ---
 
-*Temps de Lecture Estimé: Environ ? à ? minutes*
+*Temps de Lecture Estimé: Environ 7 à 11 minutes*
 ## Table des matières
 - [La Baguette Magique du Web Scraping](#1)
 - [Les Formules Enchanteuses : Bibliothèques Python et Outils de Scraping](#2)
@@ -49,10 +49,10 @@ Par exemple, si vous explorez un site d'actualités, vous pourriez utiliser un s
 
 Les sélecteurs CSS sont puissants, mais ils nécessitent de la précision. Comme un enchanteur minutieux, vous devez choisir le bon sort pour chaque trésor que vous recherchez. Cela signifie comprendre la structure de la page, identifier les balises et les classes appropriées, et formuler vos sorts avec soin. Mais une fois que vous maîtrisez ces sorts de sélection, vous avez le pouvoir de révéler et de collecter les éléments précieux qui vous permettront d'enrichir vos propres créations.
 
-Maintenant que nous avons appris à cibler et à extraire des éléments spécifiques, il est temps de révéler le véritable secret de l'art du Web Scraping : la transmutation des données. Dans le monde de la magie du Web Scraping, nous ne nous contentons pas de collecter des données, nous les transformons et les transmutons en informations précieuses. Rejoignez-moi dans la prochaine section pour découvrir comment nous pouvons utiliser notre magie pour changer l'invisible en visible, le brut en raffiné, et le chaos en clarté.
+Maintenant que nous avons appris à cibler et à extraire des éléments spécifiques, il est temps de révéler le véritable secret de l'art du Web Scraping:  la transmutation des données. Dans le monde de la magie du Web Scraping, nous ne nous contentons pas de collecter des données, nous les transformons et les transmutons en informations précieuses. Rejoignez-moi dans la prochaine section pour découvrir comment nous pouvons utiliser notre magie pour changer l'invisible en visible, le brut en raffiné, et le chaos en clarté.
 
 
-La Transmutation des Données : De l'Invisible au Visible {#4}
+# La Transmutation des Données : De l'Invisible au Visible {#4}
 Tout comme un alchimiste transmute des métaux en or, nous transformons les données brutes en informations précieuses grâce à notre magie du Web Scraping. Nous collectons des fragments d'informations éparpillés sur plusieurs pages web et les transmutons en données structurées que nous pouvons analyser et exploiter. C'est ainsi que nous révélons la vraie puissance de notre art, en transformant le chaos en clarté.
 
 Imaginez que vous ayez collecté des données à partir de différentes sources, comme un alchimiste rassemblant des ingrédients rares et précieux. Ces données peuvent être dans des formats variés, parfois désorganisées et difficiles à comprendre. Cependant, avec nos sorts de transmutation, nous pouvons les purifier et les transformer en quelque chose de significatif.
@@ -80,7 +80,7 @@ Tout comme un magicien a besoin de sa baguette pour lancer des sorts, nous avons
 import urllib.request
 from bs4 import BeautifulSoup
 ```
-Beautiful Soup agira comme notre œil magique, analysant et naviguant à travers le code source de la page web. urllib.request, quant à lui, sera notre invocation pour accéder à la page et obtenir son contenu.
+Beautiful Soup agira comme notre œil magique, analysant et naviguant à travers le code source de la page web. Urllib.request, quant à lui, sera notre invocation pour accéder à la page et obtenir son contenu.
 
 ## Préparer la Potion Magique (URL) {#7}
 
@@ -92,19 +92,34 @@ url = "https://roylab.netlify.app/fr/first"
 ## Lancer le Sort d'urllib.request {#8}
 Notre première formule magique consiste à invoquer urllib.request pour obtenir le contenu de la page. Nous utilisons le sort urllib.request.urlopen() pour ouvrir la porte virtuelle vers la page et obtenir sa réponse.
 ```python
-response = urllib.request.urlopen(url)  # Invoquer la page avec notre sort d'invocation (urllib)
+doc = urllib.request.urlopen(url)  # Invoquer la page avec notre sort d'invocation (urllib)
 ```
 ## Utiliser Beautiful Soup pour Lire les Runes {#9}
 Une fois que nous avons obtenu la réponse de la page, nous devons la passer à notre œil magique, Beautiful Soup. Il l'analysera et créera une structure d'objet que nous pouvons interroger pour obtenir les informations que nous cherchons.
 ```python
-soup = BeautifulSoup(response, "html.parser")   # Utilisation de Beautiful Soup pour analyser le contenu HTML de la page
+contenu = BeautifulSoup(doc, "html.parser")   # Utilisation de Beautiful Soup pour analyser le contenu HTML de la page
 ```
+Ici, BeautifulSoup() prend en argument la réponse de la page (doc) et ce qu'on appelle un parseur html. Un [Parseur HTML](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parser-installation) est  un programme qui analyse un code HTML et le transforme en une structure de données que nous pouvons manipuler en Python. Dans ce cas, "html.parser" est un parseur intégré à la bibliothèque standard de Python, et il est utilisé pour analyser le contenu HTML de la page web. 
+
+On pourrait s'en arrêter là et continuer notre expérimentation mais il y a bien longtemps, [*mon mentor des arcanes Python*](https://nskm.xyz/about/) me révéla qu'il était sage d'enregistrer les traces magiques d'une page ensorcelée, car cette page pourrait disparaître comme par enchantement ou changer telle une métamorphose.
+Alors, nous allons donc suivre son conseil et ajouter à notre programme, un code qui se chargera de sauvegarder le contenu html de notre page dans le cas où nous en aurions besoin plus tard. 
+```python
+contenu_html = contenu.prettify()   # Obtenir le contenu HTML formaté
+
+# Sauvegarder le contenu HTML dans un fichier
+nom_du_fichier = "page.html"
+with open(nom_du_fichier, "w", encoding="utf-8") as file:
+    file.write(contenu_html)
+
+print(f"✨ Le contenu HTML de la page a été sauvegardé dans '{nom_du_fichier}'")
+```
+Ici, la méthode .prettify() est utilisée pour formater joliment le contenu HTML en ajoutant des indentations et des sauts de ligne pour une lecture humaine plus facile. Ensuite, nous utilisons simplement la méthode open() pour créer et écrire dans un fichier.
 
 ## Explorer les Mystères du Code HTML {#10}
 Maintenant que nous avons invoqué Beautiful Soup, nous pouvons plonger dans le code HTML de la page. Comme un aventurier explorant une caverne mystérieuse, nous utilisons les compétences de Beautiful Soup pour trouver les éléments et les données qui nous intéressent.
 ```python
-links = soup.find_all("a")  # Trouver tous les éléments <a> qui contiennent des liens
-title = soup.find("h1").text    # Trouver le titre de l'article avec notre sort de divination 
+links = contenu.find_all("a")  # Trouver tous les éléments <a> qui contiennent des liens
+title = contenu.find("h1").text    # Trouver le titre de l'article avec notre sort de divination 
 ```
 Pour cette étape nous aurions pu aussi faire appel aux [regex](https://docs.python.org/3/library/re.html), cette magie incantatoire dont nous parlerons certainement dans un autre grimoire.
 
@@ -126,6 +141,14 @@ print(f"📜 Titre de l'article : {title}")
 Voilà, nous avons accompli notre quête et révélé les mystères cachés derrière une page web en utilisant Python et les pouvoirs de Beautiful Soup et urllib.request. Comme des apprentis sorciers découvrant les secrets d'un sortilège, nous avons appris à naviguer dans le code HTML et à extraire des informations précieuses.
 
 Maintenant, c'est à vous de devenir l'explorateur intrépide du monde en ligne. Utilisez vos compétences nouvellement acquises en Web Scraping pour découvrir les trésors cachés du Web et explorer les connaissances enfouies derrière chaque URL. Que chaque ligne de code que vous écrivez soit une incantation puissante pour dévoiler les mystères du numérique. À vous de jouer, jeune apprenti mage !
+
+**La Magie Continue**
+
+*Ne laisse pas ta baguette magique rouillée*
+
+Renforce ton savoir [ici](https://docs.python.org/3/library/urllib.request.html) et [ici](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+Découvre [ici](https://github.com/Royce-LAYINDE/Royce-s-Programs/blob/master/Python/scrapping%20d'un%20site%20de%20vente%20de%20livres.py), [ici aussi](https://github.com/Royce-LAYINDE/Royce-s-Programs/blob/master/Python/scraping%20de%20la%20page%20d'article.py)
 
 🧙‍♂️🔮🌐
 

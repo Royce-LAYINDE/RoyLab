@@ -8,7 +8,17 @@
     <language>en-us</language>
     <managingEditor>layinderoyce@gmail.com (Malick Royce LAYINDE)</managingEditor>
     <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
-    <lastBuildDate>Fri, 18 Aug 2023 12:00:00 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 10:58:08 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapitre 2: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel</title>
+      <link>/fr/second/</link>
+      <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/fr/second/</guid>
+      <description>Temps de Lecture Estimé: Environ 7 à 11 minutes
+Table des matières La Baguette Magique du Web Scraping Les Formules Enchanteuses : Bibliothèques Python et Outils de Scraping Les Sorts de Sélection : Cibler les Trésors Cachés La Transmutation des Données : De l&amp;rsquo;Invisible au Visible Les Limites Éthiques : Un Code de Conduite Magique Importer les Bibliothèques Magiques Préparer la Potion Magique (URL) Lancer le Sort d&amp;rsquo;urllib.request Utiliser Beautiful Soup pour Lire les Runes Explorer les Mystères du Code HTML Manipuler les Résultats Conclusion : Révéler les Mystères Cachés Bienvenue, cher apprenti mage du numérique, dans une nouvelle aventure au cœur du monde virtuel où les données se cachent tels des trésors dissimulés, attendant d&amp;rsquo;être découverts par des esprits curieux comme le vôtre.</description>
+    </item>
+    
     <item>
       <title>A propos</title>
       <link>/fr/post/apropos/</link>
@@ -26,7 +36,7 @@ Actuellement en cours de poursuite de ma licence en Big Data, je suis passionné
       <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
       <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
       <guid>/fr/first/</guid>
-      <description>Temps de Lecture Estimé: Environ 7 à 10 minutes
+      <description>Mis à jour le 28/08/2023 Temps de Lecture Estimé: Environ 7 à 10 minutes
 Table des matières La Magie du Démarrage : Importer Turtle Création de l&amp;rsquo;Environnement : Initialisation de la Fenêtre Donner un Nom Magique : Titre de la Fenêtre L&amp;rsquo;Incantation : Création de l&amp;rsquo;Instance Turtle Chaque Pas est une Étape : Les Commandes de Base Exploration Créative : Dessiner des Figures Géométriques Changer d&amp;rsquo;Encre : Personnaliser les Couleurs et l&amp;rsquo;Épaisseur Exploration de l&amp;rsquo;Apparence : Personnaliser la Tortue Retour sur Mon Expérience à la Séance d&amp;rsquo;Initiation Conclusion Enchanteur : La Création sans Limites L&amp;rsquo;univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base.</description>
     </item>
     

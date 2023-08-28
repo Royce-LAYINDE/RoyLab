@@ -7,7 +7,7 @@ omit_header_text: true
 tags: ["python"]
 type: page
 ---
-
+Mis à jour le 28/08/2023
 *Temps de Lecture Estimé: Environ 7 à 10 minutes*
 ## Table des matières
 - [La Magie du Démarrage : Importer Turtle](#1)
