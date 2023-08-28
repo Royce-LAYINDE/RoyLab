@@ -3,31 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/fr/</loc>
-    <lastmod>2023-08-21T10:58:08-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/fr/first/</loc>
-    <lastmod>2023-08-21T10:58:08-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/tags/python/</loc>
-    <lastmod>2023-08-21T10:58:08-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-08-21T10:58:08-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-08-21T10:58:08-04:00</lastmod>
+    <lastmod>2023-08-18T12:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>/fr/post/</loc>
+    <lastmod>2023-08-18T12:00:00-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/</loc>
     <lastmod>2023-08-18T12:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -37,12 +22,23 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>/fr/first/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>/fr/post/contact/</loc>
     <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/fr/second/</loc>
+    <loc>/tags/python/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
