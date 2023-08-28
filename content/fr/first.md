@@ -1,6 +1,6 @@
 ---
 title: "Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle"
-date: 2023-08-21T10:58:08-04:00
+date: 2023-08-18T10:58:08-04:00
 description: "Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu'elle trace son chemin sur le sable? Le module Turtle en Python vous permet d'explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d'avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."
 featured_image: "/images/tortue.png"
 omit_header_text: true
@@ -109,7 +109,7 @@ De même, on peut aussi ecrire:
 ```python
 t.rt(45)
 ```
-Ainsi donc, pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument la mesure de l'angle(en degré) dont-on veut qu'elle dévie.
+Ainsi donc, pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .lt() et .rt() et de mettre en argument la mesure de l'angle(en degré) dont-on veut qu'elle dévie.
 
 En somme, en utilisant ces commandes simples pour faire avancer, reculer, tourner à gauche ou à droite, notre tortue répond à nos instructions pour créer des mouvements enchanteurs.
 
@@ -139,9 +139,9 @@ t.lt(90)
 window.exitonclick()
 ```
 Avec ce code, tu auras assurément un carré à la sortie. En effet, on demande à notre tortue d'avancer de 50px puis de tourner à gauche d'un angle de 90°. On répète le geste trois autres fois en plus.
-Par contre, il existe une autre manière de réecrire ce code. *Attention, voici le moment d'invoquer les boucles temporels grâce à nos pouvoirs de mage !*
+Par contre, il existe une autre manière de réecrire ce code. *Attention, voici le moment d'invoquer les boucles temporelles grâce à nos pouvoirs de mage !*
 
-En effet, grâce aux boucles en Python, il nous est possible de répéter une action un certain nombre de fois *(Quel sorcellerie...)*
+En effet, grâce aux boucles en Python, il nous est possible de répéter une action un certain nombre de fois *(Quelle sorcellerie...)*
 
 On pourrait donc écrire en lieu et place du précédent code;
 ```python
@@ -196,7 +196,7 @@ NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En ef
 
 Ici donc, il nous faut faire parcourir l'angle en bleu afin de pouvoir obtenir l'angle en jaune dans notre triangle.
 
-Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini. Découvrons ensemble d'autre sorts que tu peux apprendre sur Turtle.
+Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini. Découvrons ensemble d'autres sorts que tu peux apprendre sur Turtle.
 
 # Changer d'Encre : Personnaliser les Couleurs et l'Épaisseur {#7}
 
