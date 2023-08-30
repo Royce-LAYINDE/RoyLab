@@ -23,7 +23,7 @@ Mis à jour le 28/08/2023
 
 
 L'univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j'ai eu le privilège d'être l'un des intervenants lors d'une séance d'initiation à la programmation organisée par le [Dakar Institute of Technology](https://dit.sn/). Parmi toutes les notions abordées au cours de cette semaine passionnante, l'expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t'invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d'art.   
-                        <p align="center">*A vos baguettes, prêts ? Incantations !*</p>
+                        <p align="center">*À vos baguettes, prêts ? Incantations !*</p>
 
 # Le Module Turtle en Python : Une Aventure Graphique 
 
@@ -82,12 +82,12 @@ t.fd(50)
 #Faire avancer le curseur de 50px
 t.backward(50)
 ```
-De même, on peut aussi ecrire:
+De même, on peut aussi écrire:
 ```python
 t.bk(50)
 ```
 
-Ainsi donc, pour faire avancer ou reculer notre tortue, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument, la distance qu'on veut qu'elle parcourt.
+Ainsi donc, pour faire avancer ou reculer notre tortue, il suffit de faire respectivement appel aux méthodes .fd() et .bk() et de mettre en argument, la distance qu'on veut qu'elle parcoure.
 
 *NB: Remarque que la distance sur laquelle on fait bouger le curseur s'exprime en [pixel(px)](https://fr.wikipedia.org/wiki/Pixel)*
 
@@ -105,11 +105,11 @@ t.lt(60)
 #Faire dévier  le curseur à droite de 45°
 t.right(45)
 ```
-De même, on peut aussi ecrire:
+De même, on peut aussi écrire:
 ```python
 t.rt(45)
 ```
-Ainsi donc, pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .lt() et .rt() et de mettre en argument la mesure de l'angle(en degré) dont-on veut qu'elle dévie.
+Ainsi , pour faire tourner notre tortue à gauche ou à droite, il suffit de faire respectivement appel aux méthodes .lt() et .rt() et de mettre en argument la mesure de l'angle(en degré) dont-on veut qu'elle dévie.
 
 En somme, en utilisant ces commandes simples pour faire avancer, reculer, tourner à gauche ou à droite, notre tortue répond à nos instructions pour créer des mouvements enchanteurs.
 
@@ -138,8 +138,8 @@ t.lt(90)
 #Ferme la fenetre graphique quand je clique dessus
 window.exitonclick()
 ```
-Avec ce code, tu auras assurément un carré à la sortie. En effet, on demande à notre tortue d'avancer de 50px puis de tourner à gauche d'un angle de 90°. On répète le geste trois autres fois en plus.
-Par contre, il existe une autre manière de réecrire ce code. *Attention, voici le moment d'invoquer les boucles temporelles grâce à nos pouvoirs de mage !*
+Avec ce code, tu auras assurément un carré à la sortie. En effet, on demande à notre tortue d'avancer de 50 px puis de tourner à gauche d'un angle de 90°. On répète le geste trois autres fois en plus.
+Par contre, il existe une autre manière de réécrire ce code. *Attention, voici le moment d'invoquer les boucles temporelles grâce à nos pouvoirs de mage !*
 
 En effet, grâce aux boucles en Python, il nous est possible de répéter une action un certain nombre de fois *(Quelle sorcellerie...)*
 
@@ -190,11 +190,11 @@ for i in range(3):
     t.fd(80)
     t.left(120) 
 ```
-NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l'on tourne notre curseur de 120°(180°-60°), c'est-à-dire de l'angle suplémentaire à notre angle de 60°.
+NB: Remarque ici qu'on fait tourner notre curseur de 120° vers la gauche. En effet, le triangle ici tracé est un triangle équilatéral et donc ses angles mesurent tous 60°. Cependant, pour obtenir exactement cet angle, il faudrait que l'on tourne notre curseur de 120°(180°-60°), c'est-à-dire de l'angle supplémentaire à notre angle de 60°.
 
 ![Image d'exemple](/images/angle.jpg)
 
-Ici donc, il nous faut faire parcourir l'angle en bleu afin de pouvoir obtenir l'angle en jaune dans notre triangle.
+Ici alors, il nous faut faire parcourir l'angle en bleu afin de pouvoir obtenir l'angle en jaune dans notre triangle.
 
 Bravo *jeune apprenti(e)* te voilà maintenant capable de Créer des Triangles enchantés à l'infini. Découvrons ensemble d'autres sorts que tu peux apprendre sur Turtle.
 
@@ -227,7 +227,7 @@ Changer la Forme Enchantée : Transformons notre tortue en une créature encore 
 # Changer la forme du curseur en "tortue" 
 t.shape("turtle")
 ```
-Avec cette ligne de code tu pourras voir une vraie *petite tortue magique* comme curseur.
+Avec cette ligne de code, tu pourras voir une vraie *petite tortue magique* comme curseur.
 
 ## Un Peu de Remplissage : L'Art du Coloriage
 Parfois, un simple contour ne suffit pas. Notre tortue peut également remplir les formes qu'elle crée.Apportons de la couleur à notre tortue pour qu'elle se distingue dans son voyage créatif. Pour définir la couleur de remplissage, utilisez la commande fillcolor suivie du nom de la couleur en anglais.
@@ -243,7 +243,7 @@ t.begin_fill()   #Commencer à remplir la forme
 t.end_fill()     #Arrêter le remplissage
 ```
 
-A titre illustratif, l'invocation d'un carré magique coloré devrait ressembler à celui-ci:
+À titre illustratif, l'invocation d'un carré magique coloré devrait ressembler à celui-ci:
 
 ```python
 import turtle
@@ -287,6 +287,6 @@ Consulte les tutoriels en ligne pour des idées de projets amusants.
 
 ###### *Que chaque ligne de code devienne une baguette magique, et que chaque projet soit une œuvre enchanteresse.*
 ###### À bientôt pour plus de découvertes et de créations magiques !
-###### *Votre anchanteur,*
+###### *Votre enchanteur,*
 
  M.Royce

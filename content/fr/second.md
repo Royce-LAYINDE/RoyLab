@@ -13,7 +13,7 @@ type: page
 *Temps de Lecture Estimé: Environ 7 à 11 minutes*
 ## Table des matières
 - [La Baguette Magique du Web Scraping](#1)
-- [Les Formules Enchanteuses : Bibliothèques Python et Outils de Scraping](#2)
+- [Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping](#2)
 - [Les Sorts de Sélection : Cibler les Trésors Cachés](#3)
 - [La Transmutation des Données : De l'Invisible au Visible](#4)
 - [Les Limites Éthiques : Un Code de Conduite Magique](#5)
@@ -32,7 +32,7 @@ Bienvenue, cher apprenti mage du numérique, dans une nouvelle aventure au cœur
 
 Imaginez-vous tenant entre vos mains une baguette magique virtuelle, une baguette capable de parcourir les recoins du monde virtuel, d'extraire des informations cachées dans les pages web et de les assembler pour créer une vision plus riche et informée de notre univers en ligne. C'est exactement ce que le Web Scraping nous permet de faire. Telle une incantation, cette technique nous ouvre les portes des trésors de données en ligne, nous permettant de les collecter et de les transformer en une forme que nous pouvons explorer et analyser.
 
-# Les Formules Enchanteuses : Bibliothèques Python et Outils de Scraping {#2}
+# Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping {#2}
 
 Pour maîtriser l'art du Web Scraping, nous devons d'abord invoquer nos outils magiques. Dans notre quête de révéler les trésors enfouis au cœur des pages web, nous faisons appel à des bibliothèques Python spéciales, qui sont nos alliées pour décrypter les arcanes du code source et extraire des données précieuses. Tout comme un grimoire ancien renferme des sorts puissants, ces bibliothèques tels que [Beautiful Soup](https://wiki.python.org/moin/beautiful%20soup) et [Requests](https://docs.python.org/3/library/urllib.request.html) nous confèrent le pouvoir de déchiffrer le langage cryptique du HTML et de révéler les secrets cachés dans chaque balise.
 
