@@ -1,11 +1,11 @@
 ---
 title: "A propos"
 date: 2023-08-18T10:58:08-04:00
-featured_image: '/images/image1.jpg'  
+# featured_image: '/images/image1.jpg' 
 omit_header_text: true
-type: page
-menu: main
-toc: true
+menu:
+  main:
+    weight: 1 #Pour definir son "poids" dans l'orde de passage des titres(Articles,A propos, Contact,...) sur le menu "principal"
 ---
 
 Salut ! Je suis <em>Malick Royce LAYINDE</em>, et je te souhaite la bienvenue sur RoyLab: Code & Web. Permets-moi de te raconter un peu qui je suis et pourquoi j'ai créé ce blog.

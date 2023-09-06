@@ -1,14 +1,14 @@
 ---
-title: "Chapitre 2: Exploration Enchantée du Web Scraping : L'Art Mystique de Collecter les Trésors Cachés du Monde Virtuel"
+title: "Chapitre II: Exploration Enchantée du Web Scraping : L'Art Mystique de Collecter les Trésors Cachés du Monde Virtuel"
 date: 2023-08-24T10:58:08-04:00
 description: "
 Explorez les mystères du Web Scraping et apprenez à collecter des données précieuses en ligne. Plongez dans l'art de l'exploration web automatisée et découvrez comment transformer votre navigateur en une baguette magique pour extraire des informations cachées. Découvrez les rituels du Web Scraping avec Python, et devenez un apprenti mage capable d'explorer les profondeurs du cyberespace pour des trésors d'informations. "
 featured_image: "/images/web.jpg"
 omit_header_text: true
-tags: ["python"]
-type: page
-
+tags: ["python","web scraping"]
+disable_share: false   #Pour que les visiteurs puissent partager la page
 ---
+Mis à jour le 01/09/2023
 
 *Temps de Lecture Estimé: Environ 7 à 11 minutes*
 ## Table des matières

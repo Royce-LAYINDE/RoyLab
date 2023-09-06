@@ -1,12 +1,10 @@
 ---
-title: "Articles"
+title: "RoyLab: Code & Web"
 
 description: ""
-cascade:
-  featured_image: '/images/fairy1.jpg'
+# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
+theme_version: '2.8.2'
+# cascade:
+#   featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 ---
-Bienvenue dans l'Antre du Partage, un espace où les lignes de code deviennent des contes captivants et les pixels des aventures inexplorées. Plonge dans la section des articles de RoyLab: Code & Web et laisse-toi emporter dans un monde où le Big Data, la programmation Python et le développement web tissent ensemble des récits passionnants.
-
-Chaque article est une invitation à une quête de découverte, une porte ouverte vers des concepts complexes et des créations ensorcelantes. Que tu sois un apprenti intrépide ou un mage chevronné du code, tu trouveras ici une collection variée d'articles qui démystifient les mystères du numérique.
-
-*L'aventure commence ici... À vos baguettes, prêts ? Incantations !*
+Bienvenue sur **RoyLab: Code & Web** ! Découvrez ci-dessous nos articles récemment publiés. Explorez, apprenez, et profitez de votre visite. 📚🌟

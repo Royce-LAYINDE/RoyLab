@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>turtle on RoyLab: Code &amp; Web</title>
-    <link>/tags/turtle/</link>
-    <description>Recent content in turtle on RoyLab: Code &amp; Web</description>
+    <title>Articles on RoyLab: Code &amp; Web</title>
+    <link>/post/</link>
+    <description>Recent content in Articles on RoyLab: Code &amp; Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <managingEditor>layinderoyce@gmail.com (Malick Royce LAYINDE)</managingEditor>
     <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
-    <lastBuildDate>Fri, 18 Aug 2023 10:58:08 -0400</lastBuildDate><atom:link href="/tags/turtle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 10:58:08 -0400</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel</title>
+      <link>/post/chapter-2/</link>
+      <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/post/chapter-2/</guid>
+      <description>Mis à jour le 01/09/2023
+Temps de Lecture Estimé: Environ 7 à 11 minutes
+Table des matières La Baguette Magique du Web Scraping Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping Les Sorts de Sélection : Cibler les Trésors Cachés La Transmutation des Données : De l&amp;rsquo;Invisible au Visible Les Limites Éthiques : Un Code de Conduite Magique Importer les Bibliothèques Magiques Préparer la Potion Magique (URL) Lancer le Sort d&amp;rsquo;urllib.</description>
+    </item>
+    
     <item>
       <title>Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle</title>
       <link>/post/chapter-1/</link>

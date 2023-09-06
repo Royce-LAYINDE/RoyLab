@@ -1,13 +1,14 @@
 ---
-title: "Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle"
+title: "Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle"
 date: 2023-08-18T10:58:08-04:00
 description: "Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu'elle trace son chemin sur le sable? Le module Turtle en Python vous permet d'explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d'avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."
 featured_image: "/images/tortue.png"
 omit_header_text: true
-tags: ["python"]
-type: page
+tags: ["python","turtle"]
+disable_share: false   #Pour que les visiteurs puissent partager la page
 ---
 Mis à jour le 28/08/2023
+
 *Temps de Lecture Estimé: Environ 7 à 10 minutes*
 ## Table des matières
 - [La Magie du Démarrage : Importer Turtle](#1)

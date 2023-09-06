@@ -1,16 +1,12 @@
 ---
 title: Contact
-date: 2023-08-18T10:58:08-04:00
-featured_image: '/images/image-tel.jpg'
+# featured_image: '/images/image-tel.jpg'
 omit_header_text: true
 description: Laissez-moi un message!
 type: page
 menu: main
 
 ---
-
-
-
 
 Salut ! Je suis ravi que tu souhaites entrer en contact. Que ce soit pour poser une question, partager une idée, ou simplement dire bonjour, je serais ravi de discuter avec toi. Voici comment tu peux me joindre :
 
@@ -43,7 +39,3 @@ Que tu aies des questions, des commentaires ou que tu veuilles simplement discut
 *Amicalement*,
 
 M. Royce LAYINDE
-
-
-
-
