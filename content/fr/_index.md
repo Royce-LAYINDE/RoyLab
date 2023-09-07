@@ -1,7 +1,7 @@
 ---
 title: "RoyLab: Code & Web"
 
-description: "Page d'acceuil du site"
+description: "Explorons le Monde Numérique Ensemble !"
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
 theme_version: '2.8.2'
 # cascade:

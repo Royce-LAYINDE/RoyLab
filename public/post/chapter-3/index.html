@@ -38,7 +38,7 @@
 <meta itemprop="name" content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs">
 <meta itemprop="description" content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques."><meta itemprop="datePublished" content="2023-09-06T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2023-09-06T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1882">
+<meta itemprop="wordCount" content="1883">
 <meta itemprop="keywords" content="python,qr code," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs"/>
 <meta name="twitter:description" content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques."/>
@@ -204,7 +204,7 @@
 </ul>
 <p>Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins.</p>
 <h1 id="1">QR Codes : Porteurs de Mystères Numériques</h1>
-<p>Les QR codes, abrégés de l&rsquo;anglais &ldquo;Quick Response&rdquo; (Réponse Rapide), sont comme des parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des caractères d&rsquo;un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages numériques. Dans cet univers de &ldquo;technomagie&rdquo;, les QR codes servent de portails vers un monde de données et d&rsquo;informations cachées.</p>
+<p>Les QR codes, abrégés de l&rsquo;anglais &ldquo;Quick Response&rdquo; (Réponse Rapide), sont comme des parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des caractères d&rsquo;un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages numériques. Dans cet univers de &ldquo;techno magie&rdquo;, les QR codes servent de portails vers un monde de données et d&rsquo;informations cachées.</p>
 <p>Ces codes numériques ont une utilité versatile. Ils peuvent contenir des liens vers des sites web, des informations de contact, des messages, ou même des données structurées telles que des numéros d&rsquo;identification. Tout comme un sac magique, les QR codes peuvent transporter une variété infinie d&rsquo;informations dans un espace restreint. C&rsquo;est pourquoi ils sont devenus des alliés précieux dans le monde numérique, servant à des fins aussi variées que la publicité, la gestion de l&rsquo;inventaire, la billetterie, et bien plus encore.</p>
 <p>En somme, les QR codes sont comme des sortilèges numériques, capables de révéler des connaissances cachées d&rsquo;un simple coup d&rsquo;œil. À travers leur mystérieuse structure, ils renferment des trésors d&rsquo;informations, prêts à être découverts par ceux qui possèdent la clé de leur déchiffrement.</p>
 <p>Dans notre quête, nous allons explorer l&rsquo;art de l&rsquo;encodage et du décodage de ces codes magiques en utilisant Python.</p>
@@ -224,7 +224,7 @@
 </span></span></code></pre></div><p>Ce sort générera un QR code avec le message désiré et le sauvegardera sous forme d&rsquo;image nommée myfirst_qrcode.
 <img src="/images/myfirst_qrcode.png" alt="myfirst_qrcode"></p>
 <p>Vous pouvez ensuite partager cette image avec d&rsquo;autres aventuriers pour qu&rsquo;ils la scannent avec leur téléphone par exemple.</p>
-<p>NB: L&rsquo;image sera sauvegarder dans le dossier courant, c&rsquo;est-à-dire celui dans lequel vous exécutez votre script. Pour l&rsquo;enrégistrer ailleurs, vous devez renseigner le chemin d&rsquo;accès du dossier. Exemple:</p>
+<p>NB: L&rsquo;image sera sauvegarder dans le dossier courant, c&rsquo;est-à-dire celui dans lequel vous exécutez votre script. Pour l&rsquo;enregistrer ailleurs, vous devez renseigner le chemin d&rsquo;accès du dossier. Exemple:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;/home/nomutilisateur/myfirst_qrcode.png&#39;</span>) <span style="color:#75715e">#Pour les mages de la maison Linux</span>
 </span></span><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;C:/Users/Me/Images/myfirst_qrcode.png&#39;</span>)   <span style="color:#75715e">#Pour les mages de la maison Windows</span>
 </span></span></code></pre></div><h2 id="4">Un QR Code en Couleur : Une Touche d&rsquo;Éclat</h2>
@@ -324,7 +324,7 @@
 <h3 id="0">Conseils sur la personnalisation de QR code</h3>
 <ul>
 <li>
-<p>Contraste: Assurez-vous qu&rsquo;il y ai un bon contraste entre la couleur de l&rsquo;arrière-plan (back_color) et la couleur de remplissage (fill_color) pour que le QR code soit facilement lisible. Par exemple, le noir sur le blanc ou le blanc sur le noir fonctionnent bien en termes de contraste.</p>
+<p>Contraste: Assurez-vous qu&rsquo;il y a un bon contraste entre la couleur de l&rsquo;arrière-plan (back_color) et la couleur de remplissage (fill_color) pour que le QR code soit facilement lisible. Par exemple, le noir sur le blanc ou le blanc sur le noir fonctionnent bien en termes de contraste.</p>
 </li>
 <li>
 <p>Couleurs vives: Les couleurs vives, comme le rouge, le bleu, le vert ou le jaune, sont souvent un bon choix pour attirer l&rsquo;attention. Cependant, elles doivent être utilisées avec parcimonie pour ne pas rendre le QR code illisible.</p>
@@ -336,7 +336,7 @@
 <p>Testez votre QR code: Avant de publier ou d&rsquo;imprimer un QR code, assurez-vous de le tester avec différents lecteurs de QR code et sur différents appareils pour vous assurer qu&rsquo;il est bien lisible.</p>
 </li>
 <li>
-<p>Adaptez au contexte: Choisissez des couleurs qui s&rsquo;intègrent bien dans le contexte de votre utilisation du QR code. Par exemple, si vous l&rsquo;intégrez dans une affiche ou un document, assurez-vous qu&rsquo;il s&rsquo;harmonise visuellement.</p>
+<p>Adaptez au contexte: Choisissez des couleurs qui s&rsquo;intègrent bien dans le contexte de votre utilisation du QR code. Par exemple, si vous l&rsquo;intégrez sur une affiche ou un document, assurez-vous qu&rsquo;il s&rsquo;harmonise visuellement.</p>
 </li>
 </ul>
 <p><em>Ne laisse pas ta baguette magique rouillée</em></p>

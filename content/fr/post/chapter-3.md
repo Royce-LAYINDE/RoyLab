@@ -25,7 +25,7 @@ Mis à jour le 07/09/2023
 Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins. 
 
 # QR Codes : Porteurs de Mystères Numériques {#1}
-Les QR codes, abrégés de l'anglais "Quick Response" (Réponse Rapide), sont comme des parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des caractères d'un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages numériques. Dans cet univers de "technomagie", les QR codes servent de portails vers un monde de données et d'informations cachées.
+Les QR codes, abrégés de l'anglais "Quick Response" (Réponse Rapide), sont comme des parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des caractères d'un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages numériques. Dans cet univers de "techno magie", les QR codes servent de portails vers un monde de données et d'informations cachées.
 
 Ces codes numériques ont une utilité versatile. Ils peuvent contenir des liens vers des sites web, des informations de contact, des messages, ou même des données structurées telles que des numéros d'identification. Tout comme un sac magique, les QR codes peuvent transporter une variété infinie d'informations dans un espace restreint. C'est pourquoi ils sont devenus des alliés précieux dans le monde numérique, servant à des fins aussi variées que la publicité, la gestion de l'inventaire, la billetterie, et bien plus encore.
 
@@ -57,7 +57,7 @@ Ce sort générera un QR code avec le message désiré et le sauvegardera sous f
 
 Vous pouvez ensuite partager cette image avec d'autres aventuriers pour qu'ils la scannent avec leur téléphone par exemple.
 
-NB: L'image sera sauvegarder dans le dossier courant, c'est-à-dire celui dans lequel vous exécutez votre script. Pour l'enrégistrer ailleurs, vous devez renseigner le chemin d'accès du dossier. Exemple: 
+NB: L'image sera sauvegarder dans le dossier courant, c'est-à-dire celui dans lequel vous exécutez votre script. Pour l'enregistrer ailleurs, vous devez renseigner le chemin d'accès du dossier. Exemple: 
 ```python
 img.save('/home/nomutilisateur/myfirst_qrcode.png') #Pour les mages de la maison Linux
 img.save('C:/Users/Me/Images/myfirst_qrcode.png')   #Pour les mages de la maison Windows
@@ -172,7 +172,7 @@ Restez à l'écoute pour de nouvelles incantations technologiques et des découv
 
 **La Magie Continue**
 ### Conseils sur la personnalisation de QR code {#0}
-- Contraste: Assurez-vous qu'il y ai un bon contraste entre la couleur de l'arrière-plan (back_color) et la couleur de remplissage (fill_color) pour que le QR code soit facilement lisible. Par exemple, le noir sur le blanc ou le blanc sur le noir fonctionnent bien en termes de contraste.
+- Contraste: Assurez-vous qu'il y a un bon contraste entre la couleur de l'arrière-plan (back_color) et la couleur de remplissage (fill_color) pour que le QR code soit facilement lisible. Par exemple, le noir sur le blanc ou le blanc sur le noir fonctionnent bien en termes de contraste.
 
 - Couleurs vives: Les couleurs vives, comme le rouge, le bleu, le vert ou le jaune, sont souvent un bon choix pour attirer l'attention. Cependant, elles doivent être utilisées avec parcimonie pour ne pas rendre le QR code illisible.
 
@@ -180,7 +180,7 @@ Restez à l'écoute pour de nouvelles incantations technologiques et des découv
 
 - Testez votre QR code: Avant de publier ou d'imprimer un QR code, assurez-vous de le tester avec différents lecteurs de QR code et sur différents appareils pour vous assurer qu'il est bien lisible.
 
-- Adaptez au contexte: Choisissez des couleurs qui s'intègrent bien dans le contexte de votre utilisation du QR code. Par exemple, si vous l'intégrez dans une affiche ou un document, assurez-vous qu'il s'harmonise visuellement.
+- Adaptez au contexte: Choisissez des couleurs qui s'intègrent bien dans le contexte de votre utilisation du QR code. Par exemple, si vous l'intégrez sur une affiche ou un document, assurez-vous qu'il s'harmonise visuellement.
 
 *Ne laisse pas ta baguette magique rouillée*
 
