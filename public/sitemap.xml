@@ -3,26 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/post/</loc>
-    <lastmod>2023-08-24T10:58:08-04:00</lastmod>
+    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/post/chapter-2/</loc>
-    <lastmod>2023-08-24T10:58:08-04:00</lastmod>
+    <loc>/post/chapter-3/</loc>
+    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>/tags/python/</loc>
-    <lastmod>2023-08-24T10:58:08-04:00</lastmod>
+    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/qr-code/</loc>
+    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-08-24T10:58:08-04:00</lastmod>
+    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/post/chapter-2/</loc>
     <lastmod>2023-08-24T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

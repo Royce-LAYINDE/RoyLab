@@ -150,7 +150,7 @@ Renforce ton savoir [ici](https://docs.python.org/3/library/urllib.request.html)
 
 Découvre [ici](https://github.com/Royce-LAYINDE/Royce-s-Programs/blob/master/Python/scrapping%20d'un%20site%20de%20vente%20de%20livres.py), [ici aussi](https://github.com/Royce-LAYINDE/Royce-s-Programs/blob/master/Python/scraping%20de%20la%20page%20d'article.py)
 
-🧙‍♂️🔮🌐
+🧙‍♂️🔮🌐📜
 
 ###### Dans cette quête de connaissances cachées, que chaque ligne de code soit pour vous une incantation, chaque page web un grimoire et chaque donnée collectée un trésor précieux. Que votre curiosité vous guide alors que nous levons le voile sur les mystères du Web Scraping, une magie qui nous permet de découvrir le monde numérique sous un nouvel éclairage. *À vous de jouer, jeune apprenti mage !*
 

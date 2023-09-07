@@ -8,7 +8,7 @@ SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
-tags = ["python", "turtle", "web scraping", "Disqus", "blog", "Tachyons", "Multilingual", "Stackbit"]
+tags = ["python", "turtle", "web scraping", "qr code", "blog", "Tachyons", "Multilingual", "Stackbit"]
 
 [author]
   name = "Malick Royce LAYINDE"
