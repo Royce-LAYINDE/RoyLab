@@ -78,7 +78,7 @@ qr = qrcode.QRCode(
     box_size=10,  # La taille des cases
     border=5  # La taille de la bordure
 )
-# On stocke ensuite dans une variable le message à inscrire dans le QR code
+# On ajoute ensuite le message à inscrire dans le QR code
 qr.add_data(message)
 # On enchante le parchemin pour qu'il prenne vie
 qr.make(fit=True)
