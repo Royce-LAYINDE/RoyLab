@@ -8,17 +8,16 @@
     <language>fr</language>
     <managingEditor>layinderoyce@gmail.com (Malick Royce LAYINDE)</managingEditor>
     <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
-    <lastBuildDate>Thu, 24 Aug 2023 10:58:08 -0400</lastBuildDate><atom:link href="/tags/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 10:58:08 -0400</lastBuildDate>
+    <atom:link href="/tags/web-scraping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel</title>
       <link>/post/chapter-2/</link>
-      <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate>
-      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate><author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
       <guid>/post/chapter-2/</guid>
       <description>Mis à jour le 01/09/2023
 Temps de Lecture Estimé: Environ 7 à 11 minutes
 Table des matières La Baguette Magique du Web Scraping Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping Les Sorts de Sélection : Cibler les Trésors Cachés La Transmutation des Données : De l&amp;rsquo;Invisible au Visible Les Limites Éthiques : Un Code de Conduite Magique Importer les Bibliothèques Magiques Préparer la Potion Magique (URL) Lancer le Sort d&amp;rsquo;urllib.</description>
     </item>
-    
   </channel>
 </rss>
