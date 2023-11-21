@@ -11,7 +11,7 @@ Mis à jour le 28/08/2023
 
 *Temps de Lecture Estimé: Environ 7 à 10 minutes*
 ## Table des matières
-- [La Magieee du Démarrage : Importer Turtle](#1)
+- [La Magieeee du Démarrage : Importer Turtle](#1)
 - [Création de l'Environnement : Initialisation de la Fenêtre](#2)
 - [Donner un Nom Magique : Titre de la Fenêtre](#3)
 - [L'Incantation : Création de l'Instance Turtle](#4)
