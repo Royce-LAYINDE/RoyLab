@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on RoyLab: Code &amp; Web</title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on RoyLab: Code &amp; Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>layinderoyce@gmail.com (Malick Royce LAYINDE)</managingEditor>
+    <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
+    <lastBuildDate>Wed, 06 Sep 2023 10:58:08 -0400</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs</title>
+      <link>/post/chapter-3/</link>
+      <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/post/chapter-3/</guid>
+      <description>Mis à jour le 07/09/2023
+Temps de Lecture Estimé: Environ 6 à 10 minutes
+Table des matières QR Codes : Porteurs de Mystères Numériques L&amp;rsquo;Encodage des QR Codes : Tisser la Toile Magique L&amp;rsquo;Encodage Simple : Un Premier Pas Un QR Code en Couleur : Une Touche d&amp;rsquo;Éclat Le Décodage des QR Codes : L&amp;rsquo;Art de la Divination Le Décodage Simple : Révéler les Secrets Le Décodage Simple : Déchiffrer les Secrets Conclure notre Aventure Magique Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins.</description>
+    </item>
+    
+    <item>
+      <title>Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel</title>
+      <link>/post/chapter-2/</link>
+      <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/post/chapter-2/</guid>
+      <description>Mis à jour le 01/09/2023
+Temps de Lecture Estimé: Environ 7 à 11 minutes
+Table des matières La Baguette Magique du Web Scraping Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping Les Sorts de Sélection : Cibler les Trésors Cachés La Transmutation des Données : De l&amp;rsquo;Invisible au Visible Les Limites Éthiques : Un Code de Conduite Magique Importer les Bibliothèques Magiques Préparer la Potion Magique (URL) Lancer le Sort d&amp;rsquo;urllib.</description>
+    </item>
+    
+    <item>
+      <title>Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle</title>
+      <link>/post/chapter-1/</link>
+      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/post/chapter-1/</guid>
+      <description>Mis à jour le 28/08/2023
+Temps de Lecture Estimé: Environ 7 à 10 minutes
+Table des matières La Magie du Démarrage : Importer Turtle Création de l&amp;rsquo;Environnement : Initialisation de la Fenêtre Donner un Nom Magique : Titre de la Fenêtre L&amp;rsquo;Incantation : Création de l&amp;rsquo;Instance Turtle Chaque Pas est une Étape : Les Commandes de Base Exploration Créative : Dessiner des Figures Géométriques Changer d&amp;rsquo;Encre : Personnaliser les Couleurs et l&amp;rsquo;Épaisseur Exploration de l&amp;rsquo;Apparence : Personnaliser la Tortue Retour sur Mon Expérience à la Séance d&amp;rsquo;Initiation Conclusion Enchanteur : La Création sans Limites L&amp;rsquo;univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base.</description>
+    </item>
+    
+  </channel>
+</rss>

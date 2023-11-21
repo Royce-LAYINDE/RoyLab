@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pour appliquer on RoyLab: Code &amp; Web</title>
+    <link>/tags/pour-appliquer/</link>
+    <description>Recent content in pour appliquer on RoyLab: Code &amp; Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>layinderoyce@gmail.com (Malick Royce LAYINDE)</managingEditor>
+    <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
+    <lastBuildDate>Fri, 18 Aug 2023 14:58:08 +0000</lastBuildDate><atom:link href="/tags/pour-appliquer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapitre 1: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle</title>
+      <link>/fr/first/</link>
+      <pubDate>Fri, 18 Aug 2023 14:58:08 +0000</pubDate>
+      <author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <guid>/fr/first/</guid>
+      <description>Temps de Lecture Estimé: Environ 7 à 10 minutes
+Table des matières La Magie du Démarrage : Importer Turtle Création de l&amp;rsquo;Environnement : Initialisation de la Fenêtre Donner un Nom Magique : Titre de la Fenêtre L&amp;rsquo;Incantation : Création de l&amp;rsquo;Instance Turtle Chaque Pas est une Étape : Les Commandes de Base Exploration Créative : Dessiner des Figures Géométriques Changer d&amp;rsquo;Encre : Personnaliser les Couleurs et l&amp;rsquo;Épaisseur Exploration de l&amp;rsquo;Apparence : Personnaliser la Tortue Retour sur Mon Expérience à la Séance d&amp;rsquo;Initiation Conclusion Enchanteur : La Création sans Limites L&amp;rsquo;univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base.</description>
+    </item>
+    
+  </channel>
+</rss>

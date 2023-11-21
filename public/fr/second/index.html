@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Chapitre 2: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel | RoyLab: Code &amp; Web</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content=" Explorez les mystères du Web Scraping et apprenez à collecter des données précieuses en ligne. Plongez dans l&#39;art de l&#39;exploration web automatisée et découvrez comment transformer votre navigateur en une baguette magique pour extraire des informations cachées. Découvrez les rituels du Web Scraping avec Python, et devenez un apprenti mage capable d&#39;explorer les profondeurs du cyberespace pour des trésors d&#39;informations. ">
+    <meta name="generator" content="Hugo 0.117.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Chapitre 2: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel" />
+<meta property="og:description" content=" Explorez les mystères du Web Scraping et apprenez à collecter des données précieuses en ligne. Plongez dans l&#39;art de l&#39;exploration web automatisée et découvrez comment transformer votre navigateur en une baguette magique pour extraire des informations cachées. Découvrez les rituels du Web Scraping avec Python, et devenez un apprenti mage capable d&#39;explorer les profondeurs du cyberespace pour des trésors d&#39;informations. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/fr/second/" /><meta property="article:section" content="fr" />
+<meta property="article:published_time" content="2023-08-24T10:58:08-04:00" />
+<meta property="article:modified_time" content="2023-08-24T10:58:08-04:00" />
+<meta itemprop="name" content="Chapitre 2: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel">
+<meta itemprop="description" content=" Explorez les mystères du Web Scraping et apprenez à collecter des données précieuses en ligne. Plongez dans l&#39;art de l&#39;exploration web automatisée et découvrez comment transformer votre navigateur en une baguette magique pour extraire des informations cachées. Découvrez les rituels du Web Scraping avec Python, et devenez un apprenti mage capable d&#39;explorer les profondeurs du cyberespace pour des trésors d&#39;informations. "><meta itemprop="datePublished" content="2023-08-24T10:58:08-04:00" />
+<meta itemprop="dateModified" content="2023-08-24T10:58:08-04:00" />
+<meta itemprop="wordCount" content="2275">
+<meta itemprop="keywords" content="python," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Chapitre 2: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel"/>
+<meta name="twitter:description" content=" Explorez les mystères du Web Scraping et apprenez à collecter des données précieuses en ligne. Plongez dans l&#39;art de l&#39;exploration web automatisée et découvrez comment transformer votre navigateur en une baguette magique pour extraire des informations cachées. Découvrez les rituels du Web Scraping avec Python, et devenez un apprenti mage capable d&#39;explorer les profondeurs du cyberespace pour des trésors d&#39;informations. "/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  
+  <header class="cover bg-top" style="background-image: url('/images/web.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        RoyLab: Code &amp; Web
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/fr/post/apropos/" title="A propos page">
+              A propos
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/fr/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/fr/post/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" aria-label="follow on Medium——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <h1 class="f1">
+          Chapitre 2: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
+        <p><em>Temps de Lecture Estimé: Environ 7 à 11 minutes</em></p>
+<h2 id="table-des-matières">Table des matières</h2>
+<ul>
+<li><a href="#1">La Baguette Magique du Web Scraping</a></li>
+<li><a href="#2">Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping</a></li>
+<li><a href="#3">Les Sorts de Sélection : Cibler les Trésors Cachés</a></li>
+<li><a href="#4">La Transmutation des Données : De l&rsquo;Invisible au Visible</a></li>
+<li><a href="#5">Les Limites Éthiques : Un Code de Conduite Magique</a></li>
+<li><a href="#6">Importer les Bibliothèques Magiques</a></li>
+<li><a href="#7">Préparer la Potion Magique (URL)</a></li>
+<li><a href="#8">Lancer le Sort d&rsquo;urllib.request</a></li>
+<li><a href="#9">Utiliser Beautiful Soup pour Lire les Runes</a></li>
+<li><a href="#10">Explorer les Mystères du Code HTML</a></li>
+<li><a href="#11">Manipuler les Résultats</a></li>
+<li><a href="#12">Conclusion : Révéler les Mystères Cachés</a></li>
+</ul>
+<p>Bienvenue, cher apprenti mage du numérique, dans une nouvelle aventure au cœur du monde virtuel où les données se cachent tels des trésors dissimulés, attendant d&rsquo;être découverts par des esprits curieux comme le vôtre. Dans ce récit, nous allons plonger dans l&rsquo;art mystérieux du Web Scraping, une magie qui nous permet de collecter des données précieuses à partir du tissu même du web.</p>
+<h1 id="1">La Baguette Magique du Web Scraping</h1>
+<p>Imaginez-vous tenant entre vos mains une baguette magique virtuelle, une baguette capable de parcourir les recoins du monde virtuel, d&rsquo;extraire des informations cachées dans les pages web et de les assembler pour créer une vision plus riche et informée de notre univers en ligne. C&rsquo;est exactement ce que le Web Scraping nous permet de faire. Telle une incantation, cette technique nous ouvre les portes des trésors de données en ligne, nous permettant de les collecter et de les transformer en une forme que nous pouvons explorer et analyser.</p>
+<h1 id="2">Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping</h1>
+<p>Pour maîtriser l&rsquo;art du Web Scraping, nous devons d&rsquo;abord invoquer nos outils magiques. Dans notre quête de révéler les trésors enfouis au cœur des pages web, nous faisons appel à des bibliothèques Python spéciales, qui sont nos alliées pour décrypter les arcanes du code source et extraire des données précieuses. Tout comme un grimoire ancien renferme des sorts puissants, ces bibliothèques tels que <a href="https://wiki.python.org/moin/beautiful%20soup">Beautiful Soup</a> et <a href="https://docs.python.org/3/library/urllib.request.html">Requests</a> nous confèrent le pouvoir de déchiffrer le langage cryptique du HTML et de révéler les secrets cachés dans chaque balise.</p>
+<p>Imaginez ces bibliothèques comme des baguettes magiques, prêtes à exécuter vos commandes avec précision. Beautiful Soup, par exemple, agit comme un enchantement de compréhension, permettant de parcourir les éléments HTML avec aisance et d&rsquo;extraire les informations qui nous intéressent. Quant à Requests, c&rsquo;est un sort d&rsquo;invocation de pages web, nous permettant d&rsquo;accéder à leur contenu pour le manipuler selon notre désir.</p>
+<p>Comme des mages anciens qui étudient et maîtrisent les formules de la magie, nous explorons ces bibliothèques, apprenons leurs incantations et les intégrons dans nos rituels de Web Scraping. Avec ces outils à notre disposition, nous sommes prêts à entrer dans l&rsquo;arène numérique, où les pages web se transforment en scènes de nos exploits magiques.</p>
+<h1 id="3">Les Sorts de Sélection : Cibler les Trésors Cachés</h1>
+<p>Chaque apprenti mage doit apprendre les formules de base, et dans le Web Scraping, les sélecteurs CSS sont nos sorts. Ils agissent comme des incantations ciblées, nous permettant de localiser et d&rsquo;extraire précisément les éléments qui nous intéressent sur une page web. Grâce à ces sorts, nous pouvons identifier et extraire des images, des textes, des liens et même des données structurées, tout comme un alchimiste transformant des ingrédients bruts en potions magiques.</p>
+<p>Imaginez que vous vous tenez devant une page web, votre baguette magique du Web Scraping prête à être utilisée. Vous prononcez le sélecteur CSS approprié, et soudain, les éléments que vous recherchez se révèlent à vous. Que ce soit un titre accrocheur, une liste d&rsquo;articles, des images éblouissantes ou même des données de tableaux, les sélecteurs CSS sont vos sorts pour cibler ces trésors cachés.</p>
+<p>Par exemple, si vous explorez un site d&rsquo;actualités, vous pourriez utiliser un sélecteur CSS pour extraire les titres des articles. Si vous vous trouvez sur une page de recettes de cuisine, vous pourriez utiliser un autre sort pour saisir les listes d&rsquo;ingrédients et les étapes de préparation. Même les images peuvent être révélées grâce à ces sorts magiques. Vous pouvez extraire des images pour les afficher dans votre propre grimoire numérique ou pour créer des illustrations dans vos propres créations.</p>
+<p>Les sélecteurs CSS sont puissants, mais ils nécessitent de la précision. Comme un enchanteur minutieux, vous devez choisir le bon sort pour chaque trésor que vous recherchez. Cela signifie comprendre la structure de la page, identifier les balises et les classes appropriées, et formuler vos sorts avec soin. Mais une fois que vous maîtrisez ces sorts de sélection, vous avez le pouvoir de révéler et de collecter les éléments précieux qui vous permettront d&rsquo;enrichir vos propres créations.</p>
+<p>Maintenant que nous avons appris à cibler et à extraire des éléments spécifiques, il est temps de révéler le véritable secret de l&rsquo;art du Web Scraping:  la transmutation des données. Dans le monde de la magie du Web Scraping, nous ne nous contentons pas de collecter des données, nous les transformons et les transmutons en informations précieuses. Rejoignez-moi dans la prochaine section pour découvrir comment nous pouvons utiliser notre magie pour changer l&rsquo;invisible en visible, le brut en raffiné, et le chaos en clarté.</p>
+<h1 id="4">La Transmutation des Données : De l&rsquo;Invisible au Visible</h1>
+<p>Tout comme un alchimiste transmute des métaux en or, nous transformons les données brutes en informations précieuses grâce à notre magie du Web Scraping. Nous collectons des fragments d&rsquo;informations éparpillés sur plusieurs pages web et les transmutons en données structurées que nous pouvons analyser et exploiter. C&rsquo;est ainsi que nous révélons la vraie puissance de notre art, en transformant le chaos en clarté.</p>
+<p>Imaginez que vous ayez collecté des données à partir de différentes sources, comme un alchimiste rassemblant des ingrédients rares et précieux. Ces données peuvent être dans des formats variés, parfois désorganisées et difficiles à comprendre. Cependant, avec nos sorts de transmutation, nous pouvons les purifier et les transformer en quelque chose de significatif.</p>
+<p>Par exemple, supposons que vous ayez collecté des informations sur les préférences musicales de différentes personnes à partir de différents sites web. Ces données pourraient être dans des formats différents, tels que des listes, des paragraphes ou même des tableaux. À l&rsquo;aide de nos sorts de transmutation, nous pouvons harmoniser ces données, les organiser en une structure cohérente et les présenter de manière lisible.</p>
+<p>Les sorts de transmutation peuvent également nous permettre de convertir les données brutes en formats plus utiles. Par exemple, nous pourrions transformer des dates en formats standard, convertir des mesures en unités familières ou même traduire du texte dans différentes langues. Tout comme un alchimiste qui maîtrise l&rsquo;art de la transformation des substances, nous maîtrisons l&rsquo;art de la transformation des données.</p>
+<p>Mais attention, tout comme les alchimistes doivent connaître les propriétés des substances qu&rsquo;ils transmutent, nous devons avoir une compréhension solide des données que nous manipulons. Cela nous permet de choisir les sorts de transmutation appropriés et d&rsquo;éviter de fausser les informations. En respectant ces règles, nous pouvons transformer des données brutes en connaissances précieuses, prêtes à être utilisées pour prendre des décisions éclairées.</p>
+<p>Ainsi, grâce à notre magie du Web Scraping, nous ne sommes plus limités à simplement collecter des données. Nous sommes des alchimistes numériques, capables de transmuter ces données en informations utiles et significatives. Avec chaque incantation de transmutation, nous apportons de la clarté à l&rsquo;obscurité, de l&rsquo;ordre au chaos et de la signification à la confusion.</p>
+<h1 id="5">Les Limites Éthiques : Un Code de Conduite Magique</h1>
+<p>Comme tout praticien de la magie, nous devons suivre un code de conduite éthique. Dans le monde du Web Scraping, cela signifie respecter les règles établies par les propriétaires des sites web que nous explorons. Notre magie doit être utilisée avec responsabilité et prudence, en évitant de perturber ou d&rsquo;endommager les sites que nous visitons.</p>
+<h1 id="expérimentation-du-sort">Expérimentation du sort</h1>
+<p>Maintenant que nous avons exploré les mystères de la transmutation des données, il est temps de jeter un pont entre ces concepts abstraits et la réalité concrète du Web Scraping. Pour éclairer notre chemin, plongeons dans un exemple pratique qui mettra en lumière les sorts que nous avons appris jusqu&rsquo;à présent. Rejoignez-moi dans la section suivante pour découvrir comment nous pouvons appliquer notre magie du Web Scraping pour extraire des informations spécifiques d&rsquo;une page web réelle.</p>
+<h2 id="6">Préparation : Importer les Bibliothèques Magiques</h2>
+<p>Tout comme un magicien a besoin de sa baguette pour lancer des sorts, nous avons besoin de nos bibliothèques Python pour scraper des pages web. Pour cette quête, nous allons utiliser deux puissantes bibliothèques : Beautiful Soup et urllib.request.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> urllib.request
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+</span></span></code></pre></div><p>Beautiful Soup agira comme notre œil magique, analysant et naviguant à travers le code source de la page web. Urllib.request, quant à lui, sera notre invocation pour accéder à la page et obtenir son contenu.</p>
+<h2 id="7">Préparer la Potion Magique (URL)</h2>
+<p>Tout commence par l&rsquo;URL de la page que nous voulons scraper. C&rsquo;est comme choisir une destination pour notre voyage. Par exemple, si nous voulons extraire des informations sur un article d&rsquo;un blog, nous utilisons l&rsquo;URL de la page menant à cet article.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># L&#39;URL de la page à explorer</span>
+</span></span><span style="display:flex;"><span>url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://roylab.netlify.app/fr/first&#34;</span>
+</span></span></code></pre></div><h2 id="8">Lancer le Sort d&rsquo;urllib.request</h2>
+<p>Notre première formule magique consiste à invoquer urllib.request pour obtenir le contenu de la page. Nous utilisons le sort urllib.request.urlopen() pour ouvrir la porte virtuelle vers la page et obtenir sa réponse.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>doc <span style="color:#f92672">=</span> urllib<span style="color:#f92672">.</span>request<span style="color:#f92672">.</span>urlopen(url)  <span style="color:#75715e"># Invoquer la page avec notre sort d&#39;invocation (urllib)</span>
+</span></span></code></pre></div><h2 id="9">Utiliser Beautiful Soup pour Lire les Runes</h2>
+<p>Une fois que nous avons obtenu la réponse de la page, nous devons la passer à notre œil magique, Beautiful Soup. Il l&rsquo;analysera et créera une structure d&rsquo;objet que nous pouvons interroger pour obtenir les informations que nous cherchons.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>contenu <span style="color:#f92672">=</span> BeautifulSoup(doc, <span style="color:#e6db74">&#34;html.parser&#34;</span>)   <span style="color:#75715e"># Utilisation de Beautiful Soup pour analyser le contenu HTML de la page</span>
+</span></span></code></pre></div><p>Ici, BeautifulSoup() prend en argument la réponse de la page (doc) et ce qu&rsquo;on appelle un parseur html. Un <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parser-installation">Parseur HTML</a> est  un programme qui analyse un code HTML et le transforme en une structure de données que nous pouvons manipuler en Python. Dans ce cas, &ldquo;html.parser&rdquo; est un parseur intégré à la bibliothèque standard de Python, et il est utilisé pour analyser le contenu HTML de la page web.</p>
+<p>On pourrait s&rsquo;en arrêter là et continuer notre expérimentation mais il y a bien longtemps, <a href="https://nskm.xyz/about/"><em>mon mentor des arcanes Python</em></a> me révéla qu&rsquo;il était sage d&rsquo;enregistrer les traces magiques d&rsquo;une page ensorcelée, car cette page pourrait disparaître comme par enchantement ou changer telle une métamorphose.
+Alors, nous allons donc suivre son conseil et ajouter à notre programme, un code qui se chargera de sauvegarder le contenu html de notre page dans le cas où nous en aurions besoin plus tard.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>contenu_html <span style="color:#f92672">=</span> contenu<span style="color:#f92672">.</span>prettify()   <span style="color:#75715e"># Obtenir le contenu HTML formaté</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Sauvegarder le contenu HTML dans un fichier</span>
+</span></span><span style="display:flex;"><span>nom_du_fichier <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;page.html&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(nom_du_fichier, <span style="color:#e6db74">&#34;w&#34;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>) <span style="color:#66d9ef">as</span> file:
+</span></span><span style="display:flex;"><span>    file<span style="color:#f92672">.</span>write(contenu_html)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;✨ Le contenu HTML de la page a été sauvegardé dans &#39;</span><span style="color:#e6db74">{</span>nom_du_fichier<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39;&#34;</span>)
+</span></span></code></pre></div><p>Ici, la méthode .prettify() est utilisée pour formater joliment le contenu HTML en ajoutant des indentations et des sauts de ligne pour une lecture humaine plus facile. Ensuite, nous utilisons simplement la méthode open() pour créer et écrire dans un fichier.</p>
+<h2 id="10">Explorer les Mystères du Code HTML</h2>
+<p>Maintenant que nous avons invoqué Beautiful Soup, nous pouvons plonger dans le code HTML de la page. Comme un aventurier explorant une caverne mystérieuse, nous utilisons les compétences de Beautiful Soup pour trouver les éléments et les données qui nous intéressent.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>links <span style="color:#f92672">=</span> contenu<span style="color:#f92672">.</span>find_all(<span style="color:#e6db74">&#34;a&#34;</span>)  <span style="color:#75715e"># Trouver tous les éléments &lt;a&gt; qui contiennent des liens</span>
+</span></span><span style="display:flex;"><span>title <span style="color:#f92672">=</span> contenu<span style="color:#f92672">.</span>find(<span style="color:#e6db74">&#34;h1&#34;</span>)<span style="color:#f92672">.</span>text    <span style="color:#75715e"># Trouver le titre de l&#39;article avec notre sort de divination </span>
+</span></span></code></pre></div><p>Pour cette étape nous aurions pu aussi faire appel aux <a href="https://docs.python.org/3/library/re.html">regex</a>, cette magie incantatoire dont nous parlerons certainement dans un autre grimoire.</p>
+<h1 id="11">Manipuler les Résultats</h1>
+<p>Une fois que nous avons trouvé les informations, nous pouvons les manipuler à notre guise. Nous pouvons les afficher à l&rsquo;écran, les enregistrer dans un fichier ou les utiliser pour créer quelque chose de nouveau.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Ici, on souhaite afficher l&#39;intégralité des liens sécurisés trouvés sur notre page avec un geste d&#39;enchantement</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;🔮 Voici la liste des liens sécurisés trouvés sur cette page:&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> link <span style="color:#f92672">in</span> links:
+</span></span><span style="display:flex;"><span>    href <span style="color:#f92672">=</span> link<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;href&#34;</span>)     <span style="color:#75715e"># Extraire l&#39;attribut &#34;href&#34; de la balise &lt;a&gt; pour obtenir le lien</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> href <span style="color:#f92672">and</span> href<span style="color:#f92672">.</span>startswith(<span style="color:#e6db74">&#34;https&#34;</span>):   <span style="color:#75715e"># Filtrer les liens pour ne prendre en compte que ceux commençant par &#34;https&#34;</span>
+</span></span><span style="display:flex;"><span>        print(href)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Afficher le titre de l&#39;article pour captiver l&#39;attention</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;📜 Titre de l&#39;article : </span><span style="color:#e6db74">{</span>title<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><h1 id="12">Conclusion : Révéler les Mystères Cachés</h1>
+<p>Voilà, nous avons accompli notre quête et révélé les mystères cachés derrière une page web en utilisant Python et les pouvoirs de Beautiful Soup et urllib.request. Comme des apprentis sorciers découvrant les secrets d&rsquo;un sortilège, nous avons appris à naviguer dans le code HTML et à extraire des informations précieuses.</p>
+<p>Maintenant, c&rsquo;est à vous de devenir l&rsquo;explorateur intrépide du monde en ligne. Utilisez vos compétences nouvellement acquises en Web Scraping pour découvrir les trésors cachés du Web et explorer les connaissances enfouies derrière chaque URL. Que chaque ligne de code que vous écrivez soit une incantation puissante pour dévoiler les mystères du numérique. À vous de jouer, jeune apprenti mage !</p>
+<p><strong>La Magie Continue</strong></p>
+<p><em>Ne laisse pas ta baguette magique rouillée</em></p>
+<p>Renforce ton savoir <a href="https://docs.python.org/3/library/urllib.request.html">ici</a> et <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">ici</a></p>
+<p>Découvre <a href="https://github.com/Royce-LAYINDE/Royce-s-Programs/blob/master/Python/scrapping%20d'un%20site%20de%20vente%20de%20livres.py">ici</a>, <a href="https://github.com/Royce-LAYINDE/Royce-s-Programs/blob/master/Python/scraping%20de%20la%20page%20d'article.py">ici aussi</a></p>
+<p>🧙‍♂️🔮🌐</p>
+<h6 id="dans-cette-quête-de-connaissances-cachées-que-chaque-ligne-de-code-soit-pour-vous-une-incantation-chaque-page-web-un-grimoire-et-chaque-donnée-collectée-un-trésor-précieux-que-votre-curiosité-vous-guide-alors-que-nous-levons-le-voile-sur-les-mystères-du-web-scraping-une-magie-qui-nous-permet-de-découvrir-le-monde-numérique-sous-un-nouvel-éclairage-à-vous-de-jouer-jeune-apprenti-mage-">Dans cette quête de connaissances cachées, que chaque ligne de code soit pour vous une incantation, chaque page web un grimoire et chaque donnée collectée un trésor précieux. Que votre curiosité vous guide alors que nous levons le voile sur les mystères du Web Scraping, une magie qui nous permet de découvrir le monde numérique sous un nouvel éclairage. <em>À vous de jouer, jeune apprenti mage !</em></h6>
+<h6 id="à-bientôt-pour-de-nouvelles-découvertes-enchanteresses-">À bientôt pour de nouvelles découvertes enchanteresses !</h6>
+<h6 id="magiquement-vôtre"><em>Magiquement vôtre,</em></h6>
+<p>M.Royce</p>
+
+      </div>
+    </article>
+  </div>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >
+    &copy;  RoyLab: Code & Web 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" aria-label="follow on Medium——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
