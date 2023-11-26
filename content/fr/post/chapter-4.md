@@ -1,87 +1,116 @@
 ---
-date: 2017-04-12T11:14:48-04:00
-description: "Master Jacques Coppenole"
+date: 2023-11-26T11:14:48-04:00
+description: "Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l'art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l'esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires."
 featured_image: ""
-tags: ["scene"]
-title: "Chapter IV: Master Jacques Coppenole"
+omit_header_text: true
+tags: ["développement web", "HTML", "CSS", "coding"]
+disable_share: false
+title: "Chapitre : Les Fondations Magiques du Web : Explorez l'Art Enchanté du HTML et du CSS"
 draft: true
 ---
-While the pensioner of Ghent and his eminence were exchanging very low
-bows and a few words in voices still lower, a man of lofty stature, with a
-large face and broad shoulders, presented himself, in order to enter
-abreast with Guillaume Rym; one would have pronounced him a bull-dog by
-the side of a fox. His felt doublet and leather jerkin made a spot on the
-velvet and silk which surrounded him. Presuming that he was some groom who
-had stolen in, the usher stopped him.
+Mis à jour le 02/12/2023
 
-“Hold, my friend, you cannot pass!”
+*Temps de Lecture Estimé: Environ 15 à 20 minutes*
+## Table des matières
+- [Le Langage des Structurations: HTML](#1)
+- [Création de la structure d'une page HTML](#2)
+- [Utilisation des balises essentielles (head, body, div, etc.)](#3)
+- [](#4)
+- [](#5)
+- [](#6)
+- [](#7)
+- [](#8)
+- [](#9)
+- [](#10)
+- [](#11)
+- [](#12)
 
-The man in the leather jerkin shouldered him aside.
 
-“What does this knave want with me?” said he, in stentorian tones, which
-rendered the entire hall attentive to this strange colloquy. “Don’t you
-see that I am one of them?”
+Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l'univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du HTML et du CSS, les deux langages qui servent d'alchimie pour transformer des lignes de code en sites web éblouissants.
 
-“Your name?” demanded the usher.
+Le HTML, langage de balisage, sera notre première étoile à explorer. Il forme la structure fondamentale de chaque page web, chaque balise jouant un rôle crucial dans la construction de cet édifice numérique. Ensuite, nous nous immergerons dans l'esthétique ensorcelante du CSS, le langage qui donne vie aux couleurs, aux polices, et qui modèle l'apparence de nos créations.
 
-“Jacques Coppenole.”
+Attachez vos ceintures, car cette aventure promet non seulement de vous familiariser avec ces langages, mais aussi de vous armer d'astuces pratiques pour résoudre les énigmes les plus complexes du développement web. Préparez-vous à découvrir l'art et la magie qui se cachent derrière chaque site web que vous visitez.
 
-“Your titles?”
+# Le Langage des Structurations: HTML {#1}
 
-“Hosier at the sign of the ‘Three Little Chains,’ of Ghent.”
+Le HTML, acronyme de HyperText Markup Language, n'est pas simplement une suite de lettres et de symboles, mais plutôt une baguette magique numérique qui donne forme et structure à l'univers virtuel que nous connaissons. Imaginez-le comme le maçon virtuel qui assemble les blocs fondamentaux, érigeant ainsi la toile sur laquelle l'art du web se déploie.
 
-The usher recoiled. One might bring one’s self to announce aldermen and
-burgomasters, but a hosier was too much. The cardinal was on thorns. All
-the people were staring and listening. For two days his eminence had been
-exerting his utmost efforts to lick these Flemish bears into shape, and to
-render them a little more presentable to the public, and this freak was
-startling. But Guillaume Rym, with his polished smile, approached the
-usher.
+En tant que langage de balisage, le HTML joue un rôle central en permettant aux créateurs web de définir la structure de leurs pages. Chaque balise HTML agit comme une incantation, attribuant un sens spécifique à chaque élément de contenu. Ainsi, il ne s'agit pas simplement d'une suite de lignes de code, mais d'une partition magique qui orchestre la disposition, l'organisation et la hiérarchie de chaque élément sur une page web. Sans le HTML, l'architecture même du web perdrait sa structure essentielle.
 
-“Announce Master Jacques Coppenole, clerk of the aldermen of the city of
-Ghent,” he whispered, very low.
+# Création de la structure d'une page HTML {#2}
 
-“Usher,” interposed the cardinal, aloud, “announce Master Jacques
-Coppenole, clerk of the aldermen of the illustrious city of Ghent.”
+La création d'une page web commence par ériger les piliers fondamentaux à l'aide du langage HTML, le langage de balisage qui donne forme à l'invisible. Suivez le guide étape par étape pour maîtriser cette première incantation.
 
-This was a mistake. Guillaume Rym alone might have conjured away the
-difficulty, but Coppenole had heard the cardinal.
+## Étape 1 : Déclaration HTML
 
-“No, cross of God?” he exclaimed, in his voice of thunder, “Jacques
-Coppenole, hosier. Do you hear, usher? Nothing more, nothing less. Cross
-of God! hosier; that’s fine enough. Monsieur the Archduke has more than
-once sought his _gant_\* in my hose.”
+Chaque sort nécessite une incantation, et pour une page web, c'est la déclaration HTML qui amorce le rituel. Utilisez le code sacré suivant au sommet de votre parchemin web :
 
-_*  Got the first idea of a timing._
+```htm
+<!DOCTYPE html>
+<html lang="fr">
+```
+Cette invocation indique au navigateur qu'une incroyable expérience web est sur le point de se dérouler. La langue utilisée (dans cet exemple, le français) sert à harmoniser les vibrations linguistiques de votre création.
 
-Laughter and applause burst forth. A jest is always understood in Paris,
-and, consequently, always applauded.
+## Étape 2 : En-tête de la page
 
-Let us add that Coppenole was of the people, and that the auditors which
-surrounded him were also of the people. Thus the communication between him
-and them had been prompt, electric, and, so to speak, on a level. The
-haughty air of the Flemish hosier, by humiliating the courtiers, had
-touched in all these plebeian souls that latent sentiment of dignity still
-vague and indistinct in the fifteenth century.
+Le mage prudent prépare son équipement avant de se lancer dans une quête. L'en-tête de la page, défini par la balise <head>, est l'endroit où vous placez vos outils magiques :
 
-This hosier was an equal, who had just held his own before monsieur the
-cardinal. A very sweet reflection to poor fellows habituated to respect
-and obedience towards the underlings of the sergeants of the bailiff of
-Sainte-Geneviève, the cardinal’s train-bearer.
+```htm
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titre de votre page</title>
+</head>
+```
+- Encodage des caractères (meta charset) : Cette rune assure que votre texte s'affiche correctement, sans distorsion linguistique.
+- Vision initiale (meta viewport) : Cette incantation garantit une expérience visuelle optimale, quel que soit l'appareil utilisé.
+- Titre (title) : Le titre est la bannière qui flotte dans les vents mystiques des onglets du navigateur. Choisissez-la donc judicieusement.
 
-Coppenole proudly saluted his eminence, who returned the salute of the
-all-powerful bourgeois feared by Louis XI. Then, while Guillaume Rym, a
-“sage and malicious man,” as Philippe de Comines puts it, watched them
-both with a smile of raillery and superiority, each sought his place, the
-cardinal quite abashed and troubled, Coppenole tranquil and haughty, and
-thinking, no doubt, that his title of hosier was as good as any other,
-after all, and that Marie of Burgundy, mother to that Marguerite whom
-Coppenole was to-day bestowing in marriage, would have been less afraid of
-the cardinal than of the hosier; for it is not a cardinal who would have
-stirred up a revolt among the men of Ghent against the favorites of the
-daughter of Charles the Bold; it is not a cardinal who could have
-fortified the populace with a word against her tears and prayers, when the
-Maid of Flanders came to supplicate her people in their behalf, even at
-the very foot of the scaffold; while the hosier had only to raise his
-leather elbow, in order to cause to fall your two heads, most illustrious
-seigneurs, Guy d’Hymbercourt and Chancellor Guillaume Hugonet.
+## Étape 3 : Corps de la page
+
+Le cœur de votre création réside dans le corps de la page, délimité par la balise <body> :
+
+```htm
+<body>
+     Votre contenu va ici 
+</body>
+```
+
+À l'intérieur de ce sanctuaire, vous insérerez les éléments qui donneront vie à votre page : texte, images, liens et autres artefacts magiques. Préparez-vous, car c'est ici que l'histoire commence à prendre forme.
+
+## Étape 4 : Fermeture HTML
+
+Enfin, ne pas oublier de refermer tout ça pour faire comprendre au navigateur que l'expérience web se termine là
+
+```htm
+</head>
+```
+
+Maintenant que les fondations mystiques de votre page sont établies, il est temps de plonger plus profondément dans le grimoire du HTML.
+
+# Utilisation des balises essentielles (head, body, div, etc.) {#3}
+
+Le HTML, langage de balisage fondamental pour la création de pages web, repose sur l'utilisation judicieuse de balises. Ces balises, délimitées par des chevrons(sorte de guillemets), sont les éléments de base qui structurent votre contenu. Avant de plonger dans les spécificités de chaque balise, familiarisons-nous avec leur syntaxe et leur rôle essentiel.
+
+## Syntaxe de base d'une balise HTML :
+Une balise HTML se compose généralement de deux parties :
+
+- **Balise d'ouverture** : Débute avec le nom de la balise enveloppé entre des chevrons. Exemple : <nom_de_balise>
+
+A titre illustratif, on retrouve: \<html>,\<head>,\<body>,\<title>
+- **Balise de fermeture** : Similaire à la balise d'ouverture mais comporte une barre oblique avant le nom. Exemple : </nom_de_balise>
+
+A titre illustratif, on retrouve: \</html>,\</head>,\</body>,\</title>
+Structure générale d'une balise :
+
+
+
+
+
+
+Les balises essentielles sont les incantations spécifiques qui confèrent des propriétés particulières à vos éléments. Préparez-vous à manier ces runes avec sagesse.
+
+## Balise \<head> : La porte des mystères
+
+La balise \<head> n'est pas seulement une cachette pour les outils, elle ouvre également une porte vers des dimensions cachées. Utilisez cette balise pour connecter votre page au monde extérieur et pour insérer des éléments cruciaux sans perturber le récit principal.

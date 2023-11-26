@@ -6,35 +6,40 @@
     <description>Recent content in Tags on RoyLab: Code &amp; Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <managingEditor>layinderoyce@gmail.com (Malick Royce LAYINDE)</managingEditor>
-    <webMaster>layinderoyce@gmail.com (Malick Royce LAYINDE)</webMaster>
     <lastBuildDate>Wed, 06 Sep 2023 10:58:08 -0400</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>coding</title>
+      <link>/tags/coding/</link>
+      <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate>
+      <guid>/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>python</title>
       <link>/tags/python/</link>
-      <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate><author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate>
       <guid>/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>qr code</title>
       <link>/tags/qr-code/</link>
-      <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate><author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate>
       <guid>/tags/qr-code/</guid>
       <description></description>
     </item>
     <item>
       <title>web scraping</title>
       <link>/tags/web-scraping/</link>
-      <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate><author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate>
       <guid>/tags/web-scraping/</guid>
       <description></description>
     </item>
     <item>
       <title>turtle</title>
       <link>/tags/turtle/</link>
-      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate><author>layinderoyce@gmail.com (Malick Royce LAYINDE)</author>
+      <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
       <guid>/tags/turtle/</guid>
       <description></description>
     </item>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on RoyLab: Code &amp; Web</title>
-    <link>/post/</link>
-    <description>Recent content in Articles on RoyLab: Code &amp; Web</description>
+    <title>coding on RoyLab: Code &amp; Web</title>
+    <link>/tags/coding/</link>
+    <description>Recent content in coding on RoyLab: Code &amp; Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Wed, 06 Sep 2023 10:58:08 -0400</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs</title>
       <link>/post/chapter-3/</link>
