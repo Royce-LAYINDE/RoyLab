@@ -8,7 +8,7 @@ disable_share: false
 title: "Chapitre IV: Les Fondations Magiques du Web : Explorez l'Art Enchanté du HTML et du CSS"
 
 ---
-Mis à jour le 02/12/2023
+Mis à jour le 17/01/2024
 
 *Temps de Lecture Estimé: Environ 15 à 20 minutes*
 ## Table des matières
