@@ -6,8 +6,17 @@
     <description>Recent content in coding on RoyLab: Code &amp; Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 06 Sep 2023 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 26 Nov 2023 11:14:48 -0400</lastBuildDate>
     <atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS</title>
+      <link>/post/chapter-4/</link>
+      <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
+      <guid>/post/chapter-4/</guid>
+      <description>Mis à jour le 02/12/2023
+Temps de Lecture Estimé: Environ 15 à 20 minutes
+Table des matières Le Langage des Structurations: HTML Création de la structure d&amp;rsquo;une page HTML Utilisation des balises essentielles (head, body, div, etc.) Création de la structure d&amp;rsquo;une page HTML : Façonnez votre univers en lignes de code Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l&amp;rsquo;univers en ligne.</description>
+    </item>
     <item>
       <title>Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs</title>
       <link>/post/chapter-3/</link>

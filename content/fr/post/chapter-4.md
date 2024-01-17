@@ -6,7 +6,7 @@ omit_header_text: true
 tags: ["développement web", "HTML", "CSS", "coding"]
 disable_share: false
 title: "Chapitre IV: Les Fondations Magiques du Web : Explorez l'Art Enchanté du HTML et du CSS"
-draft: true
+
 ---
 Mis à jour le 02/12/2023
 
@@ -16,14 +16,6 @@ Mis à jour le 02/12/2023
 - [Création de la structure d'une page HTML](#2)
 - [Utilisation des balises essentielles (head, body, div, etc.)](#3)
 - [Création de la structure d'une page HTML : Façonnez votre univers en lignes de code](#4)
-- [](#5)
-- [](#6)
-- [](#7)
-- [](#8)
-- [](#9)
-- [](#10)
-- [](#11)
-- [](#12)
 
 
 Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l'univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du HTML et du CSS, les deux langages qui servent d'alchimie pour transformer des lignes de code en sites web éblouissants.
@@ -111,18 +103,9 @@ A titre illustratif, on retrouve: \</html>,\</head>,\</body>,\</title>
 
 ## Balises nécessaires
 
-### <html> : Racine de votre document HTML
+### Balise \<head> : La porte des mystères
 
-La balise <html> englobe l'ensemble du document HTML. C'est le point de départ de toute page web.
-
-```htm
-<html>
-   Le reste de votre contenu HTML va ici
-</html>
-```
-### Balise <head> : La porte des mystères
-
-La balise <head> n'est pas seulement une cachette pour les outils, elle ouvre également une porte vers des dimensions cachées. Utilisez cette balise pour connecter votre page au monde extérieur sans perturber le récit principal et pour insérer des éléments cruciaux tels que  des informations [méta](https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta), des liens vers des [feuilles de style](), des [scripts](https://www.w3schools.com/html/html_scripts.asp#:~:text=The%20HTML%20%3Cscript%3E%20tag%20is%20used%20to%20define,manipulation%2C%20form%20validation%2C%20and%20dynamic%20changes%20of%20content.), et d'autres éléments qui ne sont pas directement affichés sur la page..
+La balise \<head> n'est pas seulement une cachette pour les outils, elle ouvre également une porte vers des dimensions cachées. Utilisez cette balise pour connecter votre page au monde extérieur sans perturber le récit principal et pour insérer des éléments cruciaux tels que  des informations [méta](https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta), des liens vers des [feuilles de style](), des [scripts](https://www.w3schools.com/html/html_scripts.asp#:~:text=The%20HTML%20%3Cscript%3E%20tag%20is%20used%20to%20define,manipulation%2C%20form%20validation%2C%20and%20dynamic%20changes%20of%20content.), et d'autres éléments qui ne sont pas directement affichés sur la page..
 
 ```htm
 <head>
@@ -135,12 +118,24 @@ La balise <head> n'est pas seulement une cachette pour les outils, elle ouvre é
 </head>
 
 ```
-### <body> : Le corps de la magie
+
+
+### \<html> : Racine de votre document HTML
+
+La balise \<html> englobe l'ensemble du document HTML. C'est le point de départ de tout contenu de la page web.
+
+```htm
+<html>
+   Le reste de votre contenu HTML va ici
+</html>
+```
+
+### \<body> : Le corps de la magie
 Tout le contenu visible de votre page, des paragraphes aux images, réside entre les balises \<body>.
 
 ```htm
 <body>
-  Contenu de la page
+  Hello, je suis le contenu de la page. Je peux être de tout genre, du simple texte aux images, en passant par des vidéos, des liens ou tout élément que vous voyez d'habitude sur une page d'un site web.
 </body>
 ```
 Comprendre ces balises essentielles est comme déchiffrer les runes d'un grimoire. Maintenant que nous avons dévoilé ces mystères, préparez-vous à forger votre propre sortilège en partant à la découverte d'autres balises à utiliser dans votre body.
@@ -149,17 +144,18 @@ Comprendre ces balises essentielles est comme déchiffrer les runes d'un grimoir
 
 Maintenant que nous avons exploré les bases du HTML et des balises essentielles, plongeons dans la création concrète de la structure d'une page HTML. C'est ici que la magie opère vraiment, donnant vie à votre vision à travers des lignes de code.
 
-### Les Titres Enchantés : <h1>, <h2>, <h3>, ...
+### Les Titres Enchantés : \<h1>, \<h2>, \<h3>, ...
 
-Les balises de titre <h1>, <h2>, <h3>, etc., définissent la hiérarchie des titres sur votre page. <h1> est généralement utilisé pour le titre principal, suivi de <h2> pour les sections, et ainsi de suite.
+Les balises de titre \<h1>, \<h2>, \<h3>, etc., définissent la hiérarchie des titres sur votre page. \<h1> est généralement utilisé pour le titre principal, suivi de \<h2> pour les sections, et ainsi de suite.
 
 ```htm
 <h1>Titre Principal</h1>
 <h2>Sous-Section Enchantée</h2>
 <h3>Exploration Magique</h3>
+<h4>Exemples Magiques</h4>
 ```
 
-### <p> : Le paragraphe ensorcelant
+### \<p> : Le paragraphe ensorcelant
 Utilisée cette balise pour définir des paragraphes de texte.
 
 ```htm
@@ -167,8 +163,8 @@ Utilisée cette balise pour définir des paragraphes de texte.
 <p>Ceci est un autre paragraphe de texte.</p>
 <p>Ceci est encore un autre paragraphe de texte.</p>
 ```
-### <div> : La division magique
-La balise <div> est un puissant outil de structuration, permettant de regrouper des éléments et de les styliser ensemble à l'aide de CSS.
+### \<div> : La division magique
+La balise \<div> est un puissant outil de structuration, permettant de regrouper des éléments et de les styliser ensemble à l'aide de CSS.
 
 ```htm
 <div>
@@ -181,22 +177,22 @@ La balise <div> est un puissant outil de structuration, permettant de regrouper 
   <p>Contenu de la section 2.</p>
 </div>
 ```
-### <a> : Le lien mystique
+### \<a> : Le lien mystique
 La balise <a> est utilisée pour créer des liens, que ce soit vers d'autres pages, des ressources externes, ou même des sections de la même page. 
 
 ```htm
-<a href="https://www.magie-web.com">Explorez davantage la magie du web</a>
+<a href="https://www.roylab.xyz">Explorez davantage la magie du web</a>
 ```
 Ici, href spécifie l'URL de la destination. C'est ce qu'on appelle un **[attribut](https://w3tutoriels.com/html/html-attributs/)**. En effet,les attributs sont comme des runes magiques que vous attribuez aux balises pour leur conférer des pouvoirs spécifiques. Ils sont les incantations secrètes qui intensifient le pouvoir des balises. 
 
-### Les Images Envoûtantes : <img> et les attributs src et alt
+### Les Images Envoûtantes : \<img> et les attributs src et alt
 La balise \<img> est utilisée pour incorporer des images dans votre page. L'attribut src indique l'emplacement de l'image, tandis que l'attribut alt fournit un texte descriptif, important pour l'accessibilité et pour décrire l'image si elle ne peut pas être affichée.
 
 ```htm
 <img src="image-magique.jpg" alt="Une illustration magique">
 ```
 
-### La Magie des Listes : <ul>, <ol>, <li>
+### La Magie des Listes : \<ul>, \<ol>, \<li>
 Les balises \<ul> (liste non ordonnée) et \<ol> (liste ordonnée) vous permettent de créer des listes, tandis que \<li> définit chaque élément de la liste.
 
 ```htm
@@ -215,26 +211,43 @@ Les balises \<ul> (liste non ordonnée) et \<ol> (liste ordonnée) vous permette
 ### Balises autofermantes 
 Certaines balises n'ont pas de balise de fermeture distincte et sont autofermantes. En effet, les balises autofermantes, également appelées balises void, sont des balises HTML qui ne nécessitent pas de balise de fermeture. Elles sont utilisées pour insérer des contenus sans texte entre les balises d'ouverture et de fermeture. Voici quelques exemples courants de balises autofermantes avec leurs utilisations typiques :
 
-<img> : Image magique
+\<img> : Image magique
 
-Exemple : <img src="image.jpg" alt="Description ensorcelante de l'image">
-Utilisation : Insérez une image enchanteresse dans votre royaume web.
-<br> : Saut de ligne ensorcelant
+ ```htm
+<img src="image.jpg" alt="Description ensorcelante de l'image">
+```
+Utilisation : Sert à insérer une image enchanteresse dans votre royaume web.
 
-Exemple : <p>Première incantation.<br>Deuxième incantation.</p>
-Utilisation : Tissez un sort pour créer un saut de ligne mystique à l'intérieur d'un paragraphe.
-<input> : Champ de saisie enchanté
+\<br> : Saut de ligne ensorcelant
 
-Exemple : <input type="text" name="nom" id="nom" placeholder="Votre nom enchanté">
-Utilisation : Forgez un champ de saisie magique au sein de votre formulaire.
-<hr> : Ligne horizontale enchantée
+```htm
+<p>Première incantation. <br> Deuxième incantation.</p>
+```
+Utilisation : Sert à tisser un sort pour créer un saut de ligne mystique à l'intérieur d'un paragraphe.
 
-Exemple : <hr>
-Utilisation : Insufflez de la magie avec une ligne horizontale séparatrice.
-<meta> : Métadonnées magiques
+\<input> : Champ de saisie enchanté
 
-Exemple : <meta charset="UTF-8">
-Utilisation : Spécifiez les métadonnées de votre page avec cette incantation, comme l'encodage des caractères.
+```htm
+<input type="text" name="nom" id="nom" placeholder="Votre nom enchanté">
+
+```
+Utilisation : Sert à forger un champ de saisie magique au sein d'un formulaire.
+
+\<hr> : Ligne horizontale enchantée
+
+```htm
+<hr>
+```
+Utilisation : Sert à insuffler de la magie avec une ligne horizontale séparatrice.
+
+\<meta> : Métadonnées magiques
+
+```htm
+<meta charset="UTF-8">
+```
+
+Utilisation : Sert à spécifier les métadonnées de votre page avec cette incantation, comme l'encodage des caractères.
+
 Ces balises autofermantes, par leur nature magique, simplifient la structure du code sans avoir besoin de balises de fermeture. N'oubliez pas le trait final, symbolisé par le slash ("/"), pour compléter l'incantation.
 
 
@@ -245,7 +258,11 @@ Ces balises autofermantes, par leur nature magique, simplifient la structure du 
 
 
 
-En comprenant le rôle de ces balises, vous êtes prêt à donner vie à votre page en créant une structure HTML solide.
+Et voilà, en comprenant le rôle de toutes ces balises, vous êtes prêt à donner vie à votre page en créant une structure HTML solide.
 
 Avec ces connaissances, vous avez désormais les outils nécessaires pour façonner votre univers en ligne. Dans la prochaine section, plongeons dans l'art de l'esthétique avec le CSS.
 
+**La Magie Continue**
+###### À bientôt pour de nouvelles découvertes enchanteresses !
+###### *Magiquement vôtre,*
+M.Royce

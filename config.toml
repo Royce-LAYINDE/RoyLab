@@ -29,7 +29,7 @@ tags = ["python", "turtle", "web scraping", "qr code", "blog", "Tachyons", "Mult
 
 [params]
   text_color = ""
-  author = "M. Royce"
+author = "M. Royce"
   favicon = ""
   site_logo = "/images/logo1.png"
   description = ""

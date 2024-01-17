@@ -3,16 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/post/</loc>
-    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/post/chapter-3/</loc>
-    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
+    <loc>/post/chapter-4/</loc>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>/tags/coding/</loc>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/css/</loc>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/d%C3%A9veloppement-web/</loc>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/html/</loc>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/post/chapter-3/</loc>
     <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -23,16 +53,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>/tags/qr-code/</loc>
-    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
