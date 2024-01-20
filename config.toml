@@ -30,13 +30,18 @@ tags = ["python", "turtle", "web scraping", "qr code", "blog", "Tachyons", "Mult
 [params]
   text_color = ""
   author = "M. Royce"
-  favicon = ""
+  favicon = "/images/fav3.png"
   site_logo = "/images/logo1.png"
   description = ""
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 3
+  show_reading_time = true
+  commentoEnable = true
+
+ 
   
+
 
 [[params.ananke_socials]]
 name = "linkedin"

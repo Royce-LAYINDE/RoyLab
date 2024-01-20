@@ -6,6 +6,8 @@ featured_image: "/images/tortue.png"
 omit_header_text: true
 tags: ["python","turtle","coding"]
 disable_share: false   #Pour que les visiteurs puissent partager la page
+read_more_copy: En savoir plus sur Turtle #pour personnaliser le message de "Voir plus" ou "lire plus"
+# private: true #Pour empecher que les moteurs de recherches indexent la page
 ---
 Mis à jour le 28/08/2023
 

@@ -6,7 +6,6 @@ omit_header_text: true
 tags: ["développement web", "HTML", "CSS", "coding"]
 disable_share: false
 title: "Chapitre IV: Les Fondations Magiques du Web : Explorez l'Art Enchanté du HTML et du CSS"
-
 ---
 Mis à jour le 17/01/2024
 

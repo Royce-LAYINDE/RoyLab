@@ -11,8 +11,8 @@ Salut ! Je suis ravi que tu souhaites entrer en contact. Que ce soit pour poser 
 
 **Adresse E-mail**
 
-Si tu préfères la communication par e-mail, n'hésite pas à m'envoyer un message à l'adresse suivante : [Mymail](layinderoyce@gmail.com). Je m'efforce de répondre rapidement à tous les e-mails, alors attends-toi à une réponse dans les plus brefs délais.
-
+Si tu préfères la communication par e-mail, n'hésite pas à m'envoyer un message via ce formulaire. Je m'efforce de répondre rapidement à tous les e-mails, alors attends-toi à une réponse dans les plus brefs délais.
+{{< form-contact action="https://formspree.io/f/meqyoygq"  >}}
 **Réseaux Sociaux**
 
 Tu peux aussi me retrouver sur les réseaux sociaux. Je suis beaucoup plus actif sur LinkedIn. N'hésite pas à me suivre pour des mises à jour régulières, des astuces technologiques et des partages intéressants.
