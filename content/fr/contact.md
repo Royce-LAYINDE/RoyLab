@@ -5,7 +5,9 @@ omit_header_text: true
 description: Laissez-moi un message!
 type: page
 menu: main
-
+menu:
+  main:
+    weight: 4 #Pour definir son "poids" dans l'orde de passage des titres(Articles,A propos, Contact,...) sur le menu "principal"
 ---
 
 Salut ! Je suis ravi que tu souhaites entrer en contact. Que ce soit pour poser une question, partager une idée, ou simplement dire bonjour, je serais ravi de discuter avec toi. Voici comment tu peux me joindre :
