@@ -1,10 +1,10 @@
 ---
-title: "Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle"
+title: "Création d'un Gestionnaire de Tâches en Python avec Programmation Orientée Objet"
 date: 2023-08-18T10:58:08-04:00
-description: "Vous êtes-vous déjà demandé ce que ressent une tortue lorsqu'elle trace son chemin sur le sable? Le module Turtle en Python vous permet d'explorer cette expérience en donnant vie à une tortue numérique. Imaginez que vous la guidez avec des mots, lui demandant d'avancer, de tourner et de créer des dessins fascinants. Découvrez comment importer ce module, créer votre propre tortue virtuelle et la laisser parcourir des chemins enchantés sur votre écran."
-featured_image: "/images/tortue.png"
+description: " Plongez dans le monde de la programmation orientée objet (POO) en construisant un gestionnaire de tâches en Python. Ce projet technique vous guidera à travers la conception de classes, la gestion des objets, et l'interaction avec l'utilisateur via une interface en ligne de commande. Explorez les subtilités de la POO tout en développant une application pratique de gestion de tâches, idéale pour renforcer vos compétences Python."
+featured_image: "/images/gest.jpg"
 omit_header_text: true
 tags: []
-disable_share: false   #Pour que les visiteurs puissent partager la page
+disable_share: false   
 ---
-Mis à jour le 28/08/2023
+En cours ...
