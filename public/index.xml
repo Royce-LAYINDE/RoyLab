@@ -6,8 +6,15 @@
     <description>Recent content on RoyLab: Code &amp; Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 26 Nov 2023 11:14:48 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jan 2024 10:58:08 -0400</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création d&#39;un Gestionnaire de Tâches en Python avec Programmation Orientée Objet</title>
+      <link>/projects/projet1/</link>
+      <pubDate>Sat, 20 Jan 2024 10:58:08 -0400</pubDate>
+      <guid>/projects/projet1/</guid>
+      <description>En cours &amp;hellip;</description>
+    </item>
     <item>
       <title>Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS</title>
       <link>/post/chapter-4/</link>

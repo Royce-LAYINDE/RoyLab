@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'RoyLab: Code & Web'
 theme = 'ananke'
 
+disable_share = "false"
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
@@ -46,6 +47,8 @@ tags = ["python", "turtle", "web scraping", "qr code", "blog", "Tachyons", "Mult
 [[params.ananke_socials]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/malick-layinde-825a78257/"
+rel = "me noopener"
+
 
 [[params.ananke_socials]]
 name = "github"
