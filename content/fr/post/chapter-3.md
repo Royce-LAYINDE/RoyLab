@@ -8,12 +8,11 @@ tags: ["python","qr code","coding"]
 disable_share: false   #Pour que les visiteurs puissent partager la page
 
 ---
+Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins. 
+
 Mis à jour le 07/09/2023
 
 *Temps de Lecture Estimé: Environ 6 à 10 minutes*
-
-
-Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins. 
 
 ## Table des matières
 - [QR Codes : Porteurs de Mystères Numériques](#1)

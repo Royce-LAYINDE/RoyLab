@@ -7,9 +7,10 @@ tags: [ "coding"]
 disable_share: false
 title: "Chapitre V: La Carte des Algorithmes de Machine Learning"
 ---
-Mis à jour le 17/01/2024
+*« Un jour, alors que je parcourais les vastes couloirs de la Bibliothèque des Prédictions, je suis tombé sur une carte ancienne. Une carte pas comme les autres... Une carte capable de révéler les chemins vers les prédictions les plus justes et les plus incroyables. Aujourd'hui, je vous invite à plonger avec moi dans cette exploration magique : la Carte des Algorithmes de Machine Learning. »*
 
 *Temps de Lecture Estimé: Environ 15 à 20 minutes*
+
 ## Table des matières
 - [Le Langage des Structurations: HTML](#1)
 - [Création de la structure d'une page HTML](#2)
@@ -17,7 +18,6 @@ Mis à jour le 17/01/2024
 - [Création de la structure d'une page HTML : Façonnez votre univers en lignes de code](#4)
 
 
-*« Un jour, alors que je parcourais les vastes couloirs de la Bibliothèque des Prédictions, je suis tombé sur une carte ancienne. Une carte pas comme les autres... Une carte capable de révéler les chemins vers les prédictions les plus justes et les plus incroyables. Aujourd'hui, je vous invite à plonger avec moi dans cette exploration magique : la Carte des Algorithmes de Machine Learning. »*
 
 
 # Le Langage des Structurations: HTML {#1}

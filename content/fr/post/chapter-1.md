@@ -9,12 +9,14 @@ disable_share: false   #Pour que les visiteurs puissent partager la page
 read_more_copy: En savoir plus sur Turtle #pour personnaliser le message de "Voir plus" ou "lire plus"
 # private: true #Pour empecher que les moteurs de recherches indexent la page
 ---
-Mis à jour le 28/08/2023
 
-*Temps de Lecture Estimé: Environ 7 à 10 minutes*
 
 L'univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j'ai eu le privilège d'être l'un des intervenants lors d'une séance d'initiation à la programmation organisée par le [Dakar Institute of Technology](https://dit.sn/). Parmi toutes les notions abordées au cours de cette semaine passionnante, l'expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t'invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d'art.   
                         <p align="center">*À vos baguettes, prêts ? Incantations !*</p>
+
+Mis à jour le 28/08/2023
+
+*Temps de Lecture Estimé: Environ 7 à 10 minutes*
 
 ## Table des matières
 - [La Magie du Démarrage : Importer Turtle](#1)

@@ -7,16 +7,15 @@ tags: ["développement web", "HTML", "CSS", "coding"]
 disable_share: false
 title: "Chapitre IV: Les Fondations Magiques du Web : Explorez l'Art Enchanté du HTML et du CSS"
 ---
-Mis à jour le 17/01/2024
-
-*Temps de Lecture Estimé: Environ 15 à 20 minutes*
-
-
 Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l'univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du HTML et du CSS, les deux langages qui servent d'alchimie pour transformer des lignes de code en sites web éblouissants.
 
 Le HTML, langage de balisage, sera notre première étoile à explorer. Il forme la structure fondamentale de chaque page web, chaque balise jouant un rôle crucial dans la construction de cet édifice numérique. Ensuite, nous nous immergerons dans l'esthétique ensorcelante du CSS, le langage qui donne vie aux couleurs, aux polices, et qui modèle l'apparence de nos créations.
 
 Attachez vos ceintures, car cette aventure promet non seulement de vous familiariser avec ces langages, mais aussi de vous armer d'astuces pratiques pour résoudre les énigmes les plus complexes du développement web. Préparez-vous à découvrir l'art et la magie qui se cachent derrière chaque site web que vous visitez.
+
+Mis à jour le 17/01/2024
+
+*Temps de Lecture Estimé: Environ 15 à 20 minutes*
 
 ## Table des matières
 - [Le Langage des Structurations: HTML](#1)
