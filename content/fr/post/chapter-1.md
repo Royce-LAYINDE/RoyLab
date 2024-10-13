@@ -12,6 +12,10 @@ read_more_copy: En savoir plus sur Turtle #pour personnaliser le message de "Voi
 Mis à jour le 28/08/2023
 
 *Temps de Lecture Estimé: Environ 7 à 10 minutes*
+
+L'univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j'ai eu le privilège d'être l'un des intervenants lors d'une séance d'initiation à la programmation organisée par le [Dakar Institute of Technology](https://dit.sn/). Parmi toutes les notions abordées au cours de cette semaine passionnante, l'expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t'invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d'art.   
+                        <p align="center">*À vos baguettes, prêts ? Incantations !*</p>
+
 ## Table des matières
 - [La Magie du Démarrage : Importer Turtle](#1)
 - [Création de l'Environnement : Initialisation de la Fenêtre](#2)
@@ -23,10 +27,6 @@ Mis à jour le 28/08/2023
 - [Exploration de l'Apparence : Personnaliser la Tortue](#8)
 - [Retour sur Mon Expérience à la Séance d'Initiation ](#9)
 - [Conclusion Enchanteur : La Création sans Limites](#10)
-
-
-L'univers de la programmation peut sembler intimidant pour les débutants, mais il existe des moyens ludiques et créatifs pour introduire les concepts de base. Récemment, j'ai eu le privilège d'être l'un des intervenants lors d'une séance d'initiation à la programmation organisée par le [Dakar Institute of Technology](https://dit.sn/). Parmi toutes les notions abordées au cours de cette semaine passionnante, l'expérience de découvrir le module Turtle en Python a été particulièrement enrichissante. Cette semaine, je t'invite donc à explorer cet outil étonnant, qui ouvre la voie à la création artistique en langage Python. Prépare-toi à embarquer pour un voyage où les figures géométriques prennent vie et où les courbes deviennent des œuvres d'art.   
-                        <p align="center">*À vos baguettes, prêts ? Incantations !*</p>
 
 # Le Module Turtle en Python : Une Aventure Graphique 
 

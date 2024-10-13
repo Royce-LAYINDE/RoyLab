@@ -11,6 +11,10 @@ disable_share: false   #Pour que les visiteurs puissent partager la page
 Mis à jour le 07/09/2023
 
 *Temps de Lecture Estimé: Environ 6 à 10 minutes*
+
+
+Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins. 
+
 ## Table des matières
 - [QR Codes : Porteurs de Mystères Numériques](#1)
 - [L'Encodage des QR Codes : Tisser la Toile Magique](#2)
@@ -20,9 +24,6 @@ Mis à jour le 07/09/2023
 - [Le Décodage Simple : Révéler les Secrets](#6)
 - [Le Décodage Simple : Déchiffrer les Secrets](#7)
 - [Conclure notre Aventure Magique](#8)
-
-
-Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins. 
 
 # QR Codes : Porteurs de Mystères Numériques {#1}
 Les QR codes, abrégés de l'anglais "Quick Response" (Réponse Rapide), sont comme des parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des caractères d'un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages numériques. Dans cet univers de "techno magie", les QR codes servent de portails vers un monde de données et d'informations cachées.

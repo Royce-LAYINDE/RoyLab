@@ -11,6 +11,10 @@ disable_share: false   #Pour que les visiteurs puissent partager la page
 Mis à jour le 01/09/2023
 
 *Temps de Lecture Estimé: Environ 7 à 11 minutes*
+
+
+Bienvenue, cher apprenti mage du numérique, dans une nouvelle aventure au cœur du monde virtuel où les données se cachent tels des trésors dissimulés, attendant d'être découverts par des esprits curieux comme le vôtre. Dans ce récit, nous allons plonger dans l'art mystérieux du Web Scraping, une magie qui nous permet de collecter des données précieuses à partir du tissu même du web.
+
 ## Table des matières
 - [La Baguette Magique du Web Scraping](#1)
 - [Les Formules Enchanteresses : Bibliothèques Python et Outils de Scraping](#2)
@@ -24,9 +28,6 @@ Mis à jour le 01/09/2023
 - [Explorer les Mystères du Code HTML](#10)
 - [Manipuler les Résultats](#11)
 - [Conclusion : Révéler les Mystères Cachés](#12)
-
-
-Bienvenue, cher apprenti mage du numérique, dans une nouvelle aventure au cœur du monde virtuel où les données se cachent tels des trésors dissimulés, attendant d'être découverts par des esprits curieux comme le vôtre. Dans ce récit, nous allons plonger dans l'art mystérieux du Web Scraping, une magie qui nous permet de collecter des données précieuses à partir du tissu même du web.
 
 # La Baguette Magique du Web Scraping {#1}
 
