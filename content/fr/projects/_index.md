@@ -1,6 +1,6 @@
 ---
 title: "Projets"
-date: 2024-01-20:00:00-05:00
+date: 2023-08-18T10:58:08-04:00
 cascade:
   featured_image: '/images/programming21.png'
 omit_header_text: true

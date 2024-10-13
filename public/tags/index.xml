@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RoyLab: Code &amp; Web</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on RoyLab: Code &amp; Web</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 26 Nov 2023 11:14:48 -0400</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Oct 2024 11:14:48 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>coding</title>
-      <link>/tags/coding/</link>
-      <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>/tags/coding/</guid>
+      <title>Coding</title>
+      <link>//localhost:1313/tags/coding/</link>
+      <pubDate>Sun, 13 Oct 2024 11:14:48 -0400</pubDate>
+      <guid>//localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>CSS</title>
-      <link>/tags/css/</link>
+      <link>//localhost:1313/tags/css/</link>
       <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>/tags/css/</guid>
+      <guid>//localhost:1313/tags/css/</guid>
       <description></description>
     </item>
     <item>
-      <title>développement web</title>
-      <link>/tags/d%C3%A9veloppement-web/</link>
+      <title>Développement Web</title>
+      <link>//localhost:1313/tags/d%C3%A9veloppement-web/</link>
       <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>/tags/d%C3%A9veloppement-web/</guid>
+      <guid>//localhost:1313/tags/d%C3%A9veloppement-web/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML</title>
-      <link>/tags/html/</link>
+      <link>//localhost:1313/tags/html/</link>
       <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>/tags/html/</guid>
+      <guid>//localhost:1313/tags/html/</guid>
       <description></description>
     </item>
     <item>
-      <title>python</title>
-      <link>/tags/python/</link>
+      <title>Python</title>
+      <link>//localhost:1313/tags/python/</link>
       <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate>
-      <guid>/tags/python/</guid>
+      <guid>//localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
-      <title>qr code</title>
-      <link>/tags/qr-code/</link>
+      <title>Qr Code</title>
+      <link>//localhost:1313/tags/qr-code/</link>
       <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate>
-      <guid>/tags/qr-code/</guid>
+      <guid>//localhost:1313/tags/qr-code/</guid>
       <description></description>
     </item>
     <item>
-      <title>web scraping</title>
-      <link>/tags/web-scraping/</link>
+      <title>Web Scraping</title>
+      <link>//localhost:1313/tags/web-scraping/</link>
       <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate>
-      <guid>/tags/web-scraping/</guid>
+      <guid>//localhost:1313/tags/web-scraping/</guid>
       <description></description>
     </item>
     <item>
-      <title>turtle</title>
-      <link>/tags/turtle/</link>
+      <title>Turtle</title>
+      <link>//localhost:1313/tags/turtle/</link>
       <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
-      <guid>/tags/turtle/</guid>
+      <guid>//localhost:1313/tags/turtle/</guid>
       <description></description>
     </item>
   </channel>

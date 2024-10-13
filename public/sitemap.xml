@@ -2,101 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/projects/projet1/</loc>
+    <loc>//localhost:1313/post/chapter-5/</loc>
+    <lastmod>2024-10-13T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/coding/</loc>
+    <lastmod>2024-10-13T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-10-13T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-10-13T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/projects/projet1/</loc>
     <lastmod>2024-01-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/projects/</loc>
-    <lastmod>2024-01-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2024-01-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/post/</loc>
+    <loc>//localhost:1313/post/chapter-4/</loc>
     <lastmod>2023-11-26T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/post/chapter-4/</loc>
+    <loc>//localhost:1313/tags/css/</loc>
     <lastmod>2023-11-26T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/coding/</loc>
+    <loc>//localhost:1313/tags/d%C3%A9veloppement-web/</loc>
     <lastmod>2023-11-26T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/css/</loc>
+    <loc>//localhost:1313/tags/html/</loc>
     <lastmod>2023-11-26T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/d%C3%A9veloppement-web/</loc>
-    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/tags/html/</loc>
-    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/post/chapter-3/</loc>
+    <loc>//localhost:1313/post/chapter-3/</loc>
     <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/python/</loc>
+    <loc>//localhost:1313/tags/python/</loc>
     <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/qr-code/</loc>
+    <loc>//localhost:1313/tags/qr-code/</loc>
     <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/post/chapter-2/</loc>
+    <loc>//localhost:1313/post/chapter-2/</loc>
     <lastmod>2023-08-24T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/web-scraping/</loc>
+    <loc>//localhost:1313/tags/web-scraping/</loc>
     <lastmod>2023-08-24T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/post/chapter-1/</loc>
+    <loc>//localhost:1313/post/</loc>
     <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/turtle/</loc>
+    <loc>//localhost:1313/post/chapter-1/</loc>
     <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>//localhost:1313/tags/turtle/</loc>
+    <lastmod>2023-08-18T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/post/chapter-6/</loc>
+    <lastmod>2017-04-14T11:25:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
