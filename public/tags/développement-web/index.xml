@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Développement Web on RoyLab: Code &amp; Web</title>
-    <link>//localhost:1313/tags/d%C3%A9veloppement-web/</link>
+    <link>/tags/d%C3%A9veloppement-web/</link>
     <description>Recent content in Développement Web on RoyLab: Code &amp; Web</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sun, 26 Nov 2023 11:14:48 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/d%C3%A9veloppement-web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/d%C3%A9veloppement-web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS</title>
-      <link>//localhost:1313/post/chapter-4/</link>
+      <link>/post/chapter-4/</link>
       <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>//localhost:1313/post/chapter-4/</guid>
-      <description>&lt;p&gt;Mis à jour le 17/01/2024&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Temps de Lecture Estimé: Environ 15 à 20 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-des-matières&#34;&gt;Table des matières&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/post/chapter-4/#1&#34;&gt;Le Langage des Structurations: HTML&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/post/chapter-4/#2&#34;&gt;Création de la structure d&amp;rsquo;une page HTML&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/post/chapter-4/#3&#34;&gt;Utilisation des balises essentielles (head, body, div, etc.)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//localhost:1313/post/chapter-4/#4&#34;&gt;Création de la structure d&amp;rsquo;une page HTML : Façonnez votre univers en lignes de code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l&amp;rsquo;univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du HTML et du CSS, les deux langages qui servent d&amp;rsquo;alchimie pour transformer des lignes de code en sites web éblouissants.&lt;/p&gt;</description>
+      <guid>/post/chapter-4/</guid>
+      <description>&lt;p&gt;Mis à jour le 17/01/2024&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Temps de Lecture Estimé: Environ 15 à 20 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l&amp;rsquo;univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du HTML et du CSS, les deux langages qui servent d&amp;rsquo;alchimie pour transformer des lignes de code en sites web éblouissants.&lt;/p&gt;&#xA;&lt;p&gt;Le HTML, langage de balisage, sera notre première étoile à explorer. Il forme la structure fondamentale de chaque page web, chaque balise jouant un rôle crucial dans la construction de cet édifice numérique. Ensuite, nous nous immergerons dans l&amp;rsquo;esthétique ensorcelante du CSS, le langage qui donne vie aux couleurs, aux polices, et qui modèle l&amp;rsquo;apparence de nos créations.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
