@@ -142,7 +142,6 @@ Maintenant, c'est à vous de devenir l'explorateur intrépide du monde en ligne.
 
 **La Magie Continue**
 
-*Ne laisse pas ta baguette magique rouillée*
 
 Renforce ton savoir [ici](https://docs.python.org/3/library/urllib.request.html) et [ici](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 

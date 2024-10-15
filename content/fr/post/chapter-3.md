@@ -168,7 +168,7 @@ L'aventure continue, jeunes enchanteurs ! Vous pouvez maintenant personnaliser v
 
 Restez à l'écoute pour de nouvelles incantations technologiques et des découvertes captivantes ! 📚🔮🌐
 
-**La Magie Continue**
+
 ### Conseils sur la personnalisation de QR code {#0}
 - Contraste: Assurez-vous qu'il y a un bon contraste entre la couleur de l'arrière-plan (back_color) et la couleur de remplissage (fill_color) pour que le QR code soit facilement lisible. Par exemple, le noir sur le blanc ou le blanc sur le noir fonctionnent bien en termes de contraste.
 
@@ -180,7 +180,7 @@ Restez à l'écoute pour de nouvelles incantations technologiques et des découv
 
 - Adaptez au contexte: Choisissez des couleurs qui s'intègrent bien dans le contexte de votre utilisation du QR code. Par exemple, si vous l'intégrez sur une affiche ou un document, assurez-vous qu'il s'harmonise visuellement.
 
-*Ne laisse pas ta baguette magique rouillée*
+**La Magie Continue**
 
 Explorez [ici](https://pypi.org/project/qrcode/) pour en savoir plus sur la bibliothèque qrcode, et [ici](https://pypi.org/project/pyzbar/) pour explorer pyzbar.
 

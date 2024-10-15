@@ -278,7 +278,6 @@ Avec ces connaissances, vous avez tout ce dont vous avez besoin pour plonger dan
 
 **La Magie Continue**
 
-*Ne laisse pas ta baguette magique rouillée*
 
 [Renforce ton savoir](https://docs.python.org/3/library/turtle.html)
 
@@ -290,6 +289,6 @@ Consulte les tutoriels en ligne pour des idées de projets amusants.
 
 ###### *Que chaque ligne de code devienne une baguette magique, et que chaque projet soit une œuvre enchanteresse.*
 ###### À bientôt pour plus de découvertes et de créations magiques !
-###### *Votre enchanteur,*
+###### *Magiquement vôtre,*
 
  M.Royce
