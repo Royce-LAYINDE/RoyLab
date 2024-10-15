@@ -13,9 +13,7 @@ Le HTML, langage de balisage, sera notre première étoile à explorer. Il forme
 
 Attachez vos ceintures, car cette aventure promet non seulement de vous familiariser avec ces langages, mais aussi de vous armer d'astuces pratiques pour résoudre les énigmes les plus complexes du développement web. Préparez-vous à découvrir l'art et la magie qui se cachent derrière chaque site web que vous visitez.
 
-Mis à jour le 17/01/2024
 
-*Temps de Lecture Estimé: Environ 15 à 20 minutes*
 
 ## Table des matières
 - [Le Langage des Structurations: HTML](#1)

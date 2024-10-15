@@ -38,7 +38,7 @@ tags = ["python", "turtle", "web scraping", "qr code", "blog", "Tachyons", "Mult
   background_color_class = "bg-black"
   recent_posts_number = 3
   show_reading_time = true
-  commentoEnable = true
+  commentoEnable = false
 
  
   

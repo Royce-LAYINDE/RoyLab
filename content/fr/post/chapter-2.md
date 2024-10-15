@@ -10,9 +10,7 @@ disable_share: false   #Pour que les visiteurs puissent partager la page
 ---
 Bienvenue, cher apprenti mage du numérique, dans une nouvelle aventure au cœur du monde virtuel où les données se cachent tels des trésors dissimulés, attendant d'être découverts par des esprits curieux comme le vôtre. Dans ce récit, nous allons plonger dans l'art mystérieux du Web Scraping, une magie qui nous permet de collecter des données précieuses à partir du tissu même du web.
 
-Mis à jour le 01/09/2023
 
-*Temps de Lecture Estimé: Environ 7 à 11 minutes*
 
 ## Table des matières
 - [La Baguette Magique du Web Scraping](#1)
