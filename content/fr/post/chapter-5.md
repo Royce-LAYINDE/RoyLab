@@ -17,9 +17,7 @@ _« Un jour, alors que je parcourais les vastes couloirs de la Bibliothèque des
 - [Deuxième chemin : L'apprentissage non supervisé](#deuxième-chemin--lapprentissage-non-supervisé)
 - [Troisième chemin : L'apprentissage semi-supervisé](#troisième-chemin--lapprentissage-semi-supervisé)
 - [Conclusion : Le choix du chemin](#conclusion--le-choix-du-chemin)
-          - [Dans cette aventure enchantée, que chaque algorithme que vous maîtrisez soit une clé ouvrant les portes de la connaissance, un guide vers des trésors cachés dans les données, ou un moyen de tisser de nouvelles magies avec le monde des chiffres. À vous de jouer, jeunes enchanteurs des données !](#dans-cette-aventure-enchantée-que-chaque-algorithme-que-vous-maîtrisez-soit-une-clé-ouvrant-les-portes-de-la-connaissance-un-guide-vers-des-trésors-cachés-dans-les-données-ou-un-moyen-de-tisser-de-nouvelles-magies-avec-le-monde-des-chiffres-à-vous-de-jouer-jeunes-enchanteurs-des-données-)
-          - [À bientôt pour de nouvelles découvertes magiques !](#à-bientôt-pour-de-nouvelles-découvertes-magiques-)
-          - [*Magiquement vôtre,*](#magiquement-vôtre)
+
 
 Dans les profondeurs des données se cache une force mystérieuse, capable de transformer des informations brutes en connaissances précieuses : c'est le **Machine Learning**. Mais que se cache-t-il réellement derrière ce terme, souvent évoqué dans le monde des sciences des données ?
 
@@ -27,7 +25,7 @@ Le Machine Learning, ou apprentissage automatique, est un domaine de l'intellige
 
 # Une carte à trois chemins
 
-Dans le royaume des algorithmes de machine learning, il existe trois grands chemins tracés par des générations de magiciens des données : **l'apprentissage supervisé**, **l'apprentissage non supervisé**, et le mystérieux **apprentissage semi-supervisé**. Comme toute carte magique, chaque chemin mène à des trésors différents.
+Dans le royaume des algorithmes de machine learning, il existe trois grands chemins tracés par des générations de magiciens des données : **l'apprentissage supervisé**, **l'apprentissage non supervisé** et le mystérieux **apprentissage semi-supervisé**. Comme toute carte magique, chaque chemin mène à des trésors différents.
 
 -L'apprentissage supervisé : Imagine un apprenti sorcier qui reçoit des indices clairs à chaque étape, une sorte de guide pour chaque décision. Il sait toujours si sa prédiction est correcte, car il a des exemples pour s’entraîner.
 
@@ -43,7 +41,7 @@ Imagine un jardinier qui souhaite savoir si une plante est une rose ou un tourne
 
 L'apprentissage supervisé fonctionne de la même manière : nous fournissons à l'algorithme des données étiquetées, c'est-à-dire que chaque observation est accompagnée d'une réponse correcte. L'algorithme "apprend" à partir de ces exemples et peut ensuite faire des prédictions sur de nouvelles données.
 
-**_Exemples concrets_** :
+*Exemples concrets* :
 
 **Reconnaissance d'images** : Identifier si une image représente un chat ou un chien en analysant des images étiquetées de chats et de chiens.
 
@@ -65,7 +63,7 @@ Imagine un archéologue qui découvre un ancien site rempli de fragments de pote
 
 L'apprentissage non supervisé fonctionne de la même façon : aucune donnée n'est étiquetée. L'algorithme explore les données et essaie de trouver des structures ou des regroupements cachés, comme un détective qui tente de résoudre une énigme sans aide.
 
-*Exemples concrets*:
+*Exemples concrets* :
 
 **Segmentation de clients** : Une entreprise souhaite regrouper ses clients en fonction de leurs comportements d'achat, sans avoir d'idée préconçue de ces groupes.
 
@@ -105,7 +103,7 @@ Dans l'univers fascinant du machine learning, chaque chemin, qu'il soit supervis
 
 Mais ne vous y trompez pas, maîtriser ces chemins demande du temps, de l'expérimentation, et beaucoup d'entraînement avec vos artefacts magiques — les algorithmes. Cependant, une fois que vous saurez lequel utiliser, vous deviendrez le maître de votre propre royaume de données, capable de prédire, de classifier et de transformer des énigmes apparemment insolubles en solutions élégantes.
 
-Alors, quel chemin choisirez-vous ? Le guide strict et structuré de l'apprentissage supervisé, l'exploration audacieuse de l'apprentissage non supervisé, ou l’équilibre subtil de l’apprentissage semi-supervisé ?
+Alors, quel chemin choisirez-vous ? Le guide strict et structuré de l'apprentissage supervisé, l'exploration audacieuse de l'apprentissage non supervisé ou l’équilibre subtil de l’apprentissage semi-supervisé ?
 
 **Un dernier mot avant de plier la carte**
 
@@ -119,7 +117,7 @@ Dans ce voyage à travers les sentiers du Machine Learning supervisé, vous avez
 
 [Kaggle : Relevez des défis concrets et mettez en pratique vos connaissances en machine learning](https://www.kaggle.com/)
 
-###### Dans cette aventure enchantée, que chaque algorithme que vous maîtrisez soit une clé ouvrant les portes de la connaissance, un guide vers des trésors cachés dans les données, ou un moyen de tisser de nouvelles magies avec le monde des chiffres. À vous de jouer, jeunes enchanteurs des données !
+###### Dans cette aventure enchantée, que chaque algorithme que vous maîtrisez soit une clé ouvrant les portes de la connaissance, un guide vers des trésors cachés dans les données ou un moyen de tisser de nouvelles magies avec le monde des chiffres. À vous de jouer, jeunes enchanteurs des données !
 
 ###### À bientôt pour de nouvelles découvertes magiques !
 ###### *Magiquement vôtre,*
