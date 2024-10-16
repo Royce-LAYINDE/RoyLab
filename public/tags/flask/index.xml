@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projets on RoyLab: Code &amp; Web</title>
-    <link>/projects/</link>
-    <description>Recent content in Projets on RoyLab: Code &amp; Web</description>
+    <title>Flask on RoyLab: Code &amp; Web</title>
+    <link>/tags/flask/</link>
+    <description>Recent content in Flask on RoyLab: Code &amp; Web</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 20 Aug 2024 10:58:08 -0400</lastBuildDate>
-    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/flask/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mise en place d&#39;une application Web pour la Prédiction d&#39;Éligibilité aux Prêts avec Flask et Machine Learning</title>
       <link>/projects/projet2/</link>
       <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
       <guid>/projects/projet2/</guid>
-      <description>&lt;p&gt;En cours &amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Création d&#39;un Gestionnaire de Tâches en Python avec Programmation Orientée Objet</title>
-      <link>/projects/projet1/</link>
-      <pubDate>Sat, 20 Jan 2024 10:58:08 -0400</pubDate>
-      <guid>/projects/projet1/</guid>
       <description>&lt;p&gt;En cours &amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

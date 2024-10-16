@@ -5,7 +5,7 @@ description: "
 Explorez les mystères du Web Scraping et apprenez à collecter des données précieuses en ligne. Plongez dans l'art de l'exploration web automatisée et découvrez comment transformer votre navigateur en une baguette magique pour extraire des informations cachées. Découvrez les rituels du Web Scraping avec Python, et devenez un apprenti mage capable d'explorer les profondeurs du cyberespace pour des trésors d'informations. "
 featured_image: "/images/web.jpg"
 omit_header_text: true
-tags: ["python","web scraping","coding"]
+tags: ["Python","Web scraping","Coding"]
 disable_share: false   #Pour que les visiteurs puissent partager la page
 ---
 Bienvenue, cher apprenti mage du numérique, dans une nouvelle aventure au cœur du monde virtuel où les données se cachent tels des trésors dissimulés, attendant d'être découverts par des esprits curieux comme le vôtre. Dans ce récit, nous allons plonger dans l'art mystérieux du Web Scraping, une magie qui nous permet de collecter des données précieuses à partir du tissu même du web.

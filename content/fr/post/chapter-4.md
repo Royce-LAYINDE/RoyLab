@@ -3,7 +3,7 @@ date: 2023-11-26T11:14:48-04:00
 description: "Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l'art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l'esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires."
 featured_image: "/images/web1.jpg"
 omit_header_text: true
-tags: ["développement web", "HTML", "CSS", "coding"]
+tags: ["Développement web", "HTML", "CSS", "Coding"]
 disable_share: false
 title: "Chapitre IV: Les Fondations Magiques du Web : Explorez l'Art Enchanté du HTML et du CSS"
 ---

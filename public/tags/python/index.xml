@@ -6,8 +6,15 @@
     <description>Recent content in Python on RoyLab: Code &amp; Web</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 06 Sep 2023 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 10:58:08 -0400</lastBuildDate>
     <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mise en place d&#39;une application Web pour la Prédiction d&#39;Éligibilité aux Prêts avec Flask et Machine Learning</title>
+      <link>/projects/projet2/</link>
+      <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
+      <guid>/projects/projet2/</guid>
+      <description>&lt;p&gt;En cours &amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs</title>
       <link>/post/chapter-3/</link>

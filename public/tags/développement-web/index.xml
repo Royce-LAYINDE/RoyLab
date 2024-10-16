@@ -6,8 +6,15 @@
     <description>Recent content in Développement Web on RoyLab: Code &amp; Web</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 26 Nov 2023 11:14:48 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 10:58:08 -0400</lastBuildDate>
     <atom:link href="/tags/d%C3%A9veloppement-web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mise en place d&#39;une application Web pour la Prédiction d&#39;Éligibilité aux Prêts avec Flask et Machine Learning</title>
+      <link>/projects/projet2/</link>
+      <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
+      <guid>/projects/projet2/</guid>
+      <description>&lt;p&gt;En cours &amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS</title>
       <link>/post/chapter-4/</link>

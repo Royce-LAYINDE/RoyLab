@@ -3,7 +3,7 @@ date: 2024-10-13T11:14:48-04:00
 description: "Dans ce nouveau chapitre, nous plongeons dans l'univers fascinant du Machine Learning, guidés par une carte mystérieuse qui dévoile les différents chemins menant à la maîtrise des algorithmes. Découvrez les trois grands types d'apprentissage – supervisé, non supervisé, et semi-supervisé – et explorez les concepts fondamentaux tels que la classification, le clustering, et la réduction de dimensionnalité. Ce chapitre vous embarque dans une aventure magique où chaque algorithme est un sort puissant, prêt à être lancé pour résoudre les mystères cachés dans vos données."
 featured_image: "/images/web1.jpg"
 omit_header_text: true
-tags: ["coding"]
+tags: ["Coding", "Machine learning"]
 disable_share: false
 title: "Chapitre V: La Carte des Algorithmes de Machine Learning"
 ---

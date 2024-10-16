@@ -16,6 +16,13 @@
       <description>&lt;p&gt;&lt;em&gt;« Un jour, alors que je parcourais les vastes couloirs de la Bibliothèque des Prédictions, je suis tombé sur une carte ancienne. Une carte pas comme les autres&amp;hellip; Une carte capable de révéler les chemins vers les prédictions les plus justes et les plus incroyables. Aujourd&amp;rsquo;hui, je vous invite à plonger avec moi dans cette exploration magique : la Carte des Algorithmes de Machine Learning. »&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-des-matières&#34;&gt;Table des matières&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/post/chapter-5/#une-carte-à-trois-chemins&#34;&gt;Une carte à trois chemins&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/post/chapter-5/#premier-chemin--lapprentissage-supervisé&#34;&gt;Premier chemin : L&amp;rsquo;apprentissage supervisé&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/post/chapter-5/#deuxième-chemin--lapprentissage-non-supervisé&#34;&gt;Deuxième chemin : L&amp;rsquo;apprentissage non supervisé&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/post/chapter-5/#troisième-chemin--lapprentissage-semi-supervisé&#34;&gt;Troisième chemin : L&amp;rsquo;apprentissage semi-supervisé&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;/post/chapter-5/#conclusion--le-choix-du-chemin&#34;&gt;Conclusion : Le choix du chemin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Dans les profondeurs des données se cache une force mystérieuse, capable de transformer des informations brutes en connaissances précieuses : c&amp;rsquo;est le &lt;strong&gt;Machine Learning&lt;/strong&gt;. Mais que se cache-t-il réellement derrière ce terme, souvent évoqué dans le monde des sciences des données ?&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Mise en place d&#39;une application Web pour la Prédiction d&#39;Éligibilité aux Prêts avec Flask et Machine Learning</title>
+      <link>/projects/projet2/</link>
+      <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
+      <guid>/projects/projet2/</guid>
+      <description>&lt;p&gt;En cours &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Création d&#39;un Gestionnaire de Tâches en Python avec Programmation Orientée Objet</title>
       <link>/projects/projet1/</link>
       <pubDate>Sat, 20 Jan 2024 10:58:08 -0400</pubDate>

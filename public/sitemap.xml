@@ -12,6 +12,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2024-10-13T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>/</loc>
     <lastmod>2024-10-13T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -19,6 +24,36 @@
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2024-10-13T11:14:48-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/d%C3%A9veloppement-web/</loc>
+    <lastmod>2024-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2024-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/flask/</loc>
+    <lastmod>2024-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/projects/projet2/</loc>
+    <lastmod>2024-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/projet/</loc>
+    <lastmod>2024-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2024-08-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -37,22 +72,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>/tags/d%C3%A9veloppement-web/</loc>
-    <lastmod>2023-11-26T11:14:48-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>/tags/html/</loc>
     <lastmod>2023-11-26T11:14:48-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>/post/chapter-3/</loc>
-    <lastmod>2023-09-06T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>/tags/python/</loc>
     <lastmod>2023-09-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
