@@ -66,6 +66,9 @@ Modèles de Machine Learning Intégrés : Les modèles de régression logistique
 Cette plateforme se veut un outil d’aide à la décision pour les établissements bancaires. En centralisant l'analyse et la visualisation des données client, elle permet aux banquiers d’avoir une vue d’ensemble sur les dossiers et de prendre des décisions plus éclairées concernant l'attribution des prêts.
 
 # Visuels
+![Image ](/images/RoybankpageConnexion.png)
+![Image d'exemple](/images/RoybankpageDemandePret.png)
+![Image d'exemple](/images/RoybankpageDemandeAcc.png)
 
 # Conclusion de la quête
 
