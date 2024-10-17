@@ -82,7 +82,7 @@ Cette plateforme se veut un outil d’aide à la décision pour les établisseme
 # Visuels
 ![Page de connexion ](/images/RoybankpageConnexion.png)
 ![Page de prêt](/images/RoybankpageDemandePret.png)
-![Page d'accueil](/images/RoybankpageAcc.png)
+![Page d'accueil](/images/RoybankpageAccueil.png)
 
 # Conclusion de la quête
 
