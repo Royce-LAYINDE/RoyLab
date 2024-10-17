@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on RoyLab: Code &amp; Web</title>
-    <link>/tags/html/</link>
+    <link>https://roylab.xyz/tags/html/</link>
     <description>Recent content in HTML on RoyLab: Code &amp; Web</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sun, 26 Nov 2023 11:14:48 -0400</lastBuildDate>
-    <atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://roylab.xyz/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS</title>
-      <link>/post/chapter-4/</link>
+      <link>https://roylab.xyz/post/chapter-4/</link>
       <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>/post/chapter-4/</guid>
+      <guid>https://roylab.xyz/post/chapter-4/</guid>
       <description>&lt;p&gt;Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l&amp;rsquo;univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du HTML et du CSS, les deux langages qui servent d&amp;rsquo;alchimie pour transformer des lignes de code en sites web éblouissants.&lt;/p&gt;&#xA;&lt;p&gt;Le HTML, langage de balisage, sera notre première étoile à explorer. Il forme la structure fondamentale de chaque page web, chaque balise jouant un rôle crucial dans la construction de cet édifice numérique. Ensuite, nous nous immergerons dans l&amp;rsquo;esthétique ensorcelante du CSS, le langage qui donne vie aux couleurs, aux polices, et qui modèle l&amp;rsquo;apparence de nos créations.&lt;/p&gt;</description>
     </item>
   </channel>

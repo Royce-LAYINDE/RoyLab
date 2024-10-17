@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RoyLab: Code &amp; Web</title>
-    <link>/tags/</link>
+    <link>https://roylab.xyz/tags/</link>
     <description>Recent content in Tags on RoyLab: Code &amp; Web</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sun, 13 Oct 2024 11:14:48 -0400</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://roylab.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding</title>
-      <link>/tags/coding/</link>
+      <link>https://roylab.xyz/tags/coding/</link>
       <pubDate>Sun, 13 Oct 2024 11:14:48 -0400</pubDate>
-      <guid>/tags/coding/</guid>
+      <guid>https://roylab.xyz/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>/tags/machine-learning/</link>
+      <link>https://roylab.xyz/tags/machine-learning/</link>
       <pubDate>Sun, 13 Oct 2024 11:14:48 -0400</pubDate>
-      <guid>/tags/machine-learning/</guid>
+      <guid>https://roylab.xyz/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Développement Web</title>
-      <link>/tags/d%C3%A9veloppement-web/</link>
+      <link>https://roylab.xyz/tags/d%C3%A9veloppement-web/</link>
       <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
-      <guid>/tags/d%C3%A9veloppement-web/</guid>
+      <guid>https://roylab.xyz/tags/d%C3%A9veloppement-web/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>/tags/docker/</link>
+      <link>https://roylab.xyz/tags/docker/</link>
       <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
-      <guid>/tags/docker/</guid>
+      <guid>https://roylab.xyz/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Flask</title>
-      <link>/tags/flask/</link>
+      <link>https://roylab.xyz/tags/flask/</link>
       <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
-      <guid>/tags/flask/</guid>
+      <guid>https://roylab.xyz/tags/flask/</guid>
       <description></description>
     </item>
     <item>
       <title>Projet</title>
-      <link>/tags/projet/</link>
+      <link>https://roylab.xyz/tags/projet/</link>
       <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
-      <guid>/tags/projet/</guid>
+      <guid>https://roylab.xyz/tags/projet/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>https://roylab.xyz/tags/python/</link>
       <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
-      <guid>/tags/python/</guid>
+      <guid>https://roylab.xyz/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Sql</title>
-      <link>/tags/sql/</link>
+      <link>https://roylab.xyz/tags/sql/</link>
       <pubDate>Tue, 20 Aug 2024 10:58:08 -0400</pubDate>
-      <guid>/tags/sql/</guid>
+      <guid>https://roylab.xyz/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>CSS</title>
-      <link>/tags/css/</link>
+      <link>https://roylab.xyz/tags/css/</link>
       <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>/tags/css/</guid>
+      <guid>https://roylab.xyz/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML</title>
-      <link>/tags/html/</link>
+      <link>https://roylab.xyz/tags/html/</link>
       <pubDate>Sun, 26 Nov 2023 11:14:48 -0400</pubDate>
-      <guid>/tags/html/</guid>
+      <guid>https://roylab.xyz/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Qr Code</title>
-      <link>/tags/qr-code/</link>
+      <link>https://roylab.xyz/tags/qr-code/</link>
       <pubDate>Wed, 06 Sep 2023 10:58:08 -0400</pubDate>
-      <guid>/tags/qr-code/</guid>
+      <guid>https://roylab.xyz/tags/qr-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Scraping</title>
-      <link>/tags/web-scraping/</link>
+      <link>https://roylab.xyz/tags/web-scraping/</link>
       <pubDate>Thu, 24 Aug 2023 10:58:08 -0400</pubDate>
-      <guid>/tags/web-scraping/</guid>
+      <guid>https://roylab.xyz/tags/web-scraping/</guid>
       <description></description>
     </item>
     <item>
       <title>Turtle</title>
-      <link>/tags/turtle/</link>
+      <link>https://roylab.xyz/tags/turtle/</link>
       <pubDate>Fri, 18 Aug 2023 10:58:08 -0400</pubDate>
-      <guid>/tags/turtle/</guid>
+      <guid>https://roylab.xyz/tags/turtle/</guid>
       <description></description>
     </item>
   </channel>
