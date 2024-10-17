@@ -74,7 +74,7 @@ Cette plateforme se veut un outil d’aide à la décision pour les établisseme
 
 Ce projet a été une belle aventure mêlant data science et développement web, avec la mise en place d'une plateforme pratique pour faciliter l'évaluation de l'éligibilité aux prêts bancaires. De la construction des modèles de prédiction à la création d'une interface utilisateur intuitive avec Flask, nous avons exploré diverses technologies tout en appliquant des méthodes rigoureuses de machine learning.
 
-Si vous souhaitez plonger plus en profondeur dans le projet ou voir son code en action, vous pouvez consulter le dépôt GitHub [ici](https://github.com/Royce-LAYINDE/project_roy_bank_manager). De plus, pour un aperçu plus détaillé des étapes du projet, n'hésitez pas à consulter le rapport complet [ici](/documents/Rapport - Projet Roybank_manager_byRoyce.pdf).
+Si vous souhaitez plonger plus en profondeur dans le projet ou voir son code en action, vous pouvez consulter le dépôt GitHub [ici](https://github.com/Royce-LAYINDE/project_roy_bank_manager). De plus, pour un aperçu plus détaillé des étapes du projet, n'hésitez pas à consulter le rapport complet [ici](/documents/Rapport_Projet_Roybank_manager_byRoyce.pdf).
 
 ###### Nous espérons que cette quête vous a inspiré et que vous pourrez à votre tour mettre en œuvre des solutions de data science pour résoudre des problèmes réels. 
 
