@@ -11,7 +11,13 @@ Dans ce chapitre, nous vous dévoilons un projet fascinant : la prédiction d'é
 
 ## Table des matières
 - [Objectif du Projet](#objectif-du-projet)
-
+- [Le grimoire des données](#le-grimoire-des-données)
+- [Construction des Modèles de Prédiction](#construction-des-modèles-de-prédiction)
+- [Développement de la Plateforme Web](#développement-de-la-plateforme-web)
+- [Point sur les Technos Utilisées](#point-sur-les-technos-utilisées)
+- [Impact et Utilité](#impact-et-utilité)
+- [Visuels](#visuels)
+- [Conclusion de la quête](#conclusion-de-la-quête)
 
 # Objectif du Projet
 
