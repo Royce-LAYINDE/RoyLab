@@ -58,3 +58,13 @@ url = "https://github.com/Royce-LAYINDE"
 [[params.ananke_socials]]
 name = "medium"
 url = "https://medium.com/@layinderoyce"
+
+
+[outputs]
+  home = ["HTML", "RSS", "RobotsTXT"]
+
+[outputFormats.RobotsTXT]
+  mediaType = "text/plain"
+  baseName = "robots"
+  isPlainText = true
+  notAlternative = true
