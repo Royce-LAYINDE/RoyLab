@@ -68,7 +68,7 @@ Cette plateforme se veut un outil d’aide à la décision pour les établisseme
 # Visuels
 ![Image ](/images/RoybankpageConnexion.png)
 ![Image d'exemple](/images/RoybankpageDemandePret.png)
-![Image d'exemple](/images/RoybankpageDemandeAcc.png)
+![Image d'exemple](/images/RoybankpageAcc.png)
 
 # Conclusion de la quête
 
