@@ -1,7 +1,7 @@
 ---
 date: 2024-10-13T11:14:48-04:00
 description: "Dans ce nouveau chapitre, nous plongeons dans l'univers fascinant du Machine Learning, guidés par une carte mystérieuse qui dévoile les différents chemins menant à la maîtrise des algorithmes. Découvrez les trois grands types d'apprentissage – supervisé, non supervisé, et semi-supervisé – et explorez les concepts fondamentaux tels que la classification, le clustering, et la réduction de dimensionnalité. Ce chapitre vous embarque dans une aventure magique où chaque algorithme est un sort puissant, prêt à être lancé pour résoudre les mystères cachés dans vos données."
-featured_image: "/images/ML.png"
+featured_image: "/images/ML2.jpg"
 omit_header_text: true
 tags: ["Coding", "Machine learning"]
 disable_share: false
@@ -24,6 +24,7 @@ Dans les profondeurs des données se cache une force mystérieuse, capable de tr
 Le Machine Learning, ou apprentissage automatique, est un domaine de l'intelligence artificielle où les machines apprennent à partir de données. Comme un apprenti sorcier, une machine s'entraîne avec des exemples pour identifier des motifs cachés et faire des prédictions. Contrairement aux sortilèges traditionnels où chaque geste doit être appris à la perfection, ici, l'algorithme améliore ses compétences avec l'expérience.
 
 # Une carte à trois chemins
+![Le ML](/images/ML.png)
 
 Dans le royaume des algorithmes de machine learning, il existe trois grands chemins tracés par des générations de magiciens des données : **l'apprentissage supervisé**, **l'apprentissage non supervisé** et le mystérieux **apprentissage semi-supervisé**. Comme toute carte magique, chaque chemin mène à des trésors différents.
 
