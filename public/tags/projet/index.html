@@ -34,28 +34,28 @@
 
     
     
-      <link href="/tags/qr-code/index.xml" rel="alternate" type="application/rss+xml" title="RoyLab: Code &amp; Web" />
-      <link href="/tags/qr-code/index.xml" rel="feed" type="application/rss+xml" title="RoyLab: Code &amp; Web" />
+      <link href="/tags/projet/index.xml" rel="alternate" type="application/rss+xml" title="RoyLab: Code &amp; Web" />
+      <link href="/tags/projet/index.xml" rel="feed" type="application/rss+xml" title="RoyLab: Code &amp; Web" />
       
     
 
     
-      <link rel="canonical" href="https://roylab.xyz/tags/qr-code/">
+      <link rel="canonical" href="https://roylab.xyz/tags/projet/">
     
 
-    <meta property="og:url" content="https://roylab.xyz/tags/qr-code/">
+    <meta property="og:url" content="https://roylab.xyz/tags/projet/">
   <meta property="og:site_name" content="RoyLab: Code & Web">
-  <meta property="og:title" content="Qr Code">
+  <meta property="og:title" content="Projet">
   <meta property="og:description" content="Découvrez des articles sur Python, le Web scraping, le Machine Learning et bien plus sur RoyLab: Code &amp; Web.">
   <meta property="og:locale" content="fr">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="Qr Code">
+  <meta itemprop="name" content="Projet">
   <meta itemprop="description" content="Découvrez des articles sur Python, le Web scraping, le Machine Learning et bien plus sur RoyLab: Code &amp; Web.">
-  <meta itemprop="datePublished" content="2023-09-06T10:58:08-04:00">
-  <meta itemprop="dateModified" content="2023-09-06T10:58:08-04:00">
+  <meta itemprop="datePublished" content="2024-08-20T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2024-08-20T10:58:08-04:00">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Qr Code">
+  <meta name="twitter:title" content="Projet">
   <meta name="twitter:description" content="Découvrez des articles sur Python, le Web scraping, le Machine Learning et bien plus sur RoyLab: Code &amp; Web.">
 
 	
@@ -147,7 +147,7 @@
 
       <div class="tc-l pv3 ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          Qr Code
+          Projet
         </h1>
         
       </div>
@@ -169,32 +169,50 @@
             <div class="mb3 pa4 mid-gray overflow-hidden">
     
       <div class="f6">
-        septembre 6, 2023
+        août 20, 2024
       </div>
     
     <h1 class="f3 near-black">
-      <a href="/post/chapter-3/" class="link black dim">
-        Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs
+      <a href="/post/quete-1/" class="link black dim">
+        Quête I : Mise en place d&#39;une application Web pour la Prédiction d&#39;Éligibilité aux Prêts avec Flask et Machine Learning
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins.</p>
+      <p>Dans ce chapitre, nous vous dévoilons un projet fascinant : la prédiction d&rsquo;éligibilité aux prêts à l&rsquo;aide de deux puissants artefacts du royaume du machine learning, la régression logistique et KNN. Une aventure mêlant données, algorithmes et interface magique, que nous vous invitons à explorer.</p>
 <h2 id="table-des-matières">Table des matières</h2>
 <ul>
-<li><a href="/post/chapter-3/#1">QR Codes : Porteurs de Mystères Numériques</a></li>
-<li><a href="/post/chapter-3/#2">L&rsquo;Encodage des QR Codes : Tisser la Toile Magique</a></li>
-<li><a href="/post/chapter-3/#3">L&rsquo;Encodage Simple : Un Premier Pas</a></li>
-<li><a href="/post/chapter-3/#4">Un QR Code en Couleur : Une Touche d&rsquo;Éclat</a></li>
-<li><a href="/post/chapter-3/#5">Le Décodage des QR Codes : L&rsquo;Art de la Divination</a></li>
-<li><a href="/post/chapter-3/#6">Le Décodage Simple : Révéler les Secrets</a></li>
-<li><a href="/post/chapter-3/#7">Le Décodage Simple : Déchiffrer les Secrets</a></li>
-<li><a href="/post/chapter-3/#8">Conclure notre Aventure Magique</a></li>
+<li><a href="/post/quete-1/#objectif-du-projet">Objectif du Projet</a></li>
+<li><a href="/post/quete-1/#le-grimoire-des-données">Le grimoire des données</a></li>
+<li><a href="/post/quete-1/#construction-des-modèles-de-prédiction">Construction des Modèles de Prédiction</a></li>
+<li><a href="/post/quete-1/#développement-de-la-plateforme-web">Développement de la Plateforme Web</a></li>
+<li><a href="/post/quete-1/#point-sur-les-technos-utilisées">Point sur les Technos Utilisées</a></li>
+<li><a href="/post/quete-1/#impact-et-utilité">Impact et Utilité</a></li>
+<li><a href="/post/quete-1/#visuels">Visuels</a></li>
+<li><a href="/post/quete-1/#conclusion-de-la-quête">Conclusion de la quête</a></li>
 </ul>
-<h1 id="1">QR Codes : Porteurs de Mystères Numériques</h1>
-<p>Les QR codes, abrégés de l&rsquo;anglais &ldquo;Quick Response&rdquo; (Réponse Rapide), sont comme des parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des caractères d&rsquo;un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages numériques. Dans cet univers de &ldquo;techno magie&rdquo;, les QR codes servent de portails vers un monde de données et d&rsquo;informations cachées.</p>
+<h1 id="objectif-du-projet">Objectif du Projet</h1>
+<p>Chaque grande aventure commence par un défi. Ici, l&rsquo;objectif principal était de créer un modèle prédictif qui aide les banques à déterminer si un client potentiel est éligible à un prêt en fonction de ses caractéristiques personnelles et financières comme son revenu, sa situation matrimoniale ou son historique de crédit. Pour ce faire, nous avons mis sur pied deux modèles de machine learning : la régression logistique et le k-plus proches voisins (KNN), pour analyser et prédire les résultats en fonction des données. Nous avons également créé une plateforme web pour permettre aux banquiers et administrateurs de banque de visualiser et d’interagir facilement avec ces prédictions. Une solution complète, pensée pour rendre le processus décisionnel plus simple et efficace.</p>
     </div>
-  <a href="/post/chapter-3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1"></a>
+  <a href="/post/quete-1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1"></a>
   </div>
+
+        </div>
+      
+        <div class="relative w-100  mb4 bg-white">
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Atelier de codage</span>
+    <h1 class="f3 near-black">
+      <a href="/projects/projet1/" class="link black dim">
+        Création d&#39;un Gestionnaire de Tâches en Python avec Programmation Orientée Objet
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>En cours &hellip;</p>
+    </div>
+    <a href="/projects/projet1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1"></a>
+  </div>
+</div>
 
         </div>
       
