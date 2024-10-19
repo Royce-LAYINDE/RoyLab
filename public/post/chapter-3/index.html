@@ -1,174 +1,209 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs | RoyLab: Code &amp; Web</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
-    <meta name="generator" content="Hugo 0.135.0">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-      <meta name="author" content = "M. Royce">
-    
 
-    
-<link rel="stylesheet" href="/ananke/css/main.css" >
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JRYPCFECXK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
+    gtag('config', 'G-JRYPCFECXK');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-
-    
-
-    
-      
-<link rel="shortcut icon" href="/images/fav3.png" type="image/x-icon" />
+  <title>Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs | RoyLab: Code
+    &amp; Web</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta name="description"
+    content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
+  <meta name="generator" content="Hugo 0.135.0">
 
 
-    
 
-    
 
-    
-      <link rel="canonical" href="https://roylab.xyz/post/chapter-3/">
-    
+  <meta name="robots" content="noindex, nofollow">
 
-    <meta property="og:url" content="https://roylab.xyz/post/chapter-3/">
+
+  <meta name="author" content="M. Royce">
+
+
+
+  <link rel="stylesheet" href="/ananke/css/main.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/images/fav3.png" type="image/x-icon" />
+
+
+
+
+
+
+
+  <link rel="canonical" href="https://roylab.xyz/post/chapter-3/">
+
+
+  <meta property="og:url" content="https://roylab.xyz/post/chapter-3/">
   <meta property="og:site_name" content="RoyLab: Code & Web">
-  <meta property="og:title" content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs">
-  <meta property="og:description" content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
+  <meta property="og:title"
+    content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs">
+  <meta property="og:description"
+    content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
   <meta property="og:locale" content="fr">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2023-09-06T10:58:08-04:00">
-    <meta property="article:modified_time" content="2023-09-06T10:58:08-04:00">
-    <meta property="article:tag" content="Python">
-    <meta property="article:tag" content="Qr Code">
-    <meta property="article:tag" content="Coding">
+  <meta property="article:section" content="post">
+  <meta property="article:published_time" content="2023-09-06T10:58:08-04:00">
+  <meta property="article:modified_time" content="2023-09-06T10:58:08-04:00">
+  <meta property="article:tag" content="Python">
+  <meta property="article:tag" content="Qr Code">
+  <meta property="article:tag" content="Coding">
 
-  <meta itemprop="name" content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs">
-  <meta itemprop="description" content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
+  <meta itemprop="name"
+    content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs">
+  <meta itemprop="description"
+    content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
   <meta itemprop="datePublished" content="2023-09-06T10:58:08-04:00">
   <meta itemprop="dateModified" content="2023-09-06T10:58:08-04:00">
   <meta itemprop="wordCount" content="1859">
   <meta itemprop="keywords" content="Python,Qr Code,Coding">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs">
-  <meta name="twitter:description" content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
+  <meta name="twitter:title"
+    content="Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs">
+  <meta name="twitter:description"
+    content="Explorez les secrets de l&#39;encodage et du décodage de QR codes grâce à la magie de Python. Plongez dans l&#39;art fascinant de la création et de la lecture de ces parchemins numériques et découvrez comment faire de votre ordinateur une baguette magique capable de générer des codes mystérieux et de révéler les messages cachés en un instant. Plongez dans les rituels de codage et de décodage des QR codes avec Python, et devenez un apprenti enchanteur capable de manipuler ces symboles numériques pour communiquer des informations secrètes ou créer des portails interactifs vers le monde numérique. Votre aventure dans l&#39;univers des QR codes commence ici, alors préparez-vous à explorer un nouveau monde de possibilités magiques.">
 
-	
-  </head>
 
-  <body class="ma0 avenir bg-near-white">
+</head>
 
-    
-   
-  
+<body class="ma0 avenir bg-near-white">
 
-  
+
+
+
+
+
   <header class="cover bg-top" style="background-image: url('https://roylab.xyz/images/qrcode1.png');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        <img src="/images/logo1.png" class="w100 mw5-ns" alt="RoyLab: Code &amp; Web" />
-      
-    </a>
-    <div class="flex-l items-center">
-      
+        <div class="flex-l justify-between items-center center">
+          <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
 
-      
-        <ul class="pl0 mr3">
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/about/" title="">
-              A propos
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/post/" title="">
-              Articles
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/projects/" title="">
-              Atelier de codage
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/contact/" title="">
-              Contact
-            </a>
-          </li>
-          
-        </ul>
-      
-      
-<div class="ananke-socials">
-  
-    
-    <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="me noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
-      
-        LinkedIn
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
-      
-        GitHub
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" aria-label="follow on Medium——Opens in a new window">
-      
-        Medium
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-</div>
+            <img src="/images/logo1.png" class="w100 mw5-ns" alt="RoyLab: Code &amp; Web" />
 
-    </div>
-  </div>
-</nav>
+          </a>
+          <div class="flex-l items-center">
+
+
+
+            <ul class="pl0 mr3">
+
+              <li class="list f5 f4-ns fw4 dib pr3">
+                <a class="hover-white no-underline white-90" href="/about/" title="">
+                  A propos
+                </a>
+              </li>
+
+              <li class="list f5 f4-ns fw4 dib pr3">
+                <a class="hover-white no-underline white-90" href="/post/" title="">
+                  Articles
+                </a>
+              </li>
+
+              <li class="list f5 f4-ns fw4 dib pr3">
+                <a class="hover-white no-underline white-90" href="/projects/" title="">
+                  Atelier de codage
+                </a>
+              </li>
+
+              <li class="list f5 f4-ns fw4 dib pr3">
+                <a class="hover-white no-underline white-90" href="/contact/" title="">
+                  Contact
+                </a>
+              </li>
+
+            </ul>
+
+
+            <div class="ananke-socials">
+
+
+              <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="me noopener"
+                class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
+                title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+
+                LinkedIn
+
+                <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                    viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                      d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
+                      style="fill-rule:evenodd;clip-rule:evenodd;" />
+                  </svg>
+                </span></a>
+
+
+              <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener"
+                class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
+                title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+
+                GitHub
+
+                <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                    viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                      d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
+                      style="fill-rule:evenodd;clip-rule:evenodd;" />
+                  </svg>
+                </span></a>
+
+
+              <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener"
+                class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
+                title="Medium link" aria-label="follow on Medium——Opens in a new window">
+
+                Medium
+
+                <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                    viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                      d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
+                      style="fill-rule:evenodd;clip-rule:evenodd;" />
+                  </svg>
+                </span></a>
+
+            </div>
+
+          </div>
+        </div>
+      </nav>
 
       <div class="tc-l pv6 ph3 ph4-ns">
-        
+
       </div>
     </div>
   </header>
 
 
 
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Articles
-      </aside>
-      
+  <main class="pb7" role="main">
+
+
+    <article class="flex-l flex-wrap justify-between mw8 center ph3">
+      <header class="mt4 w-100">
+        <aside class="instapaper_ignoref b helvetica tracked ttu">
+
+          Articles
+        </aside>
 
 
 
@@ -179,56 +214,80 @@
 
 
 
-  <div id="sharing" class="mt3 ananke-socials">
-    
-      
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://roylab.xyz/post/chapter-3/&amp;title=Chapitre%20III:%20D%c3%a9coder%20et%20Encoder%20des%20QR%20Codes%20en%20Python%20:%20L%27Art%20des%20Apprentis%20Enchanteurs" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
-        
-      </a>
-    
-  </div>
+
+        <div id="sharing" class="mt3 ananke-socials">
 
 
-      <h1 class="f1 athelas mt3 mb1">Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs</h1>
-      
-      <p class="tracked">
-         <strong>M. Royce</strong>
-      </p>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2023-09-06T10:58:08-04:00">septembre 6, 2023</time>
-      
+          <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://roylab.xyz/post/chapter-3/&amp;title=Chapitre%20III:%20D%c3%a9coder%20et%20Encoder%20des%20QR%20Codes%20en%20Python%20:%20L%27Art%20des%20Apprentis%20Enchanteurs"
+            class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
 
-      
-      
-        <span class="f6 mv4 dib tracked"> -  </span>
-        <span class="f6 mv4 dib tracked"> -  </span>
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR codes se présentent comme de mystérieux parchemins.</p>
-<h2 id="table-des-matières">Table des matières</h2>
-<ul>
-<li><a href="/post/chapter-3/#1">QR Codes : Porteurs de Mystères Numériques</a></li>
-<li><a href="/post/chapter-3/#2">L&rsquo;Encodage des QR Codes : Tisser la Toile Magique</a></li>
-<li><a href="/post/chapter-3/#3">L&rsquo;Encodage Simple : Un Premier Pas</a></li>
-<li><a href="/post/chapter-3/#4">Un QR Code en Couleur : Une Touche d&rsquo;Éclat</a></li>
-<li><a href="/post/chapter-3/#5">Le Décodage des QR Codes : L&rsquo;Art de la Divination</a></li>
-<li><a href="/post/chapter-3/#6">Le Décodage Simple : Révéler les Secrets</a></li>
-<li><a href="/post/chapter-3/#7">Le Décodage Simple : Déchiffrer les Secrets</a></li>
-<li><a href="/post/chapter-3/#8">Conclure notre Aventure Magique</a></li>
-</ul>
-<h1 id="1">QR Codes : Porteurs de Mystères Numériques</h1>
-<p>Les QR codes, abrégés de l&rsquo;anglais &ldquo;Quick Response&rdquo; (Réponse Rapide), sont comme des parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des caractères d&rsquo;un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages numériques. Dans cet univers de &ldquo;techno magie&rdquo;, les QR codes servent de portails vers un monde de données et d&rsquo;informations cachées.</p>
-<p>Ces codes numériques ont une utilité versatile. Ils peuvent contenir des liens vers des sites web, des informations de contact, des messages, ou même des données structurées telles que des numéros d&rsquo;identification. Tout comme un sac magique, les QR codes peuvent transporter une variété infinie d&rsquo;informations dans un espace restreint. C&rsquo;est pourquoi ils sont devenus des alliés précieux dans le monde numérique, servant à des fins aussi variées que la publicité, la gestion de l&rsquo;inventaire, la billetterie, et bien plus encore.</p>
-<p>En somme, les QR codes sont comme des sortilèges numériques, capables de révéler des connaissances cachées d&rsquo;un simple coup d&rsquo;œil. À travers leur mystérieuse structure, ils renferment des trésors d&rsquo;informations, prêts à être découverts par ceux qui possèdent la clé de leur déchiffrement.</p>
-<p>Dans notre quête, nous allons explorer l&rsquo;art de l&rsquo;encodage et du décodage de ces codes magiques en utilisant Python.</p>
-<h1 id="2">L&rsquo;Encodage des QR Codes : Tisser la Toile Magique</h1>
-<p>Notre première étape consiste à apprendre l&rsquo;art de l&rsquo;encodage, qui nous permet de créer nos propres QR codes. Pour ce faire, nous allons invoquer la bibliothèque qrcode. Assurez-vous de la préparer en utilisant le sortilège suivant :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pip install qrcode
-</span></span></code></pre></div><h2 id="3">L&rsquo;Encodage Simple : Un Premier Pas</h2>
-<p>Pour créer un QR code simple, récitons cette formule magique :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Après son installation nous allons maintenant procéder à l&#39;importation de notre bibliothèque</span>
+          </a>
+
+        </div>
+
+
+        <h1 class="f1 athelas mt3 mb1">Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis
+          Enchanteurs</h1>
+
+        <p class="tracked">
+          <strong>M. Royce</strong>
+        </p>
+
+
+
+        <time class="f6 mv4 dib tracked" datetime="2023-09-06T10:58:08-04:00">septembre 6, 2023</time>
+
+
+
+
+        <span class="f6 mv4 dib tracked"> - </span>
+        <span class="f6 mv4 dib tracked"> - </span>
+
+      </header>
+      <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l">
+        <p>Bienvenue, chers apprentis enchanteurs, dans une nouvelle aventure au cœur du monde numérique, où les QR
+          codes se présentent comme de mystérieux parchemins.</p>
+        <h2 id="table-des-matières">Table des matières</h2>
+        <ul>
+          <li><a href="/post/chapter-3/#1">QR Codes : Porteurs de Mystères Numériques</a></li>
+          <li><a href="/post/chapter-3/#2">L&rsquo;Encodage des QR Codes : Tisser la Toile Magique</a></li>
+          <li><a href="/post/chapter-3/#3">L&rsquo;Encodage Simple : Un Premier Pas</a></li>
+          <li><a href="/post/chapter-3/#4">Un QR Code en Couleur : Une Touche d&rsquo;Éclat</a></li>
+          <li><a href="/post/chapter-3/#5">Le Décodage des QR Codes : L&rsquo;Art de la Divination</a></li>
+          <li><a href="/post/chapter-3/#6">Le Décodage Simple : Révéler les Secrets</a></li>
+          <li><a href="/post/chapter-3/#7">Le Décodage Simple : Déchiffrer les Secrets</a></li>
+          <li><a href="/post/chapter-3/#8">Conclure notre Aventure Magique</a></li>
+        </ul>
+        <h1 id="1">QR Codes : Porteurs de Mystères Numériques</h1>
+        <p>Les QR codes, abrégés de l&rsquo;anglais &ldquo;Quick Response&rdquo; (Réponse Rapide), sont comme des
+          parchemins magiques du monde numérique. Ce sont des images bidimensionnelles qui renferme un pouvoir
+          énigmatique : la capacité de stocker et de transmettre des informations secrètes. Leur apparence, telles des
+          caractères d&rsquo;un vieux grimoire, forment un code qui peut être décrypté par des apprentis mages
+          numériques. Dans cet univers de &ldquo;techno magie&rdquo;, les QR codes servent de portails vers un monde de
+          données et d&rsquo;informations cachées.</p>
+        <p>Ces codes numériques ont une utilité versatile. Ils peuvent contenir des liens vers des sites web, des
+          informations de contact, des messages, ou même des données structurées telles que des numéros
+          d&rsquo;identification. Tout comme un sac magique, les QR codes peuvent transporter une variété infinie
+          d&rsquo;informations dans un espace restreint. C&rsquo;est pourquoi ils sont devenus des alliés précieux dans
+          le monde numérique, servant à des fins aussi variées que la publicité, la gestion de l&rsquo;inventaire, la
+          billetterie, et bien plus encore.</p>
+        <p>En somme, les QR codes sont comme des sortilèges numériques, capables de révéler des connaissances cachées
+          d&rsquo;un simple coup d&rsquo;œil. À travers leur mystérieuse structure, ils renferment des trésors
+          d&rsquo;informations, prêts à être découverts par ceux qui possèdent la clé de leur déchiffrement.</p>
+        <p>Dans notre quête, nous allons explorer l&rsquo;art de l&rsquo;encodage et du décodage de ces codes magiques
+          en utilisant Python.</p>
+        <h1 id="2">L&rsquo;Encodage des QR Codes : Tisser la Toile Magique</h1>
+        <p>Notre première étape consiste à apprendre l&rsquo;art de l&rsquo;encodage, qui nous permet de créer nos
+          propres QR codes. Pour ce faire, nous allons invoquer la bibliothèque qrcode. Assurez-vous de la préparer en
+          utilisant le sortilège suivant :</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pip install qrcode
+</span></span></code></pre>
+        </div>
+        <h2 id="3">L&rsquo;Encodage Simple : Un Premier Pas</h2>
+        <p>Pour créer un QR code simple, récitons cette formule magique :</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Après son installation nous allons maintenant procéder à l&#39;importation de notre bibliothèque</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> qrcode   
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># On stocke ensuite dans une variable le message à inscrire dans le QR code</span>
 </span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Mon premier QR code en tant qu&#39;apprenti mage sur @RoyLab &#34;</span>   
@@ -236,17 +295,32 @@
 </span></span><span style="display:flex;"><span>img <span style="color:#f92672">=</span> qrcode<span style="color:#f92672">.</span>make(message)
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># On enregistre enfin le QR code en tant qu&#39;image grâce à la méthode .save() qui prendra en argument le nom de notre QR code suivi de l&#39;extension de l&#39;image</span>
 </span></span><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;myfirst_qrcode.png&#39;</span>)
-</span></span></code></pre></div><p>Ce sort générera un QR code avec le message désiré et le sauvegardera sous forme d&rsquo;image nommée myfirst_qrcode.
-<img alt="myfirst_qrcode" src="/images/myfirst_qrcode.png"></p>
-<p>Vous pouvez ensuite partager cette image avec d&rsquo;autres aventuriers pour qu&rsquo;ils la scannent avec leur téléphone par exemple.</p>
-<p>NB: L&rsquo;image sera sauvegarder dans le dossier courant, c&rsquo;est-à-dire celui dans lequel vous exécutez votre script. Pour l&rsquo;enregistrer ailleurs, vous devez renseigner le chemin d&rsquo;accès du dossier. Exemple:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;/home/nomutilisateur/myfirst_qrcode.png&#39;</span>) <span style="color:#75715e">#Pour les mages de la maison Linux</span>
+</span></span></code></pre>
+        </div>
+        <p>Ce sort générera un QR code avec le message désiré et le sauvegardera sous forme d&rsquo;image nommée
+          myfirst_qrcode.
+          <img alt="myfirst_qrcode" src="/images/myfirst_qrcode.png">
+        </p>
+        <p>Vous pouvez ensuite partager cette image avec d&rsquo;autres aventuriers pour qu&rsquo;ils la scannent avec
+          leur téléphone par exemple.</p>
+        <p>NB: L&rsquo;image sera sauvegarder dans le dossier courant, c&rsquo;est-à-dire celui dans lequel vous
+          exécutez votre script. Pour l&rsquo;enregistrer ailleurs, vous devez renseigner le chemin d&rsquo;accès du
+          dossier. Exemple:</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;/home/nomutilisateur/myfirst_qrcode.png&#39;</span>) <span style="color:#75715e">#Pour les mages de la maison Linux</span>
 </span></span><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;C:/Users/Me/Images/myfirst_qrcode.png&#39;</span>)   <span style="color:#75715e">#Pour les mages de la maison Windows</span>
-</span></span></code></pre></div><h2 id="4">Un QR Code en Couleur : Une Touche d&rsquo;Éclat</h2>
-<p>Si vous souhaitez ajouter une touche de couleur à vos QR codes, nous pouvons utiliser la magie supplémentaire de qrcode[pil]. Assurez-vous de l&rsquo;installer en utilisant cette formule :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pip install qrcode[pil]
-</span></span></code></pre></div><p>Voici comment créer un QR code coloré :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> qrcode
+</span></span></code></pre>
+        </div>
+        <h2 id="4">Un QR Code en Couleur : Une Touche d&rsquo;Éclat</h2>
+        <p>Si vous souhaitez ajouter une touche de couleur à vos QR codes, nous pouvons utiliser la magie supplémentaire
+          de qrcode[pil]. Assurez-vous de l&rsquo;installer en utilisant cette formule :</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pip install qrcode[pil]
+</span></span></code></pre>
+        </div>
+        <p>Voici comment créer un QR code coloré :</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> qrcode
 </span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Mon premier QR code coloré en tant qu&#39;apprenti mage sur @RoyLab &#34;</span>   
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># On &#34;peut&#34; décider de créer un parchemin QR code personnalisé en modifiant certaines de ses caractéristiques</span>
 </span></span><span style="display:flex;"><span>qr <span style="color:#f92672">=</span> qrcode<span style="color:#f92672">.</span>QRCode(
@@ -262,21 +336,42 @@
 </span></span><span style="display:flex;"><span>img <span style="color:#f92672">=</span> qr<span style="color:#f92672">.</span>make_image(fill_color<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;black&#39;</span>, back_color<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;green&#39;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># On enregistre enfin l&#39;image colorée</span>
 </span></span><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;qrcodecolore.png&#39;</span>)
-</span></span></code></pre></div><p><img alt="myfirst_qrcode" src="/images/qrcodecolore.png"></p>
-<p>NB:</p>
-<ul>
-<li>L&rsquo;argument <strong>fit=True</strong> dans la méthode &ldquo;qr.make(fit=True)&rdquo; est utilisé pour indiquer à la bibliothèque qrcode de faire en sorte que le QR code s&rsquo;adapte automatiquement à la quantité de données que vous avez ajoutées. En d&rsquo;autres termes, si vos données sont trop longues pour tenir dans un QR code de taille standard, cette option permettra au QR code d&rsquo;augmenter sa taille pour accommoder toutes les données, sans dépasser les limites autorisées pour un QR code de cette <a href="https://fr.wikipedia.org/wiki/Code_QR#Versions">version</a>.</li>
-<li><strong>fill_color</strong>: C&rsquo;est la couleur de remplissage des parties actives du QR code, c&rsquo;est-à-dire des parties qui portent l&rsquo;information. Dans l&rsquo;exemple, la couleur de remplissage est définie sur &lsquo;black&rsquo;, ce qui signifie que les parties actives du QR code seront de couleur noire.</li>
-<li><strong>back_color</strong>: C&rsquo;est la couleur de fond du QR code, c&rsquo;est-à-dire la couleur de l&rsquo;arrière-plan qui entoure les parties actives. Dans l&rsquo;exemple, la couleur de fond est définie sur &lsquo;green&rsquo;, ce qui signifie que l&rsquo;arrière-plan du QR code sera de couleur verte.</li>
-</ul>
-<p><strong>Attention</strong>: Bien que l&rsquo;envie de jouer avec les couleurs peut sembler très forte par souci de personnalisation du QR code, il est primordial de ne pas être extravaguant dans le choix des couleurs et dans leur association. Mieux vaut partir sur des couleurs contrastées ou préférer le traditionnel Black &amp; White. Plus de conseils <a href="/post/chapter-3/#0">ici</a></p>
-<h1 id="5">Le Décodage des QR Codes : L&rsquo;Art de la Divination</h1>
-<p>Maintenant que nous maîtrisons l&rsquo;encodage, passons à l&rsquo;art fascinant du décryptage. Pour cela, nous utiliserons les sorts pyzbar et Pillow. Avant de poursuivre votre quête, assurez-vous de les avoir invoqués en utilisant les sorts suivants :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pip install pyzbar
+</span></span></code></pre>
+        </div>
+        <p><img alt="myfirst_qrcode" src="/images/qrcodecolore.png"></p>
+        <p>NB:</p>
+        <ul>
+          <li>L&rsquo;argument <strong>fit=True</strong> dans la méthode &ldquo;qr.make(fit=True)&rdquo; est utilisé
+            pour indiquer à la bibliothèque qrcode de faire en sorte que le QR code s&rsquo;adapte automatiquement à la
+            quantité de données que vous avez ajoutées. En d&rsquo;autres termes, si vos données sont trop longues pour
+            tenir dans un QR code de taille standard, cette option permettra au QR code d&rsquo;augmenter sa taille pour
+            accommoder toutes les données, sans dépasser les limites autorisées pour un QR code de cette <a
+              href="https://fr.wikipedia.org/wiki/Code_QR#Versions">version</a>.</li>
+          <li><strong>fill_color</strong>: C&rsquo;est la couleur de remplissage des parties actives du QR code,
+            c&rsquo;est-à-dire des parties qui portent l&rsquo;information. Dans l&rsquo;exemple, la couleur de
+            remplissage est définie sur &lsquo;black&rsquo;, ce qui signifie que les parties actives du QR code seront
+            de couleur noire.</li>
+          <li><strong>back_color</strong>: C&rsquo;est la couleur de fond du QR code, c&rsquo;est-à-dire la couleur de
+            l&rsquo;arrière-plan qui entoure les parties actives. Dans l&rsquo;exemple, la couleur de fond est définie
+            sur &lsquo;green&rsquo;, ce qui signifie que l&rsquo;arrière-plan du QR code sera de couleur verte.</li>
+        </ul>
+        <p><strong>Attention</strong>: Bien que l&rsquo;envie de jouer avec les couleurs peut sembler très forte par
+          souci de personnalisation du QR code, il est primordial de ne pas être extravaguant dans le choix des couleurs
+          et dans leur association. Mieux vaut partir sur des couleurs contrastées ou préférer le traditionnel Black
+          &amp; White. Plus de conseils <a href="/post/chapter-3/#0">ici</a></p>
+        <h1 id="5">Le Décodage des QR Codes : L&rsquo;Art de la Divination</h1>
+        <p>Maintenant que nous maîtrisons l&rsquo;encodage, passons à l&rsquo;art fascinant du décryptage. Pour cela,
+          nous utiliserons les sorts pyzbar et Pillow. Avant de poursuivre votre quête, assurez-vous de les avoir
+          invoqués en utilisant les sorts suivants :</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pip install pyzbar
 </span></span><span style="display:flex;"><span>pip install pillow
-</span></span></code></pre></div><h2 id="6">Le Décodage Simple : Révéler les Secrets</h2>
-<p>Voici comment vous pouvez décoder un QR code à partir d&rsquo;une image simple :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pyzbar.pyzbar <span style="color:#f92672">import</span> decode
+</span></span></code></pre>
+        </div>
+        <h2 id="6">Le Décodage Simple : Révéler les Secrets</h2>
+        <p>Voici comment vous pouvez décoder un QR code à partir d&rsquo;une image simple :</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pyzbar.pyzbar <span style="color:#f92672">import</span> decode
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Ouvrir l&#39;image contenant le QR code</span>
 </span></span><span style="display:flex;"><span>img <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#39;myfirst_qrcode.png&#39;</span>)
@@ -284,14 +379,21 @@
 </span></span><span style="display:flex;"><span>resultat <span style="color:#f92672">=</span> decode(img)
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Révéler les découvertes</span>
 </span></span><span style="display:flex;"><span>print(resultat)
-</span></span></code></pre></div><p>Ce sortilège ouvrira l&rsquo;image du QR code que vous avez spécifiée, extraira les données qu&rsquo;elle contient, et vous révèlera les secrets à l&rsquo;écran. On aura alors un résultat semblable à celui-ci:</p>
-<blockquote>
-<p>[Decoded(data=b&quot;Mon premier QR code en tant qu&rsquo;apprenti mage sur @RoyLab &ldquo;, type=&lsquo;QRCODE&rsquo;, rect=Rect(left=40, top=40, width=330, height=330), polygon=[Point(x=40, y=40), Point(x=40, y=369), Point(x=370, y=370), Point(x=369, y=40)], quality=1, orientation=&lsquo;UP&rsquo;)]</p>
-</blockquote>
-<p>Il convient de dire que ce résultat n&rsquo;est pas très évocatoire. Rendons le plus compréhensible.</p>
-<h2 id="7">Le Décodage Simple : Déchiffrer les Secrets</h2>
-<p>Pour ce faire, il suffit de parcourir le résultat obtenu afin d&rsquo;y extraire les caractéristiques du QR code:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> information <span style="color:#f92672">in</span> resultat:
+</span></span></code></pre>
+        </div>
+        <p>Ce sortilège ouvrira l&rsquo;image du QR code que vous avez spécifiée, extraira les données qu&rsquo;elle
+          contient, et vous révèlera les secrets à l&rsquo;écran. On aura alors un résultat semblable à celui-ci:</p>
+        <blockquote>
+          <p>[Decoded(data=b&quot;Mon premier QR code en tant qu&rsquo;apprenti mage sur @RoyLab &ldquo;,
+            type=&lsquo;QRCODE&rsquo;, rect=Rect(left=40, top=40, width=330, height=330), polygon=[Point(x=40, y=40),
+            Point(x=40, y=369), Point(x=370, y=370), Point(x=369, y=40)], quality=1, orientation=&lsquo;UP&rsquo;)]</p>
+        </blockquote>
+        <p>Il convient de dire que ce résultat n&rsquo;est pas très évocatoire. Rendons le plus compréhensible.</p>
+        <h2 id="7">Le Décodage Simple : Déchiffrer les Secrets</h2>
+        <p>Pour ce faire, il suffit de parcourir le résultat obtenu afin d&rsquo;y extraire les caractéristiques du QR
+          code:</p>
+        <div class="highlight">
+          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> information <span style="color:#f92672">in</span> resultat:
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Extraire et afficher le type du code (généralement &#39;QRCODE&#39;)</span>
 </span></span><span style="display:flex;"><span>    code_type <span style="color:#f92672">=</span> information<span style="color:#f92672">.</span>type
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Type de code : </span><span style="color:#e6db74">{</span>code_type<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
@@ -309,146 +411,205 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Extraire et afficher l&#39;orientation du QR code&#39;</span>
 </span></span><span style="display:flex;"><span>    code_orientation <span style="color:#f92672">=</span> information<span style="color:#f92672">.</span>orientation
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Orientation du qr code : </span><span style="color:#e6db74">{</span>code_orientation<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><p>En ajoutant ce bout de code au code précédent, nous allons pouvoir révéler les mystères qui se cachaient dans le QR code qu&rsquo;on cherchait à décoder.</p>
-<blockquote>
-<p>Type de code : QRCODE</p>
-</blockquote>
-<blockquote>
-<p>Données du code : Mon premier QR code en tant qu&rsquo;apprenti mage sur @RoyLab</p>
-</blockquote>
-<blockquote>
-<p>Taille du code (en pixels) - Largeur : 330, Hauteur : 330</p>
-</blockquote>
-<blockquote>
-<p>Qualité de décodage : 1</p>
-</blockquote>
-<blockquote>
-<p>Orientation du qr code : UP</p>
-</blockquote>
-<p>NB:</p>
-<ul>
-<li><strong>quality</strong> : Cet attribut représente la qualité du décodage du QR code. Il peut avoir différentes valeurs numériques qui indiquent à quel point le décodage a été réussi. Les valeurs possibles incluent généralement 0, 1, 2, etc., où 0 représente une qualité de décodage faible et une valeur plus élevée  indique une meilleure qualité de décodage.</li>
-<li><strong>orientation</strong> : Cet attribut indique l&rsquo;orientation du QR code. Dans notre exemple, il est défini sur &lsquo;UP&rsquo;, ce qui signifie que le QR code est orienté vers le haut, c&rsquo;est-à-dire qu&rsquo;il est dans la position standard sans rotation. Cependant, il existe d&rsquo;autres valeurs possibles, telles que &lsquo;RIGHT&rsquo;, &lsquo;DOWN&rsquo;, &lsquo;LEFT&rsquo;, qui indiqueraient si le QR code a été détecté dans une orientation différente, comme tourné vers la droite, vers le bas ou vers la gauche.</li>
-</ul>
-<h1 id="8">Conclure notre Aventure Magique</h1>
-<p>Comme tout bon apprenti enchanteur, vous avez désormais en votre possession les connaissances essentielles pour créer et décoder des QR codes en Python. L&rsquo;art de l&rsquo;encodage et du décodage de ces mystérieux parchemins numériques n&rsquo;aura bientôt plus de secrets pour vous.</p>
-<p>Toutefois, n&rsquo;oubliez jamais que la magie doit être utilisée avec responsabilité et prudence. Assurez-vous de respecter les lois et les règles concernant l&rsquo;utilisation des QR codes, notamment en matière de protection de la vie privée et de sécurité des données.</p>
-<p>L&rsquo;aventure continue, jeunes enchanteurs ! Vous pouvez maintenant personnaliser vos QR codes, les intégrer dans vos projets magiques, ou même les utiliser pour créer des liens interactifs vers des informations en ligne. Le monde numérique est vaste et rempli de possibilités, alors n&rsquo;ayez pas peur d&rsquo;explorer et d&rsquo;expérimenter de nouvelles incantations.</p>
-<p>Restez à l&rsquo;écoute pour de nouvelles incantations technologiques et des découvertes captivantes ! 📚🔮🌐</p>
-<h3 id="0">Conseils sur la personnalisation de QR code</h3>
-<ul>
-<li>
-<p>Contraste: Assurez-vous qu&rsquo;il y a un bon contraste entre la couleur de l&rsquo;arrière-plan (back_color) et la couleur de remplissage (fill_color) pour que le QR code soit facilement lisible. Par exemple, le noir sur le blanc ou le blanc sur le noir fonctionnent bien en termes de contraste.</p>
-</li>
-<li>
-<p>Couleurs vives: Les couleurs vives, comme le rouge, le bleu, le vert ou le jaune, sont souvent un bon choix pour attirer l&rsquo;attention. Cependant, elles doivent être utilisées avec parcimonie pour ne pas rendre le QR code illisible.</p>
-</li>
-<li>
-<p>Évitez les couleurs similaires: Évitez d&rsquo;utiliser des couleurs qui se ressemblent trop pour l&rsquo;arrière-plan et le remplissage, car cela peut rendre le QR code difficile à décoder.</p>
-</li>
-<li>
-<p>Testez votre QR code: Avant de publier ou d&rsquo;imprimer un QR code, assurez-vous de le tester avec différents lecteurs de QR code et sur différents appareils pour vous assurer qu&rsquo;il est bien lisible.</p>
-</li>
-<li>
-<p>Adaptez au contexte: Choisissez des couleurs qui s&rsquo;intègrent bien dans le contexte de votre utilisation du QR code. Par exemple, si vous l&rsquo;intégrez sur une affiche ou un document, assurez-vous qu&rsquo;il s&rsquo;harmonise visuellement.</p>
-</li>
-</ul>
-<p><strong>La Magie Continue</strong></p>
-<p>Explorez <a href="https://pypi.org/project/qrcode/">ici</a> pour en savoir plus sur la bibliothèque qrcode, et <a href="https://pypi.org/project/pyzbar/">ici</a> pour explorer pyzbar.</p>
-<p>Découvrez les pouvoirs <a href="https://github.com/lincolnloop/python-qrcode">ici</a> et <a href="https://github.com/NaturalHistoryMuseum/pyzbar">ici</a> pour les incantations plus avancées.</p>
-<p>🧙‍♂️🔮🌐📜</p>
-<h6 id="dans-cette-aventure-enchantée-que-chaque-qr-code-que-vous-créez-soit-une-invitation-à-la-découverte-un-lien-vers-des-connaissances-cachées-ou-un-moyen-de-partager-votre-magie-avec-le-monde-à-vous-de-jouer-jeunes-enchanteurs-">Dans cette aventure enchantée, que chaque QR code que vous créez soit une invitation à la découverte, un lien vers des connaissances cachées, ou un moyen de partager votre magie avec le monde. À vous de jouer, jeunes enchanteurs !</h6>
-<h6 id="à-bientôt-pour-de-nouvelles-découvertes-enchanteresses-">À bientôt pour de nouvelles découvertes enchanteresses !</h6>
-<h6 id="magiquement-vôtre"><em>Magiquement vôtre,</em></h6>
-<p>M.Royce</p>
-<ul class="pa0">
-  
-   <li class="list di">
-     <a href="/tags/python/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Python</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/qr-code/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Qr Code</a>
-   </li>
-  
-   <li class="list di">
-     <a href="/tags/coding/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Coding</a>
-   </li>
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
-      
-      
+</span></span></code></pre>
+        </div>
+        <p>En ajoutant ce bout de code au code précédent, nous allons pouvoir révéler les mystères qui se cachaient dans
+          le QR code qu&rsquo;on cherchait à décoder.</p>
+        <blockquote>
+          <p>Type de code : QRCODE</p>
+        </blockquote>
+        <blockquote>
+          <p>Données du code : Mon premier QR code en tant qu&rsquo;apprenti mage sur @RoyLab</p>
+        </blockquote>
+        <blockquote>
+          <p>Taille du code (en pixels) - Largeur : 330, Hauteur : 330</p>
+        </blockquote>
+        <blockquote>
+          <p>Qualité de décodage : 1</p>
+        </blockquote>
+        <blockquote>
+          <p>Orientation du qr code : UP</p>
+        </blockquote>
+        <p>NB:</p>
+        <ul>
+          <li><strong>quality</strong> : Cet attribut représente la qualité du décodage du QR code. Il peut avoir
+            différentes valeurs numériques qui indiquent à quel point le décodage a été réussi. Les valeurs possibles
+            incluent généralement 0, 1, 2, etc., où 0 représente une qualité de décodage faible et une valeur plus
+            élevée indique une meilleure qualité de décodage.</li>
+          <li><strong>orientation</strong> : Cet attribut indique l&rsquo;orientation du QR code. Dans notre exemple, il
+            est défini sur &lsquo;UP&rsquo;, ce qui signifie que le QR code est orienté vers le haut, c&rsquo;est-à-dire
+            qu&rsquo;il est dans la position standard sans rotation. Cependant, il existe d&rsquo;autres valeurs
+            possibles, telles que &lsquo;RIGHT&rsquo;, &lsquo;DOWN&rsquo;, &lsquo;LEFT&rsquo;, qui indiqueraient si le
+            QR code a été détecté dans une orientation différente, comme tourné vers la droite, vers le bas ou vers la
+            gauche.</li>
+        </ul>
+        <h1 id="8">Conclure notre Aventure Magique</h1>
+        <p>Comme tout bon apprenti enchanteur, vous avez désormais en votre possession les connaissances essentielles
+          pour créer et décoder des QR codes en Python. L&rsquo;art de l&rsquo;encodage et du décodage de ces mystérieux
+          parchemins numériques n&rsquo;aura bientôt plus de secrets pour vous.</p>
+        <p>Toutefois, n&rsquo;oubliez jamais que la magie doit être utilisée avec responsabilité et prudence.
+          Assurez-vous de respecter les lois et les règles concernant l&rsquo;utilisation des QR codes, notamment en
+          matière de protection de la vie privée et de sécurité des données.</p>
+        <p>L&rsquo;aventure continue, jeunes enchanteurs ! Vous pouvez maintenant personnaliser vos QR codes, les
+          intégrer dans vos projets magiques, ou même les utiliser pour créer des liens interactifs vers des
+          informations en ligne. Le monde numérique est vaste et rempli de possibilités, alors n&rsquo;ayez pas peur
+          d&rsquo;explorer et d&rsquo;expérimenter de nouvelles incantations.</p>
+        <p>Restez à l&rsquo;écoute pour de nouvelles incantations technologiques et des découvertes captivantes ! 📚🔮🌐
+        </p>
+        <h3 id="0">Conseils sur la personnalisation de QR code</h3>
+        <ul>
+          <li>
+            <p>Contraste: Assurez-vous qu&rsquo;il y a un bon contraste entre la couleur de l&rsquo;arrière-plan
+              (back_color) et la couleur de remplissage (fill_color) pour que le QR code soit facilement lisible. Par
+              exemple, le noir sur le blanc ou le blanc sur le noir fonctionnent bien en termes de contraste.</p>
+          </li>
+          <li>
+            <p>Couleurs vives: Les couleurs vives, comme le rouge, le bleu, le vert ou le jaune, sont souvent un bon
+              choix pour attirer l&rsquo;attention. Cependant, elles doivent être utilisées avec parcimonie pour ne pas
+              rendre le QR code illisible.</p>
+          </li>
+          <li>
+            <p>Évitez les couleurs similaires: Évitez d&rsquo;utiliser des couleurs qui se ressemblent trop pour
+              l&rsquo;arrière-plan et le remplissage, car cela peut rendre le QR code difficile à décoder.</p>
+          </li>
+          <li>
+            <p>Testez votre QR code: Avant de publier ou d&rsquo;imprimer un QR code, assurez-vous de le tester avec
+              différents lecteurs de QR code et sur différents appareils pour vous assurer qu&rsquo;il est bien lisible.
+            </p>
+          </li>
+          <li>
+            <p>Adaptez au contexte: Choisissez des couleurs qui s&rsquo;intègrent bien dans le contexte de votre
+              utilisation du QR code. Par exemple, si vous l&rsquo;intégrez sur une affiche ou un document, assurez-vous
+              qu&rsquo;il s&rsquo;harmonise visuellement.</p>
+          </li>
+        </ul>
+        <p><strong>La Magie Continue</strong></p>
+        <p>Explorez <a href="https://pypi.org/project/qrcode/">ici</a> pour en savoir plus sur la bibliothèque qrcode,
+          et <a href="https://pypi.org/project/pyzbar/">ici</a> pour explorer pyzbar.</p>
+        <p>Découvrez les pouvoirs <a href="https://github.com/lincolnloop/python-qrcode">ici</a> et <a
+            href="https://github.com/NaturalHistoryMuseum/pyzbar">ici</a> pour les incantations plus avancées.</p>
+        <p>🧙‍♂️🔮🌐📜</p>
+        <h6
+          id="dans-cette-aventure-enchantée-que-chaque-qr-code-que-vous-créez-soit-une-invitation-à-la-découverte-un-lien-vers-des-connaissances-cachées-ou-un-moyen-de-partager-votre-magie-avec-le-monde-à-vous-de-jouer-jeunes-enchanteurs-">
+          Dans cette aventure enchantée, que chaque QR code que vous créez soit une invitation à la découverte, un lien
+          vers des connaissances cachées, ou un moyen de partager votre magie avec le monde. À vous de jouer, jeunes
+          enchanteurs !</h6>
+        <h6 id="à-bientôt-pour-de-nouvelles-découvertes-enchanteresses-">À bientôt pour de nouvelles découvertes
+          enchanteresses !</h6>
+        <h6 id="magiquement-vôtre"><em>Magiquement vôtre,</em></h6>
+        <p>M.Royce</p>
+        <ul class="pa0">
+
+          <li class="list di">
+            <a href="/tags/python/"
+              class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Python</a>
+          </li>
+
+          <li class="list di">
+            <a href="/tags/qr-code/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Qr
+              Code</a>
+          </li>
+
+          <li class="list di">
+            <a href="/tags/coding/"
+              class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Coding</a>
+          </li>
+
+        </ul>
+        <div class="mt6 instapaper_ignoref">
+
+
+        </div>
+      </div>
+
+      <aside class="w-30-l mt6-l">
+
+
+
+
+        <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+          <p class="f5 b mb3"></p>
+          <ul class="pa0 list">
+
+            <li class="mb2">
+              <a href="/post/chapter-2/">Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de
+                Collecter les Trésors Cachés du Monde Virtuel</a>
+            </li>
+
+            <li class="mb2">
+              <a href="/post/chapter-1/">Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec
+                Turtle</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </aside>
+
+    </article>
+
+  </main>
+  <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+    <div class="flex justify-between">
+      <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://roylab.xyz/">
+        &copy; RoyLab: Code & Web 2024
+      </a>
+      <div>
+        <div class="ananke-socials">
+
+
+          <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="me noopener"
+            class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
+            title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+
+            LinkedIn
+
+            <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
+                  style="fill-rule:evenodd;clip-rule:evenodd;" />
+              </svg>
+            </span></a>
+
+
+          <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener"
+            class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
+            title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+
+            GitHub
+
+            <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
+                  style="fill-rule:evenodd;clip-rule:evenodd;" />
+              </svg>
+            </span></a>
+
+
+          <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener"
+            class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
+            title="Medium link" aria-label="follow on Medium——Opens in a new window">
+
+            Medium
+
+            <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
+                  style="fill-rule:evenodd;clip-rule:evenodd;" />
+              </svg>
+            </span></a>
+
+        </div>
       </div>
     </div>
+  </footer>
 
-    <aside class="w-30-l mt6-l">
+</body>
 
-
-
-
-  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3"></p>
-    <ul class="pa0 list">
-	   
-	     <li  class="mb2">
-          <a href="/post/chapter-2/">Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/post/chapter-1/">Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle</a>
-        </li>
-	    
-    </ul>
-</div>
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://roylab.xyz/" >
-    &copy;  RoyLab: Code & Web 2024 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
-    
-    <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="me noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
-      
-        LinkedIn
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
-      
-        GitHub
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-    
-    <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" aria-label="follow on Medium——Opens in a new window">
-      
-        Medium
-      
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
-</svg>
-</span></a>
-  
-</div>
-</div>
-  </div>
-</footer>
-
-  </body>
 </html>
