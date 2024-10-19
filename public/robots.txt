@@ -1,2 +1,4 @@
 User-agent: *
-Allow: /
+Disallow:
+
+Sitemap: https://roylab.xyz/sitemap.xml
