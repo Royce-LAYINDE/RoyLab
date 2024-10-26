@@ -14,11 +14,12 @@ Imaginez la scène : vous êtes en entreprise, et votre patron vous demande de t
 - [Problématique](#problématique)
 - [Solution proposée](#solution-proposée)
   - [Étape 1 : Convertir le fichier Excel en fichier CSV](#étape-1--convertir-le-fichier-excel-en-fichier-csv)
-- [Étape 2 : Comprendre les fichiers VCF et vCard](#étape-2--comprendre-les-fichiers-vcf-et-vcard)
-- [Étape 3 : Créer un fichier VCF à partir du fichier CSV](#étape-3--créer-un-fichier-vcf-à-partir-du-fichier-csv)
-- [Étape 4 : Importer le fichier VCF sur votre téléphone](#étape-4--importer-le-fichier-vcf-sur-votre-téléphone)
+  - [Étape 2 : Comprendre les fichiers VCF et vCard](#étape-2--comprendre-les-fichiers-vcf-et-vcard)
+  - [Étape 3 : Créer un fichier VCF à partir du fichier CSV](#étape-3--créer-un-fichier-vcf-à-partir-du-fichier-csv)
+  - [Étape 4 : Importer le fichier VCF sur votre téléphone](#étape-4--importer-le-fichier-vcf-sur-votre-téléphone)
 - [Résultats obtenus](#résultats-obtenus)
 - [Conclusion](#conclusion)
+
 
 # Problématique
 
