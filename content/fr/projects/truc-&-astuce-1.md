@@ -2,7 +2,7 @@
 title: "Truc & Astuce 1 : Enregistrer des contacts à partir d'un fichier Excel sur votre téléphone"
 date: 2024-10-26T10:58:08-04:00
 description: "Dans cet article, plongez dans une situation courante où des contacts d'entreprise, éparpillés dans un fichier Excel, doivent être transférés rapidement vers un téléphone. Avec un peu de magie Python, découvrez comment transformer un fichier de contacts en un format VCF prêt à l’emploi. Vous y trouverez une solution simple et rapide qui vous épargne les saisies manuelles et facilite la gestion de vos contacts."
-featured_image: "/images/html.jpg"
+featured_image: "/images/contact.jpg"
 omit_header_text: true
 tags: ["Truc & Astuce","Python","automatisation","VCF","vCard","contacts",]
 disable_share: false 
