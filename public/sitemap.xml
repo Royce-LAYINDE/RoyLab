@@ -2,8 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://roylab.xyz/tags/automatisation/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://roylab.xyz/tags/contacts/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://roylab.xyz/tags/python/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://roylab.xyz/</loc>
-    <lastmod>2024-10-26T10:58:08-04:00</lastmod>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://roylab.xyz/tags/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://roylab.xyz/tags/trucs--astuces/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://roylab.xyz/projects/trucs--astuces-1/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://roylab.xyz/tags/vcard/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://roylab.xyz/tags/vcf/</loc>
+    <lastmod>2024-10-25T10:58:08-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -18,11 +58,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://roylab.xyz/tags/machine-learning/</loc>
-    <lastmod>2024-10-13T11:14:48-04:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://roylab.xyz/tags/</loc>
     <lastmod>2024-10-13T11:14:48-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -43,11 +78,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://roylab.xyz/tags/projet/</loc>
-    <lastmod>2024-08-20T10:58:08-04:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://roylab.xyz/tags/python/</loc>
     <lastmod>2024-08-20T10:58:08-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -107,7 +137,7 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://roylab.xyz/atelier-de-codage/</loc>
+    <loc>https://roylab.xyz/projects/</loc>
     <lastmod>2023-08-18T10:58:08-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

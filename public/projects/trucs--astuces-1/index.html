@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Trucs &amp; Astuces 1 : Enregistrer des contacts à partir d&#39;un fichier Excel sur votre téléphone | RoyLab: Code &amp; Web</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Dans cet article, plongez dans une situation courante où des contacts d&#39;entreprise, éparpillés dans un fichier Excel, doivent être transférés rapidement vers un téléphone. Avec un peu de magie Python, découvrez comment transformer un fichier de contacts en un format VCF prêt à l’emploi. Vous y trouverez une solution simple et rapide qui vous épargne les saisies manuelles et facilite la gestion de vos contacts.">
+    <meta name="generator" content="Hugo 0.136.5">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "M. Royce">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+
+
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/fav3.png" type="image/x-icon" />
+
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://roylab.xyz/projects/trucs--astuces-1/">
+    
+
+    <meta property="og:url" content="https://roylab.xyz/projects/trucs--astuces-1/">
+  <meta property="og:site_name" content="RoyLab: Code & Web">
+  <meta property="og:title" content="Trucs & Astuces 1 : Enregistrer des contacts à partir d&#39;un fichier Excel sur votre téléphone">
+  <meta property="og:description" content="Dans cet article, plongez dans une situation courante où des contacts d&#39;entreprise, éparpillés dans un fichier Excel, doivent être transférés rapidement vers un téléphone. Avec un peu de magie Python, découvrez comment transformer un fichier de contacts en un format VCF prêt à l’emploi. Vous y trouverez une solution simple et rapide qui vous épargne les saisies manuelles et facilite la gestion de vos contacts.">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-10-25T10:58:08-04:00">
+    <meta property="article:modified_time" content="2024-10-25T10:58:08-04:00">
+    <meta property="article:tag" content="Trucs & Astuces">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Automatisation">
+    <meta property="article:tag" content="VCF">
+    <meta property="article:tag" content="VCard">
+    <meta property="article:tag" content="Contacts">
+
+  <meta itemprop="name" content="Trucs & Astuces 1 : Enregistrer des contacts à partir d&#39;un fichier Excel sur votre téléphone">
+  <meta itemprop="description" content="Dans cet article, plongez dans une situation courante où des contacts d&#39;entreprise, éparpillés dans un fichier Excel, doivent être transférés rapidement vers un téléphone. Avec un peu de magie Python, découvrez comment transformer un fichier de contacts en un format VCF prêt à l’emploi. Vous y trouverez une solution simple et rapide qui vous épargne les saisies manuelles et facilite la gestion de vos contacts.">
+  <meta itemprop="datePublished" content="2024-10-25T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2024-10-25T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1243">
+  <meta itemprop="keywords" content="Trucs &amp; Astuces,Python,Automatisation,VCF,VCard,Contacts">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Trucs & Astuces 1 : Enregistrer des contacts à partir d&#39;un fichier Excel sur votre téléphone">
+  <meta name="twitter:description" content="Dans cet article, plongez dans une situation courante où des contacts d&#39;entreprise, éparpillés dans un fichier Excel, doivent être transférés rapidement vers un téléphone. Avec un peu de magie Python, découvrez comment transformer un fichier de contacts en un format VCF prêt à l’emploi. Vous y trouverez une solution simple et rapide qui vous épargne les saisies manuelles et facilite la gestion de vos contacts.">
+
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://roylab.xyz/images/contact.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        <img src="/images/logo1.png" class="w100 mw5-ns" alt="RoyLab: Code &amp; Web" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="A propos page">
+              A propos
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projects/" title="Atelier de codage page">
+              Atelier de codage
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Atelier de codage
+      </aside>
+<h1 class="f1 athelas mt3 mb1">Trucs &amp; Astuces 1 : Enregistrer des contacts à partir d&#39;un fichier Excel sur votre téléphone</h1>
+      
+      <p class="tracked">
+        Par <strong>M. Royce</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-10-25T10:58:08-04:00">octobre 25, 2024</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 6 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 1243 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Imaginez la scène : vous êtes en entreprise, et votre patron vous demande de transférer tous les contacts de clients, qui se trouvent dans un fichier Excel (ou CSV, ou même TXT), vers son téléphone. C&rsquo;est une demande qui semble simple, mais qui peut rapidement devenir une corvée, surtout si le fichier contient des dizaines, voire des centaines de noms et numéros à saisir un par un. Pas de panique ! Cet article vous dévoile une méthode magique pour accomplir cette tâche facilement grâce à Python et au format VCF, la clé pour importer vos contacts dans votre téléphone en un rien de temps.</p>
+<h2 id="table-des-matières">Table des matières</h2>
+<ul>
+<li><a href="/projects/trucs--astuces-1/#problématique">Problématique</a></li>
+<li><a href="/projects/trucs--astuces-1/#solution-proposée">Solution proposée</a>
+<ul>
+<li><a href="/projects/trucs--astuces-1/#étape-1--convertir-le-fichier-excel-en-fichier-csv">Étape 1 : Convertir le fichier Excel en fichier CSV</a></li>
+<li><a href="/projects/trucs--astuces-1/#étape-2--comprendre-les-fichiers-vcf-et-vcard">Étape 2 : Comprendre les fichiers VCF et vCard</a></li>
+<li><a href="/projects/trucs--astuces-1/#étape-3--créer-un-fichier-vcf-à-partir-du-fichier-csv">Étape 3 : Créer un fichier VCF à partir du fichier CSV</a></li>
+<li><a href="/projects/trucs--astuces-1/#étape-4--importer-le-fichier-vcf-sur-votre-téléphone">Étape 4 : Importer le fichier VCF sur votre téléphone</a></li>
+</ul>
+</li>
+<li><a href="/projects/trucs--astuces-1/#résultats-obtenus">Résultats obtenus</a></li>
+<li><a href="/projects/trucs--astuces-1/#conclusion">Conclusion</a></li>
+</ul>
+<h1 id="problématique">Problématique</h1>
+<p>Transférer des informations de contact peut sembler être un véritable casse-tête, surtout lorsque vous devez le faire rapidement. Comment extraire efficacement des données d&rsquo;un fichier Excel ? Quel format choisir pour assurer une importation sans faille sur un smartphone ? Et surtout, comment éviter de perdre un temps précieux à saisir chaque contact manuellement ?</p>
+<h1 id="solution-proposée">Solution proposée</h1>
+<p>Pour résoudre ce problème, nous allons transformer votre fichier contenant les contacts en un fichier VCF, un format standard qui permet aux applications de gestion de contacts de lire et d&rsquo;importer facilement les informations. Si votre fichier est déjà en format CSV, parfait ! Sinon, pas de souci, nous allons le convertir. Dans tous les cas, notre solution s&rsquo;appuie sur le format CSV, que ce soit pour extraire des données d&rsquo;un fichier Excel ou pour créer le fichier final.</p>
+<h2 id="étape-1--convertir-le-fichier-excel-en-fichier-csv">Étape 1 : Convertir le fichier Excel en fichier CSV</h2>
+<p>Si vous avez votre fichier Excel prêt, voici comment procéder pour le convertir en CSV :</p>
+<p>Ouvrez le fichier Excel.
+Cliquez sur &ldquo;Fichier&rdquo; &gt; &ldquo;Enregistrer sous&rdquo;.
+Choisissez &ldquo;CSV (Comma delimited) (*.csv)&rdquo; comme format de fichier.
+Si vous avez déjà un fichier CSV, vous pouvez passer directement à la suite. Voilà, c&rsquo;est simple comme bonjour !</p>
+<h2 id="étape-2--comprendre-les-fichiers-vcf-et-vcard">Étape 2 : Comprendre les fichiers VCF et vCard</h2>
+<p>Le format VCF (Virtual Contact File) est le champion des informations de contact. C&rsquo;est un fichier contient des vCards, qui sont de véritables cartes de visite numériques. Avec ce format, votre téléphone pourra reconnaître et importer les contacts sans aucun souci.</p>
+<p><em><strong>Qu’est-ce qu’une vCard ?</strong></em></p>
+<p>Une vCard (ou Virtual Card) est une carte de visite virtuelle qui contient les informations de base d&rsquo;un contact : nom, numéro de téléphone, adresse, email et bien plus encore. Les vCards sont stockées dans des fichiers avec l&rsquo;extension <!-- raw HTML omitted -->.vcf<!-- raw HTML omitted -->, ce qui leur permet d’être facilement partagées et reconnues par de nombreux appareils et applications.</p>
+<p><strong>Structure d’une vCard</strong></p>
+<p>Chaque vCard dans un fichier VCF est structurée en plusieurs lignes, chacune contenant une information spécifique du contact, avec des balises prédéfinies. Voici un exemple de vCard simple pour mieux comprendre la structure :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>BEGIN:VCARD
+</span></span><span style="display:flex;"><span>VERSION:3.0
+</span></span><span style="display:flex;"><span>N:M;Royce;;;
+</span></span><span style="display:flex;"><span>TEL:000000
+</span></span><span style="display:flex;"><span>EMAIL:royce@roylab.xyz
+</span></span><span style="display:flex;"><span>END:VCARD
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>BEGIN et END</strong> : Délimitent le début et la fin de chaque carte de contact.</p>
+</li>
+<li>
+<p><strong>VERSION</strong> : Indique la version de la vCard, ici 3.0, compatible avec la plupart des appareils modernes.</p>
+</li>
+<li>
+<p><strong>N</strong> : Contient le nom du contact. La structure suit le format Nom;Prénom.</p>
+</li>
+<li>
+<p><strong>TEL</strong> : Contient le numéro de téléphone du contact.</p>
+</li>
+<li>
+<p><strong>EMAIL (facultatif)</strong> : Enregistre l&rsquo;email du contact si besoin.</p>
+</li>
+</ul>
+<p>Ces éléments peuvent varier et inclure des informations supplémentaires (comme l&rsquo;adresse, le nom de l&rsquo;entreprise, etc.), mais les éléments de base que nous utiliserons pour notre cas sont le nom et le numéro de téléphone.</p>
+<p>En utilisant cette structure, notre script Python va parcourir chaque contact dans le fichier CSV et générer une vCard pour chacun, en respectant ce format.</p>
+<h2 id="étape-3--créer-un-fichier-vcf-à-partir-du-fichier-csv">Étape 3 : Créer un fichier VCF à partir du fichier CSV</h2>
+<p>Maintenant, place au cœur de la magie : créer un fichier VCF à partir de votre fichier CSV à l&rsquo;aide d&rsquo;un petit script Python. Voici comment cela fonctionne :</p>
+<ul>
+<li>
+<p><em><strong>Ouvrir le fichier CSV</strong></em> : Nous allons lire le fichier contenant nos contacts. Chaque ligne correspond à un contact.</p>
+</li>
+<li>
+<p><strong>Extraire les données</strong> : On va séparer chaque ligne pour obtenir le nom, le prénom et le numéro de téléphone.</p>
+</li>
+<li>
+<p><strong>Construire la vCard</strong> : Pour chaque contact, on crée une vCard, qui est un simple ensemble de lignes décrivant les informations de contact.
+Écrire dans un fichier VCF : Enfin, on regroupe toutes les vCards et on les écrit dans un fichier VCF.</p>
+</li>
+</ul>
+<p>Voici le code correspondant :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">author: M.Royce
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># On stocke le chemin du fichier CSV contenant les contacts</span>
+</span></span><span style="display:flex;"><span>fichier_contacts <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;contacts.csv&#34;</span> 
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Ici notre fichier se nomme contacts.csv et se trouve dans le répertoire courant</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#On pouvait aussi mettre le chemin complet (Ex: C:/Mypc/Documents/contacts.csv)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Initialisation de la variable qui contiendra toutes les vCards</span>
+</span></span><span style="display:flex;"><span>listes_de_tous_les_contacts <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Ouverture du fichier CSV en mode lecture</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(fichier_contacts, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> contacts_file:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ligne <span style="color:#f92672">in</span> contacts_file:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Séparation de la ligne en prénom, nom et numéro en utilisant la virgule comme séparateur</span>
+</span></span><span style="display:flex;"><span>        nom, prenom, numero <span style="color:#f92672">=</span> ligne<span style="color:#f92672">.</span>strip()<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;,&#34;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Création du contenu d&#39;une vCard pour le contact actuel</span>
+</span></span><span style="display:flex;"><span>        contenu_d_un_contact <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;BEGIN:VCARD</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">VERSION:3.0</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">N:</span><span style="color:#e6db74">{</span>prenom<span style="color:#e6db74">}</span><span style="color:#e6db74">;</span><span style="color:#e6db74">{</span>nom<span style="color:#e6db74">}</span><span style="color:#e6db74">;;;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">TEL:</span><span style="color:#e6db74">{</span>numero<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">END:VCARD</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Ajout du contenu de la vCard au contenu global</span>
+</span></span><span style="display:flex;"><span>        listes_de_tous_les_contacts <span style="color:#f92672">+=</span> contenu_d_un_contact
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Chemin du fichier où nous allons écrire les vCards</span>
+</span></span><span style="display:flex;"><span>filename <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;all_contacts.vcf&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Ouverture du fichier en mode écriture et écriture du contenu des vCards</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(filename, <span style="color:#e6db74">&#34;w&#34;</span>) <span style="color:#66d9ef">as</span> vcf_file:
+</span></span><span style="display:flex;"><span>    vcf_file<span style="color:#f92672">.</span>write(listes_de_tous_les_contacts)  <span style="color:#75715e"># Écriture des vCards dans le fichier</span>
+</span></span></code></pre></div><h2 id="étape-4--importer-le-fichier-vcf-sur-votre-téléphone">Étape 4 : Importer le fichier VCF sur votre téléphone</h2>
+<p>Une fois que vous avez créé votre fichier VCF, il est temps de l&rsquo;importer sur votre téléphone. Pas de panique, il existe plusieurs moyens pour cela :</p>
+<ul>
+<li>
+<p>Câble USB : Connectez votre téléphone à votre ordinateur et transférez le fichier directement.</p>
+</li>
+<li>
+<p>Bluetooth : Envoyez le fichier via Bluetooth si vous êtes dans un rayon de proximité.</p>
+</li>
+<li>
+<p>Email : Envoyez-vous le fichier par email et ouvrez-le sur votre téléphone.</p>
+</li>
+<li>
+<p>Services Cloud : Utilisez Google Drive, Dropbox ou tout autre service de cloud pour accéder facilement au fichier.</p>
+</li>
+</ul>
+<p>Après avoir transféré le fichier, il vous suffit de l&rsquo;ouvrir sur votre téléphone :</p>
+<ul>
+<li>
+<p>Sur Android : Accédez à l&rsquo;application Contacts, allez dans les paramètres et choisissez <strong>&ldquo;Importer/Exporter&rdquo;</strong>, puis <strong>&ldquo;Importer à partir du fichier .vcf&rdquo;</strong>.</p>
+</li>
+<li>
+<p>Sur iPhone : Ouvrez le fichier VCF depuis l&rsquo;application Mail et choisissez <strong>&ldquo;Ajouter tous les contacts&rdquo;</strong>.</p>
+</li>
+</ul>
+<h1 id="résultats-obtenus">Résultats obtenus</h1>
+<p>Grâce à ce processus, vous avez réussi à enregistrer vos contacts sans effort. Fini les corvées à entrer chaque contact manuellement, vous pouvez désormais le faire en quelques clics.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>En résumé, il n’est pas nécessaire de se laisser submerger par des tâches répétitives. Vous voilà armé d&rsquo;une méthode efficace pour gérer vos contacts comme un pro ! En automatisant cette tâche, vous gagnez un temps précieux que vous pouvez consacrer à d&rsquo;autres activités (comme siroter un café tranquillement, par exemple). Alors, n&rsquo;hésitez pas à essayer cette astuce, à la partager avec vos amis et n’oubliez pas de revenir pour d&rsquo;autres &ldquo;Trucs &amp; Astuces&rdquo; à venir !</p>
+<h6 id="dans-cette-aventure-codée-que-chaque-ligne-de-script-soit-un-sortilège-ouvrant-un-univers-de-possibilités-une-solution-transformant-lordinaire-en-extraordinaire-désormais-plus-besoin-de-sacrifier-du-temps-précieux-pour-entrer-manuellement-chaque-contact--laissez-la-magie-des-scripts-faire-le-travail-à-votre-place-">Dans cette aventure codée, que chaque ligne de script soit un sortilège ouvrant un univers de possibilités, une solution transformant l&rsquo;ordinaire en extraordinaire. Désormais, plus besoin de sacrifier du temps précieux pour entrer manuellement chaque contact : laissez la magie des scripts faire le travail à votre place !</h6>
+<h6 id="à-très-bientôt-pour-de-nouvelles-explorations-et-toujours-plus-de-trucs--astuces-">À très bientôt pour de nouvelles explorations et toujours plus de Trucs &amp; Astuces !</h6>
+<h6 id="magiquement-vôtre"><em>Magiquement vôtre,</em></h6>
+<p>M.Royce</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/trucs--astuces/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Trucs &amp; Astuces</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/python/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Python</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/automatisation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Automatisation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/vcf/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">VCF</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/vcard/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">VCard</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/contacts/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Contacts</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Lié</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/quete-1/">Quête I : Mise en place d&#39;une application Web pour la Prédiction d&#39;Éligibilité aux Prêts avec Flask et Machine Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/chapter-3/">Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/chapter-2/">Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/chapter-1/">Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://roylab.xyz/" >
+    &copy;  RoyLab: Code & Web 2024 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

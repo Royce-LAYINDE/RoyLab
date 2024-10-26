@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Atelier de codage on RoyLab: Code &amp; Web</title>
-    <link>https://roylab.xyz/projects/</link>
-    <description>Recent content in Atelier de codage on RoyLab: Code &amp; Web</description>
+    <title>Contacts on RoyLab: Code &amp; Web</title>
+    <link>https://roylab.xyz/tags/contacts/</link>
+    <description>Recent content in Contacts on RoyLab: Code &amp; Web</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Fri, 25 Oct 2024 10:58:08 -0400</lastBuildDate>
-    <atom:link href="https://roylab.xyz/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://roylab.xyz/tags/contacts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trucs &amp; Astuces 1 : Enregistrer des contacts à partir d&#39;un fichier Excel sur votre téléphone</title>
       <link>https://roylab.xyz/projects/trucs--astuces-1/</link>

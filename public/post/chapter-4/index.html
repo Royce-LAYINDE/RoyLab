@@ -1,370 +1,220 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS | RoyLab: Code &amp; Web</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
+    <meta name="generator" content="Hugo 0.136.5">
+    
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+      <meta name="author" content = "M. Royce">
+    
 
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JRYPCFECXK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-JRYPCFECXK');
-  </script>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <title>Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS | RoyLab: Code
-    &amp; Web</title>
-  <meta name="viewport" content="width=device-width,minimum-scale=1">
-  <meta name="description"
-    content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
-  <meta name="generator" content="Hugo 0.135.0">
-
-
-
-
-  <meta name="robots" content="noindex, nofollow">
-
-
-  <meta name="author" content="M. Royce">
+    
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
 
 
 
-  <link rel="stylesheet" href="/ananke/css/main.css">
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/fav3.png" type="image/x-icon" />
 
 
+    
 
+    
 
+    
+      <link rel="canonical" href="https://roylab.xyz/post/chapter-4/">
+    
 
-
-
-  <link rel="shortcut icon" href="/images/fav3.png" type="image/x-icon" />
-
-
-
-
-
-
-
-  <link rel="canonical" href="https://roylab.xyz/post/chapter-4/">
-
-
-  <meta property="og:url" content="https://roylab.xyz/post/chapter-4/">
+    <meta property="og:url" content="https://roylab.xyz/post/chapter-4/">
   <meta property="og:site_name" content="RoyLab: Code & Web">
-  <meta property="og:title"
-    content="Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS">
-  <meta property="og:description"
-    content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
+  <meta property="og:title" content="Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS">
+  <meta property="og:description" content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
   <meta property="og:locale" content="fr">
   <meta property="og:type" content="article">
-  <meta property="article:section" content="post">
-  <meta property="article:published_time" content="2023-11-26T11:14:48-04:00">
-  <meta property="article:modified_time" content="2023-11-26T11:14:48-04:00">
-  <meta property="article:tag" content="Développement Web">
-  <meta property="article:tag" content="HTML">
-  <meta property="article:tag" content="CSS">
-  <meta property="article:tag" content="Coding">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2023-11-26T11:14:48-04:00">
+    <meta property="article:modified_time" content="2023-11-26T11:14:48-04:00">
+    <meta property="article:tag" content="Développement Web">
+    <meta property="article:tag" content="HTML">
+    <meta property="article:tag" content="CSS">
+    <meta property="article:tag" content="Coding">
 
-  <meta itemprop="name"
-    content="Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS">
-  <meta itemprop="description"
-    content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
+  <meta itemprop="name" content="Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS">
+  <meta itemprop="description" content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
   <meta itemprop="datePublished" content="2023-11-26T11:14:48-04:00">
   <meta itemprop="dateModified" content="2023-11-26T11:14:48-04:00">
   <meta itemprop="wordCount" content="1718">
   <meta itemprop="keywords" content="Développement Web,HTML,CSS,Coding">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title"
-    content="Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS">
-  <meta name="twitter:description"
-    content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
+  <meta name="twitter:title" content="Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS">
+  <meta name="twitter:description" content="Plongez dans le royaume fascinant du développement web avec cet article explorant les fondations magiques du HTML et du CSS. Découvrez l&#39;art enchanteur derrière la création de sites web et apprenez les secrets du langage de balisage HTML et du langage de style CSS. De la structuration des pages à l&#39;esthétique captivante, cette aventure vous guidera à travers les éléments essentiels du développement web. Préparez-vous à embrasser le pouvoir magique du code et à ouvrir la porte à des créations web extraordinaires.">
 
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
 
-</head>
+    
+   
+  
 
-<body class="ma0 avenir bg-near-white">
-
-
-
-
-
-
-  <header class="cover bg-top" style="background-image: url('https://roylab.xyz/images/web1.jpg');">
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://roylab.xyz/images/web1.jpg');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
-        <div class="flex-l justify-between items-center center">
-          <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        <img src="/images/logo1.png" class="w100 mw5-ns" alt="RoyLab: Code &amp; Web" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
 
-            <img src="/images/logo1.png" class="w100 mw5-ns" alt="RoyLab: Code &amp; Web" />
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="A propos page">
+              A propos
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projects/" title="Atelier de codage page">
+              Atelier de codage
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
 
-          </a>
-          <div class="flex-l items-center">
-
-
-
-            <ul class="pl0 mr3">
-
-              <li class="list f5 f4-ns fw4 dib pr3">
-                <a class="hover-white no-underline white-90" href="/about/" title="">
-                  A propos
-                </a>
-              </li>
-
-              <li class="list f5 f4-ns fw4 dib pr3">
-                <a class="hover-white no-underline white-90" href="/post/" title="">
-                  Articles
-                </a>
-              </li>
-
-              <li class="list f5 f4-ns fw4 dib pr3">
-                <a class="hover-white no-underline white-90" href="/projects/" title="">
-                  Atelier de codage
-                </a>
-              </li>
-
-              <li class="list f5 f4-ns fw4 dib pr3">
-                <a class="hover-white no-underline white-90" href="/contact/" title="">
-                  Contact
-                </a>
-              </li>
-
-            </ul>
-
-
-            <div class="ananke-socials">
-
-
-              <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="me noopener"
-                class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
-                title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
-
-                LinkedIn
-
-                <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
-                    viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path
-                      d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
-                      style="fill-rule:evenodd;clip-rule:evenodd;" />
-                  </svg>
-                </span></a>
-
-
-              <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener"
-                class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
-                title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
-
-                GitHub
-
-                <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
-                    viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path
-                      d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
-                      style="fill-rule:evenodd;clip-rule:evenodd;" />
-                  </svg>
-                </span></a>
-
-
-              <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener"
-                class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
-                title="Medium link" aria-label="follow on Medium——Opens in a new window">
-
-                Medium
-
-                <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
-                    viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path
-                      d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
-                      style="fill-rule:evenodd;clip-rule:evenodd;" />
-                  </svg>
-                </span></a>
-
-            </div>
-
-          </div>
-        </div>
-      </nav>
+    </div>
+  </div>
+</nav>
 
       <div class="tc-l pv6 ph3 ph4-ns">
-
+        
       </div>
     </div>
   </header>
 
 
 
-  <main class="pb7" role="main">
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Articles
+      </aside>
+<h1 class="f1 athelas mt3 mb1">Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML et du CSS</h1>
+      
+      <p class="tracked">
+        Par <strong>M. Royce</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-11-26T11:14:48-04:00">novembre 26, 2023</time>
+      
 
-
-    <article class="flex-l flex-wrap justify-between mw8 center ph3">
-      <header class="mt4 w-100">
-        <aside class="instapaper_ignoref b helvetica tracked ttu">
-
-          Articles
-        </aside>
-
-
-
-
-
-
-
-
-
-
-
-        <div id="sharing" class="mt3 ananke-socials">
-
-
-          <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://roylab.xyz/post/chapter-4/&amp;title=Chapitre%20IV:%20Les%20Fondations%20Magiques%20du%20Web%20:%20Explorez%20l%27Art%20Enchant%c3%a9%20du%20HTML%20et%20du%20CSS"
-            class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
-
-          </a>
-
-        </div>
-
-
-        <h1 class="f1 athelas mt3 mb1">Chapitre IV: Les Fondations Magiques du Web : Explorez l&#39;Art Enchanté du HTML
-          et du CSS</h1>
-
-        <p class="tracked">
-          <strong>M. Royce</strong>
-        </p>
-
-
-
-        <time class="f6 mv4 dib tracked" datetime="2023-11-26T11:14:48-04:00">novembre 26, 2023</time>
-
-
-
-
-        <span class="f6 mv4 dib tracked"> - </span>
-        <span class="f6 mv4 dib tracked"> - </span>
-
-      </header>
-      <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l">
-        <p>Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui
-          donne vie à l&rsquo;univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du
-          HTML et du CSS, les deux langages qui servent d&rsquo;alchimie pour transformer des lignes de code en sites
-          web éblouissants.</p>
-        <p>Le HTML, langage de balisage, sera notre première étoile à explorer. Il forme la structure fondamentale de
-          chaque page web, chaque balise jouant un rôle crucial dans la construction de cet édifice numérique. Ensuite,
-          nous nous immergerons dans l&rsquo;esthétique ensorcelante du CSS, le langage qui donne vie aux couleurs, aux
-          polices, et qui modèle l&rsquo;apparence de nos créations.</p>
-        <p>Attachez vos ceintures, car cette aventure promet non seulement de vous familiariser avec ces langages, mais
-          aussi de vous armer d&rsquo;astuces pratiques pour résoudre les énigmes les plus complexes du développement
-          web. Préparez-vous à découvrir l&rsquo;art et la magie qui se cachent derrière chaque site web que vous
-          visitez.</p>
-        <h2 id="table-des-matières">Table des matières</h2>
-        <ul>
-          <li><a href="/post/chapter-4/#1">Le Langage des Structurations: HTML</a></li>
-          <li><a href="/post/chapter-4/#2">Création de la structure d&rsquo;une page HTML</a></li>
-          <li><a href="/post/chapter-4/#3">Utilisation des balises essentielles (head, body, div, etc.)</a></li>
-          <li><a href="/post/chapter-4/#4">Création de la structure d&rsquo;une page HTML : Façonnez votre univers en
-              lignes de code</a></li>
-        </ul>
-        <h1 id="1">Le Langage des Structurations: HTML</h1>
-        <p>Le HTML, acronyme de HyperText Markup Language, n&rsquo;est pas simplement une suite de lettres et de
-          symboles, mais plutôt une baguette magique numérique qui donne forme et structure à l&rsquo;univers virtuel
-          que nous connaissons. Imaginez-le comme le maçon virtuel qui assemble les blocs fondamentaux, érigeant ainsi
-          la toile sur laquelle l&rsquo;art du web se déploie.</p>
-        <p>En tant que langage de balisage, le HTML joue un rôle central en permettant aux créateurs web de définir la
-          structure de leurs pages. Chaque balise HTML agit comme une incantation, attribuant un sens spécifique à
-          chaque élément de contenu. Ainsi, il ne s&rsquo;agit pas simplement d&rsquo;une suite de lignes de code, mais
-          d&rsquo;une partition magique qui orchestre la disposition, l&rsquo;organisation et la hiérarchie de chaque
-          élément sur une page web. Sans le HTML, l&rsquo;architecture même du web perdrait sa structure essentielle.
-        </p>
-        <h1 id="2">Création de la structure d&rsquo;une page HTML</h1>
-        <p>La création d&rsquo;une page web commence par ériger les piliers fondamentaux à l&rsquo;aide du langage HTML,
-          le langage de balisage qui donne forme à l&rsquo;invisible. Suivez le guide étape par étape pour maîtriser
-          cette première incantation.</p>
-        <h2 id="étape-1--déclaration-html">Étape 1 : Déclaration HTML</h2>
-        <p>Chaque sort nécessite une incantation, et pour une page web, c&rsquo;est la déclaration HTML qui amorce le
-          rituel. Utilisez le code sacré suivant au sommet de votre parchemin web :</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+      
+      
+        <span class="f6 mv4 dib tracked"> - 9 minutes de lecture </span>
+        <span class="f6 mv4 dib tracked"> - 1718 mots </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Bienvenue dans le royaume fascinant du développement web, où chaque ligne de code tisse la toile magique qui donne vie à l&rsquo;univers en ligne. Dans cette quête, nous plongerons au cœur des fondations mystiques du HTML et du CSS, les deux langages qui servent d&rsquo;alchimie pour transformer des lignes de code en sites web éblouissants.</p>
+<p>Le HTML, langage de balisage, sera notre première étoile à explorer. Il forme la structure fondamentale de chaque page web, chaque balise jouant un rôle crucial dans la construction de cet édifice numérique. Ensuite, nous nous immergerons dans l&rsquo;esthétique ensorcelante du CSS, le langage qui donne vie aux couleurs, aux polices, et qui modèle l&rsquo;apparence de nos créations.</p>
+<p>Attachez vos ceintures, car cette aventure promet non seulement de vous familiariser avec ces langages, mais aussi de vous armer d&rsquo;astuces pratiques pour résoudre les énigmes les plus complexes du développement web. Préparez-vous à découvrir l&rsquo;art et la magie qui se cachent derrière chaque site web que vous visitez.</p>
+<h2 id="table-des-matières">Table des matières</h2>
+<ul>
+<li><a href="/post/chapter-4/#1">Le Langage des Structurations: HTML</a></li>
+<li><a href="/post/chapter-4/#2">Création de la structure d&rsquo;une page HTML</a></li>
+<li><a href="/post/chapter-4/#3">Utilisation des balises essentielles (head, body, div, etc.)</a></li>
+<li><a href="/post/chapter-4/#4">Création de la structure d&rsquo;une page HTML : Façonnez votre univers en lignes de code</a></li>
+</ul>
+<h1 id="1">Le Langage des Structurations: HTML</h1>
+<p>Le HTML, acronyme de HyperText Markup Language, n&rsquo;est pas simplement une suite de lettres et de symboles, mais plutôt une baguette magique numérique qui donne forme et structure à l&rsquo;univers virtuel que nous connaissons. Imaginez-le comme le maçon virtuel qui assemble les blocs fondamentaux, érigeant ainsi la toile sur laquelle l&rsquo;art du web se déploie.</p>
+<p>En tant que langage de balisage, le HTML joue un rôle central en permettant aux créateurs web de définir la structure de leurs pages. Chaque balise HTML agit comme une incantation, attribuant un sens spécifique à chaque élément de contenu. Ainsi, il ne s&rsquo;agit pas simplement d&rsquo;une suite de lignes de code, mais d&rsquo;une partition magique qui orchestre la disposition, l&rsquo;organisation et la hiérarchie de chaque élément sur une page web. Sans le HTML, l&rsquo;architecture même du web perdrait sa structure essentielle.</p>
+<h1 id="2">Création de la structure d&rsquo;une page HTML</h1>
+<p>La création d&rsquo;une page web commence par ériger les piliers fondamentaux à l&rsquo;aide du langage HTML, le langage de balisage qui donne forme à l&rsquo;invisible. Suivez le guide étape par étape pour maîtriser cette première incantation.</p>
+<h2 id="étape-1--déclaration-html">Étape 1 : Déclaration HTML</h2>
+<p>Chaque sort nécessite une incantation, et pour une page web, c&rsquo;est la déclaration HTML qui amorce le rituel. Utilisez le code sacré suivant au sommet de votre parchemin web :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fr&#34;</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Cette invocation indique au navigateur qu&rsquo;une incroyable expérience web est sur le point de se
-          dérouler. La langue utilisée (dans cet exemple, le français) sert à harmoniser les vibrations linguistiques de
-          votre création.</p>
-        <h2 id="étape-2--en-tête-de-la-page">Étape 2 : En-tête de la page</h2>
-        <p>Le mage prudent prépare son équipement avant de se lancer dans une quête. L&rsquo;en-tête de la page, défini
-          par la balise <!-- raw HTML omitted -->, est l&rsquo;endroit où vous placez vos outils magiques :</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span></code></pre></div><p>Cette invocation indique au navigateur qu&rsquo;une incroyable expérience web est sur le point de se dérouler. La langue utilisée (dans cet exemple, le français) sert à harmoniser les vibrations linguistiques de votre création.</p>
+<h2 id="étape-2--en-tête-de-la-page">Étape 2 : En-tête de la page</h2>
+<p>Le mage prudent prépare son équipement avant de se lancer dans une quête. L&rsquo;en-tête de la page, défini par la balise <!-- raw HTML omitted -->, est l&rsquo;endroit où vous placez vos outils magiques :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;Titre de votre page&lt;/<span style="color:#f92672">title</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
-</span></span></code></pre>
-        </div>
-        <ul>
-          <li>Encodage des caractères (meta charset) : Cette rune assure que votre texte s&rsquo;affiche correctement,
-            sans distorsion linguistique.</li>
-          <li>Vision initiale (meta viewport) : Cette incantation garantit une expérience visuelle optimale, quel que
-            soit l&rsquo;appareil utilisé.</li>
-          <li>Titre (title) : Le titre est la bannière qui flotte dans les vents mystiques des onglets du navigateur.
-            Choisissez-la donc judicieusement.</li>
-        </ul>
-        <h2 id="étape-3--corps-de-la-page">Étape 3 : Corps de la page</h2>
-        <p>Le cœur de votre création réside dans le corps de la page, délimité par la balise <!-- raw HTML omitted --> :
-        </p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span></code></pre></div><ul>
+<li>Encodage des caractères (meta charset) : Cette rune assure que votre texte s&rsquo;affiche correctement, sans distorsion linguistique.</li>
+<li>Vision initiale (meta viewport) : Cette incantation garantit une expérience visuelle optimale, quel que soit l&rsquo;appareil utilisé.</li>
+<li>Titre (title) : Le titre est la bannière qui flotte dans les vents mystiques des onglets du navigateur. Choisissez-la donc judicieusement.</li>
+</ul>
+<h2 id="étape-3--corps-de-la-page">Étape 3 : Corps de la page</h2>
+<p>Le cœur de votre création réside dans le corps de la page, délimité par la balise <!-- raw HTML omitted --> :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
 </span></span><span style="display:flex;"><span>     Votre contenu va ici 
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>À l&rsquo;intérieur de ce sanctuaire, vous insérerez les éléments qui donneront vie à votre page : texte,
-          images, liens et autres artefacts magiques. Préparez-vous, car c&rsquo;est ici que l&rsquo;histoire commence à
-          prendre forme.</p>
-        <h2 id="étape-4--fermeture-html">Étape 4 : Fermeture HTML</h2>
-        <p>Enfin, ne pas oublier de refermer tout ça pour faire comprendre au navigateur que l&rsquo;expérience web se
-          termine là</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Maintenant que les fondations mystiques de votre page sont établies, il est temps de plonger plus
-          profondément dans le grimoire du HTML.</p>
-        <h1 id="3">Utilisation des balises essentielles (head, body, div, etc.)</h1>
-        <p>Le HTML, langage de balisage fondamental pour la création de pages web, repose sur l&rsquo;utilisation
-          judicieuse de balises. Ces balises, délimitées par des chevrons(sorte de guillemets), sont les éléments de
-          base qui structurent votre contenu. Avant de plonger dans les spécificités de chaque balise,
-          familiarisons-nous avec leur syntaxe et leur rôle essentiel.</p>
-        <h2 id="syntaxe-de-base-dune-balise-html-">Syntaxe de base d&rsquo;une balise HTML :</h2>
-        <p>Une balise HTML se compose généralement de deux parties :</p>
-        <ul>
-          <li><strong>Balise d&rsquo;ouverture</strong> : Débute avec le nom de la balise enveloppé entre des chevrons.
-            Exemple : &lt;nom_de_balise&gt;</li>
-        </ul>
-        <p>A titre illustratif, on retrouve: &lt;html&gt;,&lt;head&gt;,&lt;body&gt;,&lt;title&gt;</p>
-        <ul>
-          <li><strong>Balise de fermeture</strong> : Similaire à la balise d&rsquo;ouverture mais comporte une barre
-            oblique avant le nom. Exemple : &lt;/nom_de_balise&gt;</li>
-        </ul>
-        <p>A titre illustratif, on retrouve: &lt;/html&gt;,&lt;/head&gt;,&lt;/body&gt;,&lt;/title&gt;</p>
-        <h2 id="structure-générale-dune-balise-">Structure générale d&rsquo;une balise :</h2>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">nom_de_balise</span>&gt; Contenu de la balise &lt;/<span style="color:#f92672">nom_de_balise</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h2 id="balises-nécessaires">Balises nécessaires</h2>
-        <h3 id="balise-head--la-porte-des-mystères">Balise &lt;head&gt; : La porte des mystères</h3>
-        <p>La balise &lt;head&gt; n&rsquo;est pas seulement une cachette pour les outils, elle ouvre également une porte
-          vers des dimensions cachées. Utilisez cette balise pour connecter votre page au monde extérieur sans perturber
-          le récit principal et pour insérer des éléments cruciaux tels que des informations <a
-            href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta">méta</a>, des liens vers des <a
-            href="/">feuilles de style</a>, des <a
-            href="https://www.w3schools.com/html/html_scripts.asp#:~:text=The%20HTML%20%3Cscript%3E%20tag%20is%20used%20to%20define,manipulation%2C%20form%20validation%2C%20and%20dynamic%20changes%20of%20content.">scripts</a>,
-          et d&rsquo;autres éléments qui ne sont pas directement affichés sur la page..</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span></code></pre></div><p>À l&rsquo;intérieur de ce sanctuaire, vous insérerez les éléments qui donneront vie à votre page : texte, images, liens et autres artefacts magiques. Préparez-vous, car c&rsquo;est ici que l&rsquo;histoire commence à prendre forme.</p>
+<h2 id="étape-4--fermeture-html">Étape 4 : Fermeture HTML</h2>
+<p>Enfin, ne pas oublier de refermer tout ça pour faire comprendre au navigateur que l&rsquo;expérience web se termine là</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span></code></pre></div><p>Maintenant que les fondations mystiques de votre page sont établies, il est temps de plonger plus profondément dans le grimoire du HTML.</p>
+<h1 id="3">Utilisation des balises essentielles (head, body, div, etc.)</h1>
+<p>Le HTML, langage de balisage fondamental pour la création de pages web, repose sur l&rsquo;utilisation judicieuse de balises. Ces balises, délimitées par des chevrons(sorte de guillemets), sont les éléments de base qui structurent votre contenu. Avant de plonger dans les spécificités de chaque balise, familiarisons-nous avec leur syntaxe et leur rôle essentiel.</p>
+<h2 id="syntaxe-de-base-dune-balise-html-">Syntaxe de base d&rsquo;une balise HTML :</h2>
+<p>Une balise HTML se compose généralement de deux parties :</p>
+<ul>
+<li><strong>Balise d&rsquo;ouverture</strong> : Débute avec le nom de la balise enveloppé entre des chevrons. Exemple : &lt;nom_de_balise&gt;</li>
+</ul>
+<p>A titre illustratif, on retrouve: &lt;html&gt;,&lt;head&gt;,&lt;body&gt;,&lt;title&gt;</p>
+<ul>
+<li><strong>Balise de fermeture</strong> : Similaire à la balise d&rsquo;ouverture mais comporte une barre oblique avant le nom. Exemple : &lt;/nom_de_balise&gt;</li>
+</ul>
+<p>A titre illustratif, on retrouve: &lt;/html&gt;,&lt;/head&gt;,&lt;/body&gt;,&lt;/title&gt;</p>
+<h2 id="structure-générale-dune-balise-">Structure générale d&rsquo;une balise :</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">nom_de_balise</span>&gt; Contenu de la balise &lt;/<span style="color:#f92672">nom_de_balise</span>&gt;
+</span></span></code></pre></div><h2 id="balises-nécessaires">Balises nécessaires</h2>
+<h3 id="balise-head--la-porte-des-mystères">Balise &lt;head&gt; : La porte des mystères</h3>
+<p>La balise &lt;head&gt; n&rsquo;est pas seulement une cachette pour les outils, elle ouvre également une porte vers des dimensions cachées. Utilisez cette balise pour connecter votre page au monde extérieur sans perturber le récit principal et pour insérer des éléments cruciaux tels que  des informations <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta">méta</a>, des liens vers des <a href="/">feuilles de style</a>, des <a href="https://www.w3schools.com/html/html_scripts.asp#:~:text=The%20HTML%20%3Cscript%3E%20tag%20is%20used%20to%20define,manipulation%2C%20form%20validation%2C%20and%20dynamic%20changes%20of%20content.">scripts</a>, et d&rsquo;autres éléments qui ne sont pas directement affichés sur la page..</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article.css&#34;</span>&gt; <span style="color:#75715e">&lt;!--  ne fait pas attention à celui-ci pour le moment --&gt;</span>
@@ -372,57 +222,33 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!-- Autres éléments magiques vont ici --&gt;</span>
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h3 id="html--racine-de-votre-document-html">&lt;html&gt; : Racine de votre document HTML</h3>
-        <p>La balise &lt;html&gt; englobe l&rsquo;ensemble du document HTML. C&rsquo;est le point de départ de tout
-          contenu de la page web.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div><h3 id="html--racine-de-votre-document-html">&lt;html&gt; : Racine de votre document HTML</h3>
+<p>La balise &lt;html&gt; englobe l&rsquo;ensemble du document HTML. C&rsquo;est le point de départ de tout contenu de la page web.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span>&gt;
 </span></span><span style="display:flex;"><span>   Le reste de votre contenu HTML va ici
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h3 id="body--le-corps-de-la-magie">&lt;body&gt; : Le corps de la magie</h3>
-        <p>Tout le contenu visible de votre page, des paragraphes aux images, réside entre les balises &lt;body&gt;.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span></code></pre></div><h3 id="body--le-corps-de-la-magie">&lt;body&gt; : Le corps de la magie</h3>
+<p>Tout le contenu visible de votre page, des paragraphes aux images, réside entre les balises &lt;body&gt;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
 </span></span><span style="display:flex;"><span>  Hello, je suis le contenu de la page. Je peux être de tout genre, du simple texte aux images, en passant par des vidéos, des liens ou tout élément que vous voyez d&#39;habitude sur une page d&#39;un site web.
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Comprendre ces balises essentielles est comme déchiffrer les runes d&rsquo;un grimoire. Maintenant que nous
-          avons dévoilé ces mystères, préparez-vous à forger votre propre sortilège en partant à la découverte
-          d&rsquo;autres balises à utiliser dans votre body.</p>
-        <h2 id="4">Création de la structure d&rsquo;une page HTML : Façonnez votre univers en lignes de code</h2>
-        <p>Maintenant que nous avons exploré les bases du HTML et des balises essentielles, plongeons dans la création
-          concrète de la structure d&rsquo;une page HTML. C&rsquo;est ici que la magie opère vraiment, donnant vie à
-          votre vision à travers des lignes de code.</p>
-        <h3 id="les-titres-enchantés--h1-h2-h3-">Les Titres Enchantés : &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &hellip;
-        </h3>
-        <p>Les balises de titre &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, etc., définissent la hiérarchie des titres sur votre
-          page. &lt;h1&gt; est généralement utilisé pour le titre principal, suivi de &lt;h2&gt; pour les sections, et
-          ainsi de suite.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span>&gt;Titre Principal&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span></code></pre></div><p>Comprendre ces balises essentielles est comme déchiffrer les runes d&rsquo;un grimoire. Maintenant que nous avons dévoilé ces mystères, préparez-vous à forger votre propre sortilège en partant à la découverte d&rsquo;autres balises à utiliser dans votre body.</p>
+<h2 id="4">Création de la structure d&rsquo;une page HTML : Façonnez votre univers en lignes de code</h2>
+<p>Maintenant que nous avons exploré les bases du HTML et des balises essentielles, plongeons dans la création concrète de la structure d&rsquo;une page HTML. C&rsquo;est ici que la magie opère vraiment, donnant vie à votre vision à travers des lignes de code.</p>
+<h3 id="les-titres-enchantés--h1-h2-h3-">Les Titres Enchantés : &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &hellip;</h3>
+<p>Les balises de titre &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, etc., définissent la hiérarchie des titres sur votre page. &lt;h1&gt; est généralement utilisé pour le titre principal, suivi de &lt;h2&gt; pour les sections, et ainsi de suite.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span>&gt;Titre Principal&lt;/<span style="color:#f92672">h1</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h2</span>&gt;Sous-Section Enchantée&lt;/<span style="color:#f92672">h2</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h3</span>&gt;Exploration Magique&lt;/<span style="color:#f92672">h3</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h4</span>&gt;Exemples Magiques&lt;/<span style="color:#f92672">h4</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h3 id="p--le-paragraphe-ensorcelant">&lt;p&gt; : Le paragraphe ensorcelant</h3>
-        <p>Utilisée cette balise pour définir des paragraphes de texte.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;Ceci est un paragraphe de texte.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><h3 id="p--le-paragraphe-ensorcelant">&lt;p&gt; : Le paragraphe ensorcelant</h3>
+<p>Utilisée cette balise pour définir des paragraphes de texte.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;Ceci est un paragraphe de texte.&lt;/<span style="color:#f92672">p</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;Ceci est un autre paragraphe de texte.&lt;/<span style="color:#f92672">p</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;Ceci est encore un autre paragraphe de texte.&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h3 id="div--la-division-magique">&lt;div&gt; : La division magique</h3>
-        <p>La balise &lt;div&gt; est un puissant outil de structuration, permettant de regrouper des éléments et de les
-          styliser ensemble à l&rsquo;aide de CSS.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><h3 id="div--la-division-magique">&lt;div&gt; : La division magique</h3>
+<p>La balise &lt;div&gt; est un puissant outil de structuration, permettant de regrouper des éléments et de les styliser ensemble à l&rsquo;aide de CSS.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h2</span>&gt;Section 1&lt;/<span style="color:#f92672">h2</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Contenu de la section 1.&lt;/<span style="color:#f92672">p</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
@@ -431,33 +257,16 @@
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h2</span>&gt;Section 2&lt;/<span style="color:#f92672">h2</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Contenu de la section 2.&lt;/<span style="color:#f92672">p</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h3 id="a--le-lien-mystique">&lt;a&gt; : Le lien mystique</h3>
-        <p>La balise <!-- raw HTML omitted --> est utilisée pour créer des liens, que ce soit vers d&rsquo;autres pages,
-          des ressources externes, ou même des sections de la même page.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.roylab.xyz&#34;</span>&gt;Explorez davantage la magie du web&lt;/<span style="color:#f92672">a</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Ici, href spécifie l&rsquo;URL de la destination. C&rsquo;est ce qu&rsquo;on appelle un <strong><a
-              href="https://w3tutoriels.com/html/html-attributs/">attribut</a></strong>. En effet,les attributs sont
-          comme des runes magiques que vous attribuez aux balises pour leur conférer des pouvoirs spécifiques. Ils sont
-          les incantations secrètes qui intensifient le pouvoir des balises.</p>
-        <h3 id="les-images-envoûtantes--img-et-les-attributs-src-et-alt">Les Images Envoûtantes : &lt;img&gt; et les
-          attributs src et alt</h3>
-        <p>La balise &lt;img&gt; est utilisée pour incorporer des images dans votre page. L&rsquo;attribut src indique
-          l&rsquo;emplacement de l&rsquo;image, tandis que l&rsquo;attribut alt fournit un texte descriptif, important
-          pour l&rsquo;accessibilité et pour décrire l&rsquo;image si elle ne peut pas être affichée.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;image-magique.jpg&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Une illustration magique&#34;</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h3 id="la-magie-des-listes--ul-ol-li">La Magie des Listes : &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</h3>
-        <p>Les balises &lt;ul&gt; (liste non ordonnée) et &lt;ol&gt; (liste ordonnée) vous permettent de créer des
-          listes, tandis que &lt;li&gt; définit chaque élément de la liste.</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ul</span>&gt;
+</span></span></code></pre></div><h3 id="a--le-lien-mystique">&lt;a&gt; : Le lien mystique</h3>
+<p>La balise <!-- raw HTML omitted --> est utilisée pour créer des liens, que ce soit vers d&rsquo;autres pages, des ressources externes, ou même des sections de la même page.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.roylab.xyz&#34;</span>&gt;Explorez davantage la magie du web&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span></code></pre></div><p>Ici, href spécifie l&rsquo;URL de la destination. C&rsquo;est ce qu&rsquo;on appelle un <strong><a href="https://w3tutoriels.com/html/html-attributs/">attribut</a></strong>. En effet,les attributs sont comme des runes magiques que vous attribuez aux balises pour leur conférer des pouvoirs spécifiques. Ils sont les incantations secrètes qui intensifient le pouvoir des balises.</p>
+<h3 id="les-images-envoûtantes--img-et-les-attributs-src-et-alt">Les Images Envoûtantes : &lt;img&gt; et les attributs src et alt</h3>
+<p>La balise &lt;img&gt; est utilisée pour incorporer des images dans votre page. L&rsquo;attribut src indique l&rsquo;emplacement de l&rsquo;image, tandis que l&rsquo;attribut alt fournit un texte descriptif, important pour l&rsquo;accessibilité et pour décrire l&rsquo;image si elle ne peut pas être affichée.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;image-magique.jpg&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Une illustration magique&#34;</span>&gt;
+</span></span></code></pre></div><h3 id="la-magie-des-listes--ul-ol-li">La Magie des Listes : &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</h3>
+<p>Les balises &lt;ul&gt; (liste non ordonnée) et &lt;ol&gt; (liste ordonnée) vous permettent de créer des listes, tandis que &lt;li&gt; définit chaque élément de la liste.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ul</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Potion de CSS&lt;/<span style="color:#f92672">li</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Sortilège de Flexbox&lt;/<span style="color:#f92672">li</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Enchantement de Grid&lt;/<span style="color:#f92672">li</span>&gt;
@@ -468,177 +277,93 @@
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Exploration des balises&lt;/<span style="color:#f92672">li</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Création de la structure&lt;/<span style="color:#f92672">li</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">ol</span>&gt;
-</span></span></code></pre>
-        </div>
-        <h3 id="balises-autofermantes">Balises autofermantes</h3>
-        <p>Certaines balises n&rsquo;ont pas de balise de fermeture distincte et sont autofermantes. En effet, les
-          balises autofermantes, également appelées balises void, sont des balises HTML qui ne nécessitent pas de balise
-          de fermeture. Elles sont utilisées pour insérer des contenus sans texte entre les balises d&rsquo;ouverture et
-          de fermeture. Voici quelques exemples courants de balises autofermantes avec leurs utilisations typiques :</p>
-        <p>&lt;img&gt; : Image magique</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;image.jpg&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Description ensorcelante de l&#39;image&#34;</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Utilisation : Sert à insérer une image enchanteresse dans votre royaume web.</p>
-        <p>&lt;br&gt; : Saut de ligne ensorcelant</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;Première incantation. &lt;<span style="color:#f92672">br</span>&gt; Deuxième incantation.&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Utilisation : Sert à tisser un sort pour créer un saut de ligne mystique à l&rsquo;intérieur d&rsquo;un
-          paragraphe.</p>
-        <p>&lt;input&gt; : Champ de saisie enchanté</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nom&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nom&#34;</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Votre nom enchanté&#34;</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Utilisation : Sert à forger un champ de saisie magique au sein d&rsquo;un formulaire.</p>
-        <p>&lt;hr&gt; : Ligne horizontale enchantée</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">hr</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Utilisation : Sert à insuffler de la magie avec une ligne horizontale séparatrice.</p>
-        <p>&lt;meta&gt; : Métadonnées magiques</p>
-        <div class="highlight">
-          <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
-</span></span></code></pre>
-        </div>
-        <p>Utilisation : Sert à spécifier les métadonnées de votre page avec cette incantation, comme l&rsquo;encodage
-          des caractères.</p>
-        <p>Ces balises autofermantes, par leur nature magique, simplifient la structure du code sans avoir besoin de
-          balises de fermeture. N&rsquo;oubliez pas le trait final, symbolisé par le slash (&quot;/&quot;), pour
-          compléter l&rsquo;incantation.</p>
-        <p>Et voilà, en comprenant le rôle de toutes ces balises, vous êtes prêt à donner vie à votre page en créant une
-          structure HTML solide.</p>
-        <p>Avec ces connaissances, vous avez désormais les outils nécessaires pour façonner votre univers en ligne. Dans
-          la prochaine section, plongeons dans l&rsquo;art de l&rsquo;esthétique avec le CSS.</p>
-        <p><strong>La Magie Continue</strong></p>
-        <h6 id="à-bientôt-pour-de-nouvelles-découvertes-enchanteresses-">À bientôt pour de nouvelles découvertes
-          enchanteresses !</h6>
-        <h6 id="magiquement-vôtre"><em>Magiquement vôtre,</em></h6>
-        <p>M.Royce</p>
-        <ul class="pa0">
-
-          <li class="list di">
-            <a href="/tags/d%C3%A9veloppement-web/"
-              class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Développement Web</a>
-          </li>
-
-          <li class="list di">
-            <a href="/tags/html/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">HTML</a>
-          </li>
-
-          <li class="list di">
-            <a href="/tags/css/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">CSS</a>
-          </li>
-
-          <li class="list di">
-            <a href="/tags/coding/"
-              class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Coding</a>
-          </li>
-
-        </ul>
-        <div class="mt6 instapaper_ignoref">
-
-
-        </div>
-      </div>
-
-      <aside class="w-30-l mt6-l">
-
-
-
-
-        <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-          <p class="f5 b mb3"></p>
-          <ul class="pa0 list">
-
-            <li class="mb2">
-              <a href="/post/chapter-3/">Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des
-                Apprentis Enchanteurs</a>
-            </li>
-
-            <li class="mb2">
-              <a href="/post/chapter-2/">Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de
-                Collecter les Trésors Cachés du Monde Virtuel</a>
-            </li>
-
-            <li class="mb2">
-              <a href="/post/chapter-1/">Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec
-                Turtle</a>
-            </li>
-
-          </ul>
-        </div>
-
-      </aside>
-
-    </article>
-
-  </main>
-  <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-    <div class="flex justify-between">
-      <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://roylab.xyz/">
-        &copy; RoyLab: Code & Web 2024
-      </a>
-      <div>
-        <div class="ananke-socials">
-
-
-          <a href="https://www.linkedin.com/in/malick-layinde-825a78257/" target="_blank" rel="me noopener"
-            class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
-            title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
-
-            LinkedIn
-
-            <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
-                viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path
-                  d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
-                  style="fill-rule:evenodd;clip-rule:evenodd;" />
-              </svg>
-            </span></a>
-
-
-          <a href="https://github.com/Royce-LAYINDE" target="_blank" rel="noopener"
-            class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
-            title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
-
-            GitHub
-
-            <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
-                viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path
-                  d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
-                  style="fill-rule:evenodd;clip-rule:evenodd;" />
-              </svg>
-            </span></a>
-
-
-          <a href="https://medium.com/@layinderoyce" target="_blank" rel="noopener"
-            class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1"
-            title="Medium link" aria-label="follow on Medium——Opens in a new window">
-
-            Medium
-
-            <span class="new-window"><svg height="8px" style="enable-background:new 0 0 1000 1000;" version="1.1"
-                viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path
-                  d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z"
-                  style="fill-rule:evenodd;clip-rule:evenodd;" />
-              </svg>
-            </span></a>
-
-        </div>
+</span></span></code></pre></div><h3 id="balises-autofermantes">Balises autofermantes</h3>
+<p>Certaines balises n&rsquo;ont pas de balise de fermeture distincte et sont autofermantes. En effet, les balises autofermantes, également appelées balises void, sont des balises HTML qui ne nécessitent pas de balise de fermeture. Elles sont utilisées pour insérer des contenus sans texte entre les balises d&rsquo;ouverture et de fermeture. Voici quelques exemples courants de balises autofermantes avec leurs utilisations typiques :</p>
+<p>&lt;img&gt; : Image magique</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;image.jpg&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Description ensorcelante de l&#39;image&#34;</span>&gt;
+</span></span></code></pre></div><p>Utilisation : Sert à insérer une image enchanteresse dans votre royaume web.</p>
+<p>&lt;br&gt; : Saut de ligne ensorcelant</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;Première incantation. &lt;<span style="color:#f92672">br</span>&gt; Deuxième incantation.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><p>Utilisation : Sert à tisser un sort pour créer un saut de ligne mystique à l&rsquo;intérieur d&rsquo;un paragraphe.</p>
+<p>&lt;input&gt; : Champ de saisie enchanté</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nom&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nom&#34;</span> <span style="color:#a6e22e">placeholder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Votre nom enchanté&#34;</span>&gt;
+</span></span></code></pre></div><p>Utilisation : Sert à forger un champ de saisie magique au sein d&rsquo;un formulaire.</p>
+<p>&lt;hr&gt; : Ligne horizontale enchantée</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">hr</span>&gt;
+</span></span></code></pre></div><p>Utilisation : Sert à insuffler de la magie avec une ligne horizontale séparatrice.</p>
+<p>&lt;meta&gt; : Métadonnées magiques</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-htm" data-lang="htm"><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+</span></span></code></pre></div><p>Utilisation : Sert à spécifier les métadonnées de votre page avec cette incantation, comme l&rsquo;encodage des caractères.</p>
+<p>Ces balises autofermantes, par leur nature magique, simplifient la structure du code sans avoir besoin de balises de fermeture. N&rsquo;oubliez pas le trait final, symbolisé par le slash (&quot;/&quot;), pour compléter l&rsquo;incantation.</p>
+<p>Et voilà, en comprenant le rôle de toutes ces balises, vous êtes prêt à donner vie à votre page en créant une structure HTML solide.</p>
+<p>Avec ces connaissances, vous avez désormais les outils nécessaires pour façonner votre univers en ligne. Dans la prochaine section, plongeons dans l&rsquo;art de l&rsquo;esthétique avec le CSS.</p>
+<p><strong>La Magie Continue</strong></p>
+<h6 id="à-bientôt-pour-de-nouvelles-découvertes-enchanteresses-">À bientôt pour de nouvelles découvertes enchanteresses !</h6>
+<h6 id="magiquement-vôtre"><em>Magiquement vôtre,</em></h6>
+<p>M.Royce</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/d%C3%A9veloppement-web/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Développement Web</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/html/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">HTML</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/css/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">CSS</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/coding/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Coding</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
       </div>
     </div>
-  </footer>
 
-</body>
+    <aside class="w-30-l mt6-l">
 
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Lié</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/chapter-3/">Chapitre III: Décoder et Encoder des QR Codes en Python : L&#39;Art des Apprentis Enchanteurs</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/chapter-2/">Chapitre II: Exploration Enchantée du Web Scraping : L&#39;Art Mystique de Collecter les Trésors Cachés du Monde Virtuel</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/chapter-1/">Chapitre I: La Danse Enchantée de la Tortue : Découvrir la Magie de Python avec Turtle</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://roylab.xyz/" >
+    &copy;  RoyLab: Code & Web 2024 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
 </html>
