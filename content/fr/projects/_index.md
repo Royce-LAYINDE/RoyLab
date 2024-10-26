@@ -7,10 +7,8 @@ omit_header_text: true
 
 ---
 
+Bienvenue à l'Atelier de Codage de RoyLab, un lieu où les idées prennent forme sous l’incantation du code. Vous trouverez ici une collection d'ateliers pratiques, des projets à réaliser de A à Z, et des défis à relever.
 
-
-Bienvenue dans la Forge des Projets Codés, un endroit où chaque ligne de code est un coup de marteau qui donne forme à des idées abstraites. Ici, dans l'atelier de codage de RoyLab: Code & Web, nous travaillons ensemble pour forger des solutions solides et élégantes.
-
-Vous trouverez ici une collection d'ateliers pratiques, des projets à réaliser de A à Z, et des défis à relever. Des bases de la programmation aux modèles avancés d'intelligence artificielle, chaque projet est une chance de perfectionner votre art et de libérer votre créativité.
+Entrez ici en créateurs d’enchantements numériques ! Que vous soyez novices ou experts, cet atelier vous ouvre ses portes pour explorer des solutions uniques, apprendre de nouvelles techniques et renforcer votre pouvoir de coder. Chaque session, chaque défi est une aventure, un moyen de tisser vos propres récits technologiques.
 
 *L'aventure dans le monde des projets commence ici... À vos claviers, prêts ? Codons !*

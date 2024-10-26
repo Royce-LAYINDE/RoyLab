@@ -5,6 +5,7 @@ description: " Plongez dans le monde de la programmation orientée objet (POO) e
 featured_image: "/images/gest.jpg"
 omit_header_text: true
 tags: ["Projet","Python"]
-disable_share: false   
+disable_share: false 
+draft: true  
 ---
 En cours ...
