@@ -42,7 +42,7 @@ tags = ["python", "turtle", "web scraping", "qr code", "blog","Machine learning"
   # date_format = "2. January 2006" pour ramener la date au format francais jj/mm/aaa
 
 [pagination]
-  pagerSize = 10
+  pagerSize = 5
 
  
   
