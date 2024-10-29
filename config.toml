@@ -6,7 +6,8 @@ theme = 'ananke'
 disable_share = "false"
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+mainSections = ["post", "projects"]
+Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 tags = ["python", "turtle", "web scraping", "qr code", "blog","Machine learning", "Tachyons", "Multilingual", "Stackbit"]
@@ -37,7 +38,7 @@ tags = ["python", "turtle", "web scraping", "qr code", "blog","Machine learning"
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 10
-  paginate = 5
+
   show_reading_time = true
   commentoEnable = false
   # date_format = "2. January 2006" pour ramener la date au format francais jj/mm/aaa
