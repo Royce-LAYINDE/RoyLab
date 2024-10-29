@@ -6,9 +6,10 @@ omit_header_text: true
 tags: ["Coding", "Machine learning"]
 disable_share: false
 title: "Chapitre V: La Carte des Algorithmes de Machine Learning"
+excerpt: "_« Un jour, alors que je parcourais les vastes couloirs de la Bibliothèque des Prédictions, je suis tombé sur une carte ancienne. Une carte pas comme les autres... Une carte capable de révéler les chemins vers les prédictions les plus justes et les plus incroyables. Aujourd'hui, je vous invite à plonger avec moi dans cette exploration magique : la Carte des Algorithmes de Machine Learning. »_"
 ---
 
-_« Un jour, alors que je parcourais les vastes couloirs de la Bibliothèque des Prédictions, je suis tombé sur une carte ancienne. Une carte pas comme les autres... Une carte capable de révéler les chemins vers les prédictions les plus justes et les plus incroyables. Aujourd'hui, je vous invite à plonger avec moi dans cette exploration magique : la Carte des Algorithmes de Machine Learning. »_
+
 
 ## Table des matières
 
