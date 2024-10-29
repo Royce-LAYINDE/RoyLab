@@ -37,7 +37,7 @@ tags = ["python", "turtle", "web scraping", "qr code", "blog","Machine learning"
   description = "Découvrez des articles sur Python, le Web scraping, le Machine Learning et bien plus sur RoyLab: Code & Web."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  recent_posts_number = 10
+  recent_posts_number = 3
 
   show_reading_time = true
   commentoEnable = false
