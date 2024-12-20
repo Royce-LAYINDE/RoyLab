@@ -8,7 +8,7 @@ DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
 mainSections = ["post", "projects"]
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "G-JRYPCFECXK"
 enableRobotsTXT = true
 tags = ["python", "turtle", "web scraping", "qr code", "blog","Machine learning", "Tachyons", "Multilingual", "Stackbit"]
 
